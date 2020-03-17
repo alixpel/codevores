@@ -46,20 +46,112 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* FIN RESET */
+/* ///////////////// FIN RESET /////////////////*/
 
 /* //////////////////////////////////////////////////////////////////// */
 
 /* DIVISIONS */
 
+/* header */
+
+header {
+  width: 100%;
+  background-image: url("../photos/marble.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header {
+  width: 80%;
+  display: flex;flex-direction: column;
+  margin: auto;
+  height: 16rem;
+}
+
+.outline {
+  border: 1px solid rgba(255, 102, 255, 0.5);
+}
 /* TITRES */
+
+h1 {
+  font-family: 'Concert One', cursive;
+}
+h2 {
+  font-family: 'Concert One', cursive;
+}
 
 /* p et span */
 
+p {
+
+}
+
+/* icônes fa */
+.fas.fa-moon.fa-3x {
+  color: blue;
+}
+.far.fa-sun.fa-3x {
+  color: yellow;
+}
+
+/* ALIGNEMENTS & COLORS */
+
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.dark-grey {
+  color: #424242;
+}
+.light-blue {
+  color: #C1D1E1;
+}
+.gold {
+  color: #E79F39;
+}
+.wine {
+  color: #601D46;
+}
+.beige {
+  color: #E9E2CE;
+}
+
 /* PHOTOS */
+
 
 /* BUTTONS */
 
+
 /* LINKS */
 
+
 /* LISTS */
+
+
+/* FONTS
+font-family: 'Anaheim', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Saira', sans-serif;
+font-family: 'VT323', monospace; */
+
+
+/* //////////////////////////////// THEMES JS /////////////////////////////////////// */
+
+.theme-clair {
+
+}
+
+.theme-sombre {
+
+}
