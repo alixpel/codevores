@@ -103,17 +103,15 @@ main {
 .sub-main {
   width: 80%;
   margin: auto;
-}
-
-.tiger {
-  /* margin-top: 8rem; */
-  margin-bottom: -3.9rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 /* FOOTER */
 
 footer {
   background-image: url("../photos/marbleenvers.jpeg");
+  background-color: rgba(233, 226, 206, 0.6);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -160,13 +158,31 @@ footer {
 }
 
 .sub-footer-bottom {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(233, 226, 206, 1);
+  text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.95);
+  padding: 2.5rem 0rem 1rem 0rem;
 }
 
 /* .......................................... */
 .outline {
   border: 1px solid rgba(255, 102, 255, 0.1);
 }
+
+hr {
+  background-color: rgb(255, 248, 140);
+  height: 0.5rem;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  border-width: 0px;
+}
+
 /* TITRES */
 
 h1 {
@@ -217,6 +233,7 @@ h5 {
     -2px 2px 0 rgb(231, 159, 57),
      2px 2px 0 rgb(231, 159, 57); */
   letter-spacing: .2rem;
+  margin: 0rem 0rem 2rem 0rem;
 }
 
 /* p et span */
@@ -237,6 +254,10 @@ p {
 }
 .fas.fa-hand-point-left {
 
+}
+
+.fas.fa-map-pin {
+  transform: rotate(-45deg);
 }
 
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
@@ -279,10 +300,14 @@ p {
   text-shadow: 0px 0px 15px 5px rgba(46, 54, 71, 1);
 } */
 
-/* PHOTOS */
+/*///////////////////// PHOTOS */
 
+.tiger {
+  margin-left: 61rem;
+  margin-bottom: -6rem;
+}
 
-/* INPUTS */
+/*///////////////////// INPUTS */
 
 .mailing-list {
   font-family: 'Roboto Mono', monospace;
@@ -296,7 +321,7 @@ p {
   width: 43%;
 }
 
-/* BUTTONS */
+/*///////////////////// BUTTONS */
 
 .light-button {
   border: none;
@@ -343,13 +368,35 @@ p {
   width: 49%;
 }
 
-/* LINKS */
+/*////////////////////////// LINKS */
 
+a {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(233, 226, 206, 1);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(193, 209, 225);
+}
 
-/* LISTS */
+/*///////////////////////// LISTS */
 
+ul {
+  margin-top: 2rem;
+}
 
-/* FONTS
+li {
+  list-style-type: circle;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+/*///////////////////////// FONTS
 font-family: 'Anaheim', sans-serif;
 font-family: 'Baloo Chettan 2', cursive;
 font-family: 'Baloo Thambi 2', cursive;
@@ -365,10 +412,16 @@ font-family: 'VT323', monospace; */
 
 .theme-clair {
   color: rgba(46, 54, 71, 1);
-  background-color: rgba(233, 226, 206, 0.6);
+  background-color: rgba(233, 226, 206, 1);
+  ul {
+    color: rgba(46, 54, 71, 1);
+  }
 }
 
 .theme-sombre {
   background-color: rgba(46, 54, 71, 0.6);
   color: rgb(233, 226, 206);
+  ul {
+    color: rgb(233, 226, 206);
+  }
 }
