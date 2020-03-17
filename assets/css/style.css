@@ -131,9 +131,17 @@ footer {
   padding-top: 4rem;
 }
 .tenez, .connectez {
-  width: 48%;
+  width: 46%;
+  background-color: rgba(193, 209, 225, 1);
+  border-radius: 0.25rem;
+  /* padding: 0rem 0rem 1rem 0rem; */
 }
-
+.mailing-list-ensemble {
+  margin: 0rem 1rem 1rem 1rem;
+}
+.mailing-list-group {
+  margin-top: 3rem;
+}
 
 .sub-footer-bottom {
 
@@ -176,10 +184,11 @@ h4 {
   font-weight: 600;
   color: rgba(96, 29, 70, 1);
   font-size: 1.34rem;
-  background-color: rgba(233, 226, 206, 0.7);
-  border-radius: 0.25rem;
+  background-color: rgba(233, 226, 206, 1);
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
   padding: 0.5rem 0rem 0.48rem 0.3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  /* width: 100%; */
 }
 
 h5 {
@@ -197,7 +206,7 @@ h5 {
 /* p et span */
 
 p {
-
+  font-family: 'Baloo Chettan 2', cursive;
 }
 
 /* icônes fa */
@@ -255,12 +264,13 @@ p {
 .mailing-list {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9rem;
-  background-color: rgba(233, 226, 206, 0.7);
+  border: 0.09rem solid rgb(255, 248, 140);
+  border-style: solid;
   border-radius: 0.25rem;
-  border: 0rem;
   box-shadow: none;
-  padding: 0.2rem 0.7rem 0.3rem 0.7rem;
-  width: 45%;
+  background-color: rgb(193, 209, 225);
+  padding: 0.1rem 0.7rem 0.25rem 0.7rem;
+  width: 43%;
 }
 
 /* BUTTONS */
