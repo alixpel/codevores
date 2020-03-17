@@ -183,7 +183,7 @@ hr {
   border-width: 0px;
 }
 
-hr.main-hr {
+/* hr.main-hr {
   background-color: rgb(96, 29, 70);
   height: 0.5rem;
   margin-block-start: 0rem;
@@ -192,7 +192,7 @@ hr.main-hr {
   border-radius: 2rem;
   margin: 1rem 0rem 1rem 0rem;
   width: 100%;
-}
+} */
 
 /* TITRES */
 
@@ -426,20 +426,37 @@ font-family: 'VT323', monospace; */
   background-color: rgba(233, 226, 206, 1);
   ul {
     color: rgba(46, 54, 71, 1);
+  };
+  hr.main-hr {
+    background-color: rgb(96, 29, 70);
+    height: 0.5rem;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    border-width: 0px;
+    border-radius: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+    width: 100%;
   }
 }
 
 .theme-sombre {
   background-color: rgba(46, 54, 71, 0.6);
   color: rgb(233, 226, 206);
+  hr.main-hr {
+    background-color: rgb(255, 248, 140);
+    height: 0.5rem;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    border-width: 0px;
+    border-radius: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+    width: 100%;
   }
-.theme-sombre ul {
+  }
+/* .theme-sombre ul {
     color: rgb(233, 226, 206);
   }
 .theme-sombre h5 {
    {
     color: rgb(255, 248, 140);
-}
-.theme-sombre hr.main-hr {
-  background-color: rgb(255, 248, 140);
-}
+} */
