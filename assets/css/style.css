@@ -102,6 +102,7 @@ main {
 }
 .sub-main {
   width: 80%;
+  margin: auto;
 }
 
 .tiger {
@@ -112,7 +113,7 @@ main {
 /* FOOTER */
 
 footer {
-  background-image: url("../photos/wood.jpg");
+  background-image: url("../photos/marbleenvers.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -127,6 +128,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 4rem;
 }
 
 
@@ -143,7 +145,7 @@ footer {
 h1 {
   font-family: 'Concert One', cursive;
   font-size: 4rem;
-  color: rgba(233, 226, 206, 0.9);
+  color: rgba(233, 226, 206, 1);
   text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
 }
 h2 {
@@ -161,6 +163,27 @@ h3 {
   font-weight: 900;
 }
 
+h4 {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 600;
+  color: rgba(96, 29, 70, 1);
+  font-size: 1.34rem;
+  background-color: rgba(233, 226, 206, 0.7);
+  border-radius: 0.25rem;
+  padding: 0.5rem 0rem 0.48rem 0.3rem;
+}
+
+h5 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+  color: rgba(193, 209, 225, 1);
+  text-shadow:
+   -1px -1px 0 rgb(231, 159, 57),
+    1px -1px 0 rgb(231, 159, 57),
+    -1px 1px 0 rgb(231, 159, 57),
+     1px 1px 0 rgb(231, 159, 57);
+}
+
 /* p et span */
 
 p {
@@ -168,10 +191,13 @@ p {
 }
 
 /* icônes fa */
-.fas.fa-moon.fa-3x {
+.fas.fa-moon.fa-lg {
 
 }
-.far.fa-sun.fa-3x {
+.far.fa-sun.fa-lg {
+
+}
+.fas.fa-plug.fa-lg {
 
 }
 
@@ -193,13 +219,16 @@ p {
 /* dark-blue rgba(46, 54, 71, 1) */
 .light-blue {
   color: #C1D1E1;
+  /* rgb(193, 209, 225) */
 }
 .gold {
   color: #E79F39;
+  /* rgb(231, 159, 57) */
 }
 /* gold rgb(231, 159, 57) */
 .wine {
   color: #601D46;
+  /* rgb(96, 29, 70) */
 }
 .beige {
   color: #E9E2CE;
@@ -268,6 +297,7 @@ font-family: 'VT323', monospace; */
 /* //////////////////////////////// THEMES JS /////////////////////////////////////// */
 
 .theme-clair {
+  color: rgba(46, 54, 71, 1);
   background-color: rgba(233, 226, 206, 0.6);
 }
 
