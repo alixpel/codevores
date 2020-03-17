@@ -68,6 +68,14 @@ header {
   height: 16rem;
 }
 
+.header-button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* .......................................... */
 .outline {
   border: 1px solid rgba(255, 102, 255, 0.5);
 }
@@ -88,10 +96,10 @@ p {
 
 /* icônes fa */
 .fas.fa-moon.fa-3x {
-  color: blue;
+
 }
 .far.fa-sun.fa-3x {
-  color: yellow;
+
 }
 
 /* ALIGNEMENTS & COLORS */
@@ -106,20 +114,23 @@ p {
   text-align: right;
 }
 
-.dark-grey {
-  color: #424242;
+.dark-blue {
+  color: #2e3647;
 }
+/* dark-blue rgba(46, 54, 71, 1) */
 .light-blue {
   color: #C1D1E1;
 }
 .gold {
   color: #E79F39;
 }
+/* gold rgb(231, 159, 57) */
 .wine {
   color: #601D46;
 }
 .beige {
   color: #E9E2CE;
+  /* rgb(233, 226, 206) */
 }
 
 /* PHOTOS */
@@ -127,6 +138,36 @@ p {
 
 /* BUTTONS */
 
+.light-button {
+  border: none;
+  box-shadow: none;
+  border-radius: 3rem;
+  font-family: 'Concert One', cursive;
+  color: rgba(46, 54, 71, 1);
+  font-size: 1rem;
+  background-color: rgba(233, 226, 206, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  width: 10rem;
+}
+.dark-button {
+  border: none;
+  box-shadow: none;
+  border-radius: 3rem;
+  font-family: 'Concert One', cursive;
+  color: #E9E2CE;
+  font-size: 1rem;
+  background-color: rgba(46, 54, 71, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  width: 10rem;
+}
 
 /* LINKS */
 
