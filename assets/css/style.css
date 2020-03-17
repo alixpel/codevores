@@ -104,6 +104,36 @@ main {
   width: 80%;
 }
 
+.tiger {
+  /* margin-top: 8rem; */
+  margin-bottom: -3.9rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url("../photos/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.sub-footer {
+  width: 80%;
+  margin: auto;
+}
+
+.sub-footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.sub-footer-bottom {
+
+}
+
 /* .......................................... */
 .outline {
   border: 1px solid rgba(255, 102, 255, 0.3);
