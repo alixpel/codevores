@@ -110,7 +110,7 @@ main {
 /* FOOTER */
 
 footer {
-  background-image: url("../photos/marbleenversvague.jpg"); /********* IMAGE DETOUREE ********/
+  background-image: url("../photos/marbleenversvague.png"); /********* IMAGE DETOUREE ********/
   background-color: rgba(233, 226, 206, 1); /****************** COULEUR DE FOND VOULUE********/
   background-repeat: no-repeat;
   background-size: cover;
