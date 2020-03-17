@@ -1,0 +1,445 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ///////////////// FIN RESET /////////////////*/
+
+/* //////////////////////////////////////////////////////////////////// */
+
+/* DIVISIONS */
+
+/* header */
+
+header {
+  width: 100%;
+  background-image: url("../photos/marble.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header {
+  width: 80%;
+  display: flex;flex-direction: column;
+  margin: auto;
+  height: 16rem;
+}
+
+.main-header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-title {
+  margin-top: 1em;
+}
+
+.header-button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 1rem;
+  padding: 0rem;
+}
+
+.round-logo {
+  background-color: rgba(46, 54, 71, 0.8);
+  border-radius: 1rem;
+  width: 6rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+/* MAIN */
+
+main {
+  width: 100%;
+}
+.sub-main {
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url("../photos/marbleenvers.jpeg");
+  background-color: rgba(233, 226, 206, 0.6);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.sub-footer {
+  width: 80%;
+  margin: auto;
+}
+
+.sub-footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+.tenez, .connectez {
+  width: 46%;
+  background-color: rgba(193, 209, 225, 1);
+  border-radius: 0.25rem;
+  /* padding: 0rem 0rem 1rem 0rem; */
+}
+.mailing-list-ensemble {
+  margin: 0rem 1rem 1rem 1rem;
+}
+.mailing-list-group {
+  margin-top: 4.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-networks {
+  margin: 1rem;
+}
+.social-networks-text {
+
+}
+.social-networks-icons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(233, 226, 206, 1);
+  text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.95);
+  padding: 2.5rem 0rem 1rem 0rem;
+}
+
+/* ................. SEPARATIONS ..................... */
+.outline {
+  border: 1px solid rgba(255, 102, 255, 0.1);
+}
+
+hr {
+  background-color: rgb(255, 248, 140);
+  height: 0.5rem;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  border-width: 0px;
+}
+
+hr.main-hr {
+  background-color: rgb(96, 29, 70);
+  height: 0.5rem;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  border-width: 0px;
+  border-radius: 2rem;
+  margin: 1rem 0rem 1rem 0rem;
+  width: 100%;
+}
+
+/* TITRES */
+
+h1 {
+  font-family: 'Concert One', cursive;
+  font-size: 6rem;
+  color: rgba(233, 226, 206, 1);
+  text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
+  /* text-shadow:
+   -3px -3px 0 rgb(96, 29, 70),
+    3px -3px 0 rgb(96, 29, 70),
+    -3px 3px 0 rgb(96, 29, 70),
+     3px 3px 0 rgb(96, 29, 70); */
+}
+h2 {
+  font-family: 'Concert One', cursive;
+  font-size: 2.05rem;
+  background-color: rgba(233, 226, 206, 0.7);
+  border-radius: 0.25rem;
+  padding: 0.15rem 0.2rem 0.3rem 0.2rem;
+  /* text-shadow: 0px 0px 4px rgba(187, 194, 210, 0.5); */
+}
+
+h3 {
+  font-family: 'Saira', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+h4 {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 600;
+  color: rgba(96, 29, 70, 1);
+  font-size: 1.34rem;
+  background-color: rgba(233, 226, 206, 1);
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+  padding: 0.5rem 0rem 0.48rem 0.6rem;
+  margin-bottom: 1.5rem;
+  /* width: 100%; */
+}
+
+h5 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 5rem;
+  color: rgba(193, 209, 225, 1);
+  /* text-shadow:
+   -2px -2px 0 rgb(231, 159, 57),
+    2px -2px 0 rgb(231, 159, 57),
+    -2px 2px 0 rgb(231, 159, 57),
+     2px 2px 0 rgb(231, 159, 57); */
+  letter-spacing: .2rem;
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+/* p et span */
+
+p {
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+/* icônes fa */
+.fas.fa-moon.fa-lg {
+
+}
+.far.fa-sun.fa-lg {
+
+}
+.fas.fa-plug {
+  transform: rotate(90deg);
+}
+.fas.fa-hand-point-left {
+
+}
+
+.fas.fa-map-pin {
+  transform: rotate(-45deg);
+}
+
+.fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
+  color: rgb(255, 248, 140);
+}
+
+/* ALIGNEMENTS & COLORS */
+
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.dark-blue {
+  color: #2e3647;
+}
+/* dark-blue rgba(46, 54, 71, 1) */
+.light-blue {
+  color: #C1D1E1;
+  /* rgb(193, 209, 225) */
+}
+.light-yellow {
+  color: rgb(255, 248, 140);
+}
+/* gold rgb(231, 159, 57) */
+.wine {
+  color: #601D46;
+  /* rgb(96, 29, 70) */
+}
+.beige {
+  color: #E9E2CE;
+  /* rgb(233, 226, 206) */
+}
+/* .text-shadow {
+  text-shadow: 0px 0px 15px 5px rgba(46, 54, 71, 1);
+} */
+
+/*///////////////////// PHOTOS */
+
+.tiger {
+  margin-left: 54rem;
+  margin-bottom: -6rem;
+}
+
+/*///////////////////// INPUTS */
+
+.mailing-list {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  border: 0.09rem solid rgb(255, 248, 140);
+  border-style: solid;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  background-color: rgb(193, 209, 225);
+  padding: 0.1rem 0.7rem 0.25rem 0.7rem;
+  width: 43%;
+}
+
+/*///////////////////// BUTTONS */
+
+.light-button {
+  border: none;
+  box-shadow: none;
+  border-radius: 0.4rem;
+  font-family: 'Concert One', cursive;
+  color: rgba(46, 54, 71, 1);
+  font-size: 1rem;
+  background-color: rgba(233, 226, 206, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  width: 10rem;
+  margin-top: 1rem;
+}
+.dark-button {
+  border: none;
+  box-shadow: none;
+  border-radius: 0.4rem;
+  font-family: 'Concert One', cursive;
+  color: #E9E2CE;
+  font-size: 1rem;
+  background-color: rgba(46, 54, 71, 0.7);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  width: 10rem;
+  margin: 0rem;
+}
+
+.mailing-list-button {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(46, 54, 71, 1);
+  border-radius: 0.25rem;
+  background-color: rgb(255, 248, 140);
+  border: 0rem;
+  box-shadow: none;
+  width: 49%;
+}
+
+/*////////////////////////// LINKS */
+
+a {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(233, 226, 206, 1);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(193, 209, 225);
+}
+
+/*///////////////////////// LISTS */
+
+ul {
+  margin-top: 2rem;
+}
+
+li {
+  list-style-type: circle;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+/*///////////////////////// FONTS
+font-family: 'Anaheim', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Saira', sans-serif;
+font-family: 'VT323', monospace; */
+
+
+/* //////////////////////////////// THEMES JS /////////////////////////////////////// */
+
+.theme-clair {
+  color: rgba(46, 54, 71, 1);
+  background-color: rgba(233, 226, 206, 1);
+  ul {
+    color: rgba(46, 54, 71, 1);
+  }
+}
+
+.theme-sombre {
+  background-color: rgba(46, 54, 71, 0.6);
+  color: rgb(233, 226, 206);
+  }
+.theme-sombre ul {
+    color: rgb(233, 226, 206);
+  }
+.theme-sombre h5 {
+   {
+    color: rgb(255, 248, 140);
+}
+.theme-sombre hr.main-hr {
+  background-color: rgb(255, 248, 140);
+}

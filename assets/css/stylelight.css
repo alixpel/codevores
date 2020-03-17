@@ -110,8 +110,8 @@ main {
 /* FOOTER */
 
 footer {
-  background-image: url("../photos/marbleenvers.jpeg");
-  background-color: rgba(233, 226, 206, 0.6);
+  background-image: url("../photos/marbleenversvague.jpg"); /********* IMAGE DETOUREE ********/
+  background-color: rgba(233, 226, 206, 1); /****************** COULEUR DE FOND VOULUE********/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -183,7 +183,7 @@ hr {
   border-width: 0px;
 }
 
-/* hr.main-hr {
+hr.main-hr {
   background-color: rgb(96, 29, 70);
   height: 0.5rem;
   margin-block-start: 0rem;
@@ -192,7 +192,7 @@ hr {
   border-radius: 2rem;
   margin: 1rem 0rem 1rem 0rem;
   width: 100%;
-} */
+}
 
 /* TITRES */
 
@@ -424,9 +424,6 @@ font-family: 'VT323', monospace; */
 .theme-clair {
   color: rgba(46, 54, 71, 1);
   background-color: rgba(233, 226, 206, 1);
-  ul {
-    color: rgba(46, 54, 71, 1);
-  };
   hr.main-hr {
     background-color: rgb(96, 29, 70);
     height: 0.5rem;
