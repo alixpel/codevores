@@ -97,6 +97,8 @@ header {
 
 main {
   width: 100%;
+	color: rgba(46, 54, 71, 1);
+  background-color: rgba(233, 226, 206, 1);
 }
 .sub-main {
   width: 80%;
@@ -423,7 +425,7 @@ font-family: 'VT323', monospace; */
 
 /* //////////////////////////////// THEMES JS /////////////////////////////////////// */
 
-.theme-clair {
+/* .theme-clair {
   color: rgba(46, 54, 71, 1);
   background-color: rgba(233, 226, 206, 1);
   hr.main-hr {
@@ -451,7 +453,7 @@ font-family: 'VT323', monospace; */
     margin: 1rem 0rem 1rem 0rem;
     width: 100%;
   }
-  }
+  } */
 /* .theme-sombre ul {
     color: rgb(233, 226, 206);
   }

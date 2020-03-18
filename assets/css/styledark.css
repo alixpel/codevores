@@ -88,17 +88,16 @@ header {
 }
 
 .round-logo {
-  background-color: rgba(46, 54, 71, 0.8);
-  border-radius: 1rem;
-  width: 6rem;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 /* MAIN */
 
 main {
   width: 100%;
+	background-color: rgba(46, 54, 71, 1);
+  color: rgb(233, 226, 206);
 }
 .sub-main {
   width: 80%;
@@ -110,8 +109,8 @@ main {
 /* FOOTER */
 
 footer {
-  background-image: url("../photos/marbleenvers.jpeg");
-  background-color: rgba(233, 226, 206, 0.6);
+  background-image: url("../photos/marbleenversvague.png");
+  background-color: rgba(46, 54, 71, 1);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -126,7 +125,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 4rem;
+  padding-top: 11rem;
 }
 .tenez, .connectez {
   width: 46%;
@@ -184,7 +183,7 @@ hr {
 }
 
 hr.main-hr {
-  background-color: rgb(96, 29, 70);
+  background-color: rgb(255, 255, 255);
   height: 0.5rem;
   margin-block-start: 0rem;
   margin-block-end: 0rem;
@@ -220,6 +219,10 @@ h3 {
   font-family: 'Saira', sans-serif;
   font-size: 4rem;
   font-weight: 900;
+	background-color: rgba(46, 54, 71, 1);
+	border-radius: 1rem;
+	border: 0.5rem solid rgb(255, 248, 140);
+	padding: 0.2rem 0.4rem 0.2rem 0.4rem;
 }
 
 h4 {
@@ -314,8 +317,8 @@ p {
 /*///////////////////// PHOTOS */
 
 .tiger {
-  margin-left: 54rem;
-  margin-bottom: -6rem;
+	margin-left: 54rem;
+  margin-bottom: -12rem;;
 }
 
 /*///////////////////// INPUTS */
