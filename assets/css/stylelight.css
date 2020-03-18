@@ -98,7 +98,7 @@ header {
 main {
   width: 100%;
 	color: rgba(46, 54, 71, 1);
-  background-color: rgba(233, 226, 206, 1);
+  background-color: rgba(253, 246, 226, 1);
 }
 .sub-main {
   width: 80%;
@@ -107,11 +107,20 @@ main {
   padding-bottom: 2rem;
 }
 
+.pinned {
+	background-color: rgba(250, 250, 251, 1);
+	width: 46%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
 /* FOOTER */
 
 footer {
   background-image: url("../photos/marbleenversvague.png"); /********* IMAGE DETOUREE ********/
-  background-color: rgba(233, 226, 206, 1); /****************** COULEUR DE FOND VOULUE********/
+  background-color: rgba(253, 246, 226, 1); /****************** COULEUR DE FOND VOULUE********/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -199,7 +208,7 @@ hr.main-hr {
 h1 {
   font-family: 'Concert One', cursive;
   font-size: 6rem;
-  color: rgba(233, 226, 206, 1);
+  color: rgba(253, 246, 226, 1);
   text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
   /* text-shadow:
    -3px -3px 0 rgb(96, 29, 70),
@@ -210,7 +219,7 @@ h1 {
 h2 {
   font-family: 'Concert One', cursive;
   font-size: 2.05rem;
-  background-color: rgba(233, 226, 206, 0.7);
+  background-color: rgba(253, 246, 226, 0.7);
   border-radius: 0.25rem;
   padding: 0.15rem 0.2rem 0.3rem 0.2rem;
   /* text-shadow: 0px 0px 4px rgba(187, 194, 210, 0.5); */
@@ -220,8 +229,9 @@ h3 {
   font-family: 'Saira', sans-serif;
   font-size: 4rem;
   font-weight: 900;
+	color: rgb(253, 246, 226);
 	border: 0.5rem solid rgb(255, 248, 140);
-	background-color: rgba(46, 54, 71, 1);
+	background-color: rgba(102, 111, 130, 1);
   border-radius: 1rem;
 	padding: 0.2rem 0.4rem 0.2rem 0.4rem;
 }
@@ -231,7 +241,7 @@ h4 {
   font-weight: 600;
   color: rgba(96, 29, 70, 1);
   font-size: 1.34rem;
-  background-color: rgba(233, 226, 206, 1);
+  background-color: rgba(253, 246, 226, 1);
   border-radius: 0.25rem 0.25rem 0rem 0rem;
   padding: 0.5rem 0rem 0.48rem 0.6rem;
   margin-bottom: 1.5rem;
@@ -272,7 +282,8 @@ p {
 }
 
 .fas.fa-map-pin {
-  transform: rotate(-45deg);
+  transform: rotate(-65deg);
+	margin-bottom: 1rem;
 }
 
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
@@ -308,7 +319,7 @@ p {
   /* rgb(96, 29, 70) */
 }
 .beige {
-  color: #E9E2CE;
+  color: (253, 246, 226);
   /* rgb(233, 226, 206) */
 }
 /* .text-shadow {
@@ -345,7 +356,7 @@ p {
   font-family: 'Concert One', cursive;
   color: rgba(46, 54, 71, 1);
   font-size: 1rem;
-  background-color: rgba(233, 226, 206, 0.5);
+  background-color: rgba(253, 246, 226, 0.5);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -389,7 +400,7 @@ a {
   font-family: 'Baloo Thambi 2', cursive;
   font-weight: 600;
   font-size: 1rem;
-  color: rgba(233, 226, 206, 1);
+  color: rgba(253, 246, 226, 1);
   text-decoration: none;
 }
 a:hover {
@@ -400,7 +411,8 @@ a:hover {
 /*///////////////////////// LISTS */
 
 ul {
-  margin-top: 2rem;
+  margin-top: 0.2rem;
+	padding: 0.1rem 1rem 1rem 1rem;
 }
 
 li {
@@ -409,6 +421,7 @@ li {
   font-size: 1rem;
   font-weight: 400;
   list-style-type: none;
+	padding: 0.5rem;
 }
 
 /*///////////////////////// FONTS

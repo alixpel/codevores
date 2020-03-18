@@ -56,7 +56,7 @@ table {
 
 header {
   width: 100%;
-  background-image: url("../photos/marble.jpeg");
+  background-image: url("../photos/marbledark.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -109,7 +109,7 @@ main {
 /* FOOTER */
 
 footer {
-  background-image: url("../photos/marbleenversvague.png");
+  background-image: url("../photos/marbleenversvaguedark.png");
   background-color: rgba(46, 54, 71, 1);
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +175,7 @@ footer {
 }
 
 hr {
-  background-color: rgb(255, 248, 140);
+  background-color: rgb(233, 226, 206);
   height: 0.5rem;
   margin-block-start: 0rem;
   margin-block-end: 0rem;
@@ -219,9 +219,10 @@ h3 {
   font-family: 'Saira', sans-serif;
   font-size: 4rem;
   font-weight: 900;
+	color: rgb(193, 209, 225);
 	background-color: rgba(46, 54, 71, 1);
 	border-radius: 1rem;
-	border: 0.5rem solid rgb(255, 248, 140);
+	border: 0.5rem solid rgb(233, 226, 206);
 	padding: 0.2rem 0.4rem 0.2rem 0.4rem;
 }
 
