@@ -84,7 +84,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   /* align-items: flex-end; */
-  margin-top: 0rem 0rem 0rem 1rem;
+  margin: 0rem 0rem 0rem 1rem;
   padding: 0rem;
 }
 
@@ -218,13 +218,13 @@ footer {
 
 /* ................. SEPARATIONS ..................... */
 .outline {
-  border: 1px solid rgba(153, 255, 153, 1);
+  /* border: 1px solid rgba(153, 255, 153, 1); */
 }
 .outline-bold {
-  border: 1px solid rgba(255, 102, 255, 1);
+  /* border: 1px solid rgba(255, 102, 255, 1); */
 }
 .outline-sub {
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 }
 
 hr {
@@ -284,7 +284,7 @@ h4 {
   font-weight: 600;
   color: rgba(96, 29, 70, 1);
   font-size: 1.34rem;
-  background-color: rgba(233, 226, 206, 1);
+  background-color: rgba(218, 218, 218, 1);
   border-radius: 0.25rem 0.25rem 0rem 0rem;
   padding: 0.5rem 0rem 0.48rem 0.6rem;
   margin-bottom: 1.5rem;
@@ -343,7 +343,7 @@ p {
 }
 
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
-  color: rgb(253, 246, 226);
+  color: rgb(218, 218, 218);
 }
 
 /* ALIGNEMENTS & COLORS */
@@ -479,6 +479,10 @@ a:hover {
   color: rgb(193, 209, 225);
 }
 
+a.menu-item {
+	color: rgb(46, 53, 70);
+}
+
 /*///////////////////////// LISTS */
 
 ul {
@@ -501,7 +505,7 @@ ul.dropdown {
 	flex-direction: row;
 	text-align: right;
 	margin-top: 0rem;
-	background-color: white;
+	background-color: rgb(232, 232, 232);
 	border-radius: 0rem 0rem 1.2rem 1.2rem;
 	padding: 1rem 1rem 1rem 1rem;
 }
