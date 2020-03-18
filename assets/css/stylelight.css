@@ -306,7 +306,7 @@ h6 {
 	text-align: right;
 	font-size: 1.6rem;
 	background-color: rgb(255, 248, 140);
-	padding: 0.1rem 0.7rem;
+	padding: 0.1rem 4.35rem;
 	border: none;
 	border-radius: 1.2rem 1.2rem 0rem 0rem;
 }
@@ -435,7 +435,7 @@ p {
 
 .close-button {
 	background-color: rgb(255, 204, 204);
-	padding: 0.5rem 0.7rem;
+	padding: 0.5rem 0.8rem;
 	border: none;
 	border-radius: 1.2rem 1.2rem 0rem 0rem;
 	color: white;
@@ -499,6 +499,10 @@ ul.dropdown {
 	display: flex;
 	flex-direction: row;
 	text-align: right;
+	margin-top: 0rem;
+	background-color: white;
+	border-radius: 0rem 0rem 1.2rem 1.2rem;
+	padding: 1rem 1rem 1rem 1rem;
 }
 
 /*///////////////////////// FONTS
