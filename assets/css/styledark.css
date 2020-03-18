@@ -71,19 +71,20 @@ header {
 .main-header-top {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
+	margin-top: 1rem;
 }
 
 .main-title {
-  margin-top: 1em;
+  /* margin-top: 1em; */
 }
 
 .header-button-group {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-top: 1rem;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  margin-top: 0rem 0rem 0rem 1rem;
   padding: 0rem;
 }
 
@@ -104,6 +105,41 @@ main {
   margin: auto;
   /* padding-top: 3rem; */
   padding-bottom: 2rem;
+}
+.main-top-part {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 20rem;
+}
+.main-title-and-intro {
+	width: 57%;
+	margin-top: 1.5rem;
+}
+.intro {
+	/* width: 27.8rem; */
+	text-align: justify;
+	font-size: 1.1rem;
+	line-height: 1.25rem;
+}
+
+.menu {
+	width: 15rem;
+}
+.buttons-and-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: -2rem;
+	width: 15rem;
+}
+.visible {
+
+}
+.peek {
+	display: flex;
+	justify-content: flex-end;
+	width: 15rem;
 }
 
 .pinned {
@@ -182,7 +218,13 @@ footer {
 
 /* ................. SEPARATIONS ..................... */
 .outline {
-  border: 1px solid rgba(255, 102, 255, 0.1);
+  border: 1px solid rgba(153, 255, 153, 1);
+}
+.outline-bold {
+  border: 1px solid rgba(255, 102, 255, 1);
+}
+.outline-sub {
+	border: 1px solid blue;
 }
 
 hr {
@@ -201,7 +243,7 @@ hr.main-hr {
   border-width: 0px;
   border-radius: 2rem;
   margin: 1rem 0rem 1rem 0rem;
-  width: 27.8rem;
+  width: 100%;
 }
 
 /* TITRES */
@@ -251,7 +293,7 @@ h4 {
 
 h5 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2rem;
+  font-size: 2.759rem;
   color: rgba(193, 209, 225, 1);
   /* text-shadow:
    -2px -2px 0 rgb(231, 159, 57),
@@ -260,6 +302,18 @@ h5 {
      2px 2px 0 rgb(231, 159, 57); */
   letter-spacing: .2rem;
   margin: 0rem 0rem 0rem 0rem;
+}
+
+h6 {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-weight: 600;
+	color: rgb(96, 29, 70);
+	text-align: right;
+	font-size: 1.6rem;
+	background-color: rgb(255, 250, 178);
+	padding: 0.1rem 4.35rem;
+	border: none;
+	border-radius: 0rem 1.2rem 0rem 0rem;
 }
 
 /* p et span */
@@ -285,7 +339,7 @@ p {
 .fas.fa-map-pin {
 	transform: rotate(40deg);
 	margin-bottom: 1rem;
-	color: rgba(46, 54, 71, 1);
+	/* color: rgba(46, 54, 71, 1); */
 }
 
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
@@ -333,7 +387,6 @@ p {
 .tiger {
 	margin-left: 54rem;
   margin-bottom: -12rem;
-	/* box-shadow: inset -24px -25px 51px -8px rgba(0,0,0,0.75); */
 }
 
 /*///////////////////// INPUTS */
@@ -358,30 +411,30 @@ p {
   border-radius: 0.4rem;
   font-family: 'Concert One', cursive;
   color: rgba(46, 54, 71, 1);
-  font-size: 1rem;
+  font-size: 1.5rem;
   background-color: rgba(233, 226, 206, 0.5);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
   padding: 1rem 1rem;
-  width: 10rem;
+  /* width: 10rem; */
   margin-top: 1rem;
 }
 .dark-button {
   border: none;
   box-shadow: none;
-  border-radius: 0.4rem;
+  border-radius: 0.6rem;
   font-family: 'Concert One', cursive;
   color: #E9E2CE;
-  font-size: 1rem;
+  font-size: 1.5rem;
   background-color: rgba(46, 54, 71, 0.7);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
   padding: 1rem 1rem;
-  width: 10rem;
+  /* width: 10rem; */
   margin: 0rem;
 }
 
@@ -395,6 +448,21 @@ p {
   border: 0rem;
   box-shadow: none;
   width: 49%;
+}
+
+.close-button {
+	background-color: rgb(255, 204, 204);
+	padding: 0.5rem 0.8rem;
+	border: none;
+	border-radius: 1.2rem 0rem 0rem 0rem;
+	color: white;
+}
+.open-button {
+	background-color: rgb(204, 255, 204);
+	padding: 0.5rem 0.7rem;
+	border: none;
+	border-radius: 1.2rem 0rem 0rem 0rem;
+	color: white;
 }
 
 /*////////////////////////// LINKS */
@@ -414,17 +482,28 @@ a:hover {
 /*///////////////////////// LISTS */
 
 ul {
-  margin-top: 0.2rem;
-	padding: 0.1rem 1rem 1rem 1rem;
+  /* margin-top: 0.2rem;
+	padding: 0.1rem 1rem 1rem 1rem; */
+	width: 13rem;
 }
 
 li {
   list-style-type: none;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   list-style-type: none;
-	padding: 0.5rem;
+	padding: 0.1rem;
+}
+
+ul.dropdown {
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	margin-top: 0rem;
+	background-color: white;
+	border-radius: 0rem 0rem 1.2rem 1.2rem;
+	padding: 1rem 1rem 1rem 1rem;
 }
 
 /*///////////////////////// FONTS
