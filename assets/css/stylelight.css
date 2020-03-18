@@ -103,8 +103,12 @@ main {
 .sub-main {
   width: 80%;
   margin: auto;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
   padding-bottom: 2rem;
+}
+
+.dropdown-menu {
+
 }
 
 .pinned {
@@ -117,11 +121,15 @@ main {
 	box-shadow: -10px 12px 5px -9px rgba(0,0,0,0.75);
 }
 
+/* MENU */
+
+
+
 /* FOOTER */
 
 footer {
-  background-image: url("../photos/marbleenversvague.png"); /********* IMAGE DETOUREE ********/
-  background-color: rgba(253, 246, 226, 1); /****************** COULEUR DE FOND VOULUE********/
+  background-image: url("../photos/marbleenversvague.png");
+  background-color: rgba(253, 246, 226, 1);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -183,6 +191,9 @@ footer {
 /* ................. SEPARATIONS ..................... */
 .outline {
   border: 1px solid rgba(255, 102, 255, 0.1);
+}
+.outline-bold {
+  border: 1px solid rgba(255, 102, 255, 1);
 }
 
 hr {
@@ -408,6 +419,10 @@ a {
 a:hover {
   text-decoration: none;
   color: rgb(193, 209, 225);
+}
+
+a.menu-item {
+	color: rgb(96, 29, 70);
 }
 
 /*///////////////////////// LISTS */
