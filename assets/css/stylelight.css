@@ -106,9 +106,22 @@ main {
   /* padding-top: 3rem; */
   padding-bottom: 2rem;
 }
+.main-top-part {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 20rem;
+}
+.main-title-and-intro {
+	width: 48%;
+}
+.menu {
+	width: 48%;
+}
 
-.dropdown-menu {
-
+.intro {
+	width: 27.8rem;
+	text-align: justify;
 }
 
 .pinned {
@@ -195,6 +208,9 @@ footer {
 .outline-bold {
   border: 1px solid rgba(255, 102, 255, 1);
 }
+.outline-sub {
+	border: 1px solid blue;
+}
 
 hr {
   background-color: rgb(255, 248, 140);
@@ -212,7 +228,7 @@ hr.main-hr {
   border-width: 0px;
   border-radius: 2rem;
   margin: 1rem 0rem 1rem 0rem;
-  width: 100%;
+  width: 27.8rem;
 }
 
 /* TITRES */
@@ -262,7 +278,7 @@ h4 {
 
 h5 {
   font-family: 'Fredoka One', cursive;
-  font-size: 5.104999rem;
+  font-size: 2rem;
   color: rgba(193, 209, 225, 1);
   /* text-shadow:
    -2px -2px 0 rgb(231, 159, 57),
@@ -423,6 +439,7 @@ a:hover {
 
 a.menu-item {
 	color: rgb(96, 29, 70);
+	font-family: 'Roboto Mono', monospace;
 }
 
 /*///////////////////////// LISTS */

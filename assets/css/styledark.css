@@ -102,7 +102,7 @@ main {
 .sub-main {
   width: 80%;
   margin: auto;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
   padding-bottom: 2rem;
 }
 
@@ -201,7 +201,7 @@ hr.main-hr {
   border-width: 0px;
   border-radius: 2rem;
   margin: 1rem 0rem 1rem 0rem;
-  width: 100%;
+  width: 27.8rem;
 }
 
 /* TITRES */
@@ -251,7 +251,7 @@ h4 {
 
 h5 {
   font-family: 'Fredoka One', cursive;
-  font-size: 5.104999rem;
+  font-size: 2rem;
   color: rgba(193, 209, 225, 1);
   /* text-shadow:
    -2px -2px 0 rgb(231, 159, 57),
