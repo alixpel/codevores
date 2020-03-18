@@ -72,3 +72,24 @@ function get_cookie ( cookie_name )
 	}
 	return '' ;
 }
+
+// ////////////////////////////////////////////////////////////////////
+// ouverture du burger
+
+    document.querySelector('.close-button').style.display = "none";
+    document.querySelector('ul').style.display = 'none';
+
+
+document.querySelector('.open-button').addEventListener('click', function(){
+    document.querySelector('.open-button').style.display = "none";
+    document.querySelector('.close-button').style.display = "block";
+    document.querySelector('ul').style.display = 'block';
+});
+
+// fermeture du burger
+
+document.querySelector('.close-button').addEventListener('click', function(){
+    document.querySelector('.open-button').style.display = "block";
+    document.querySelector('.close-button').style.display = "none";
+    document.querySelector('ul').style.display = 'none';
+});

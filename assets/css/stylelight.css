@@ -251,7 +251,7 @@ h4 {
 
 h5 {
   font-family: 'Fredoka One', cursive;
-  font-size: 5rem;
+  font-size: 5.104999rem;
   color: rgba(193, 209, 225, 1);
   /* text-shadow:
    -2px -2px 0 rgb(231, 159, 57),
@@ -424,6 +424,11 @@ li {
   font-weight: 400;
   list-style-type: none;
 	padding: 0.5rem;
+}
+
+ul.dropdown {
+	display: flex;
+	flex-direction: row;
 }
 
 /*///////////////////////// FONTS

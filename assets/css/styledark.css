@@ -251,7 +251,7 @@ h4 {
 
 h5 {
   font-family: 'Fredoka One', cursive;
-  font-size: 5rem;
+  font-size: 5.104999rem;
   color: rgba(193, 209, 225, 1);
   /* text-shadow:
    -2px -2px 0 rgb(231, 159, 57),
@@ -285,10 +285,11 @@ p {
 .fas.fa-map-pin {
 	transform: rotate(40deg);
 	margin-bottom: 1rem;
+	color: rgba(46, 54, 71, 1);
 }
 
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
-  color: rgb(96, 29, 70);
+  color: rgb(253, 246, 226);
 }
 
 /* ALIGNEMENTS & COLORS */
