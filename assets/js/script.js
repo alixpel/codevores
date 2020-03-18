@@ -13,14 +13,12 @@
 
 
 // *** TO BE CUSTOMISED ***
-
 var style_cookie_name = "style" ;
 var style_cookie_duration = 30 ;
 var style_domain = "thesitewizard.com" ;
 
 // *** END OF CUSTOMISABLE SECTION ***
 // You do not need to customise anything below this line
-
 function switch_style ( css_title )
 {
 // You may use this script on your site free of charge provided
