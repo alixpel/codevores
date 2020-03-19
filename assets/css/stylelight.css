@@ -312,6 +312,9 @@ h5 {
   letter-spacing: .2rem;
   margin: 0rem 0rem 0rem 0rem;
 }
+h5.espace-pro {
+	font-size: 2.86rem;
+}
 
 h6 {
 	font-family: 'Baloo Chettan 2', cursive;
@@ -356,6 +359,11 @@ p {
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
   color: rgb(255, 248, 140);
 	text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
+}
+/* fa espace pro */
+
+.far.fa-smile {
+
 }
 
 /* ALIGNEMENTS & COLORS */
