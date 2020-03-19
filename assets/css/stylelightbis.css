@@ -147,13 +147,33 @@ main {
 .main-bottom-part {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content:center;
+	width: 63%;
+	margin: auto;
 }
-.portrait-column {
+.portrait-column-side {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	margin: 6rem 0.25rem;
 }
+.portrait-column-middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0rem 0.25rem;
+}
+img.portrait {
+	margin: 0.25rem;
+	padding: 0px;
+	background-color: black;
+}
+img {
+	border-radius: 0.5rem;
+	margin-top: 0.25rem;
+}
+
 
 /* MENU */
 
@@ -224,13 +244,13 @@ footer {
 
 /* ................. SEPARATIONS ..................... */
 .outline {
-  /* border: 1px solid rgba(153, 255, 153, 1); */
+  border: 1px solid rgba(153, 255, 153, 1);
 }
 .outline-bold {
-  /* border: 1px solid rgba(255, 102, 255, 1); */
+  border: 1px solid rgba(255, 102, 255, 1);
 }
 .outline-sub {
-	/* border: 1px solid blue; */
+	border: 1px solid blue;
 }
 
 hr {
