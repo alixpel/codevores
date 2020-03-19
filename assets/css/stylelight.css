@@ -154,7 +154,7 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	margin: 1.5rem 1rem 1rem 1rem;
-	padding: 2rem 1rem 5rem 1rem;
+	padding: 2.5rem 1rem 5rem 2.6rem;
 	box-shadow: -10px 12px 5px -9px rgba(0,0,0,0.75);
 }
 
@@ -350,7 +350,7 @@ p {
 	/* margin-bottom: 0.5rem;
 	margin-top: 0.5rem;
 	margin-left: 0rem; */
-	color: rgb(82, 82, 82);
+	color: rgb(42, 42, 42);
 }
 
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
@@ -523,9 +523,10 @@ ul.pinned {
 }
 li.pinned-li {
 	list-style: '- ' inside;
-	line-height: 1rem;
+	line-height: 1.4rem;
 	font-family: 'Roboto Mono', monospace;
 	color: rgba(46, 54, 71, 1);
+	font-size: 0.9rem;
 }
 
 /*///////////////////////// FONTS
