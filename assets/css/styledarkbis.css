@@ -110,21 +110,24 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 20rem;
+	height: 3rem;
 }
 .main-title-and-intro {
-	width: 74%;
+	width: 58%;
 	margin-top: 1.5rem;
+	margin-left: 0rem;
+	margin-bottom: 3rem;
 }
 .intro {
 	/* width: 27.8rem; */
 	text-align: justify;
 	font-size: 1.1rem;
 	line-height: 1.25rem;
+	height: auto;
 }
 
 .menu {
-	width: 15rem;
+	/* width: 15rem; */
 }
 .buttons-and-title {
 	display: flex;
@@ -142,20 +145,45 @@ main {
 	width: 15rem;
 }
 
-.punaise {
-	margin: 0rem 1rem -3rem 16rem;
-	padding: 0rem 0rem 0rem 0rem;
+.main-bottom-part {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	width: 63%;
+	margin: auto;
 }
-.pinned {
-	background-color: rgba(250, 250, 251, 1);
-	width: 46%;
+.portrait-column-side {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 1.5rem 1rem 1rem 1rem;
-	padding: 2.5rem 1rem 5rem 2.6rem;
-	box-shadow: -10px 12px 5px -9px rgba(0,0,0,0.75);
+	align-items: center;
+	margin: 6rem 0.25rem;
 }
+.portrait-column-border {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 6rem 0.25rem;
+}
+.portrait-column-middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0rem 0.25rem;
+}
+.portrait {
+	margin: 0.25rem;
+	padding: 0px;
+	/* background-color: black; */
+	border-radius: 0.5rem;
+}
+
+img {
+	border-radius: 0.5rem 0.5rem 0rem 0rem;
+	/* margin-top: 0.25rem; */
+}
+
 
 /* FOOTER */
 

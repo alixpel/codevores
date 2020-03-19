@@ -492,6 +492,9 @@ a:hover {
 a.menu-item {
 	color: rgb(46, 53, 70);
 }
+a.menu-item-current {
+	color: rgba(46, 53, 70, 0.6);
+}
 
 /*///////////////////////// LISTS */
 
