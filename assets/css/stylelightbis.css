@@ -111,18 +111,21 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 20rem;
+	margin-bottom: 3rem;
 }
 .main-title-and-intro {
 	width: 58%;
 	margin-top: 1.5rem;
-	margin-left: 14rem;
+	margin-left: 0rem;
+	margin-bottom: 3rem;
+	/* height: 10rem; */
 }
 .intro {
 	/* width: 27.8rem; */
 	text-align: justify;
 	font-size: 1.1rem;
 	line-height: 1.25rem;
+	height: auto;
 }
 
 .menu {
@@ -158,20 +161,29 @@ main {
 	align-items: center;
 	margin: 6rem 0.25rem;
 }
+.portrait-column-border {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 6rem 0.25rem;
+}
 .portrait-column-middle {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin: 0rem 0.25rem;
 }
-img.portrait {
+.portrait {
 	margin: 0.25rem;
 	padding: 0px;
-	background-color: black;
-}
-img {
+	/* background-color: black; */
 	border-radius: 0.5rem;
-	margin-top: 0.25rem;
+}
+
+img {
+	border-radius: 0.5rem 0.5rem 0rem 0rem;
+	/* margin-top: 0.25rem; */
 }
 
 
@@ -240,13 +252,13 @@ footer {
 
 /* ................. SEPARATIONS ..................... */
 .outline {
-  border: 1px solid rgba(153, 255, 153, 0.2);
+  /* border: 1px solid rgba(153, 255, 153, 0.2); */
 }
 .outline-bold {
-  border: 1px solid rgba(255, 102, 255, 0.2);
+  /* border: 1px solid rgba(255, 102, 255, 0.2); */
 }
 .outline-sub {
-	border: 0.2px solid blue;
+	/* border: 0.2px solid blue; */
 }
 
 hr {
@@ -345,13 +357,12 @@ h6 {
 h7 {
 	font-family: 'Baloo Chettan 2', cursive;
 	/* font-weight: 600; */
-	color: rgb(1, 1, 1);
-	text-align: right;
-	font-size: 1rem;
-	background-color: rgba(255, 255, 255, 0.6);
-	border: none;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 0.8rem;
+	background-color: rgba(96, 29, 70, 1);
 	border-radius: 0rem 0rem 0.5rem 0.5rem;
-	width:
+	padding: 0.5rem 0.2rem;
 }
 
 /* p et span */
@@ -387,8 +398,9 @@ p {
 /*///////////////////// PHOTOS */
 
 .tiger {
-  margin-left: 54rem;
-  margin-bottom: -12rem;
+  /* margin-left: 54rem; */
+  margin-top: -11.5rem;
+	float: right;
 }
 
 /*///////////////////// INPUTS */
@@ -484,6 +496,12 @@ a:hover {
 a.menu-item {
 	color: rgb(46, 53, 70);
 	/* font-family: 'Roboto Mono', monospace; */
+}
+
+a.portrait-link {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 /*///////////////////////// LISTS */
