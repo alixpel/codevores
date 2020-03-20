@@ -112,6 +112,13 @@ main {
 	justify-content: space-between;
 	margin-bottom: 3rem;
 }
+.main-top-part-devpage {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* margin-bottom: 3rem; */
+}
+
 .main-title-and-intro {
 	width: 58%;
 	margin-top: 1.5rem;
@@ -153,6 +160,10 @@ main {
 	width: 63%;
 	margin: auto;
 }
+.main-bottom-part-devpage {
+
+}
+
 .portrait-column-side {
 	display: flex;
 	flex-direction: column;
@@ -251,13 +262,13 @@ footer {
 
 /* ................. SEPARATIONS ..................... */
 .outline {
-  /* border: 1px solid rgba(153, 255, 153, 0.2); */
+  border: 1px solid rgba(153, 255, 153, 0.2);
 }
 .outline-bold {
-  /* border: 1px solid rgba(255, 102, 255, 0.2); */
+  border: 1px solid rgba(255, 102, 255, 0.2);
 }
 .outline-sub {
-	/* border: 0.2px solid blue; */
+	border: 0.2px solid blue;
 }
 
 hr {
@@ -556,6 +567,21 @@ ul.dropdown {
 	padding: 1rem 1rem 1rem 1rem;
 	width: 13rem;
 }
+
+/* ........PAGE CODEUSE ......./*/
+ul.dev-names {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto;
+}
+li.dev-name-current {
+	color: rgba(46, 54, 71, 1);
+}
+li.dev-name-notcurrent {
+	color: rgba(46, 54, 71, 0.6)
+}
+
 
 
 /*///////////////////////// FONTS
