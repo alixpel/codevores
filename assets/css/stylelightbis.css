@@ -116,7 +116,6 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	/* background-image: url("../photos/"); */
 }
 
 .main-title-and-intro {
@@ -124,11 +123,9 @@ main {
 	margin-top: 1.5rem;
 	margin-left: 0rem;
 	margin-bottom: 3rem;
-	/* height: 10rem; */
 }
 
 .intro {
-	/* width: 27.8rem; */
 	text-align: justify;
 	font-size: 1.1rem;
 	line-height: 1.25rem;
@@ -136,7 +133,6 @@ main {
 }
 
 .menu {
-	/* width: 15rem; */
 	z-index: 2;
 	position: relative;
 }
@@ -167,7 +163,7 @@ main {
 
 }
 .dev-names {
-	width: 57rem;
+	width: 53rem;
 }
 
 .portrait-column-side {
@@ -214,6 +210,7 @@ img.small-portrait {
 	height: 34rem;
 	width: 100%;
 	border-radius: 0.5rem;
+	margin: 4rem 0rem;
 }
 
 .dev-cv {
@@ -224,7 +221,7 @@ img.small-portrait {
 	color: rgb(96, 29, 70);
 	/* border: 1rem solid rgb(253, 246, 226); */
 	margin: 1.1rem 0.1rem 8.1rem -0.9rem;
-	background-color: rgba(450, 450, 450, 0.9);
+	background-color: rgba(450, 450, 450, 0.62);
 	border-radius: 0.5rem;
 	width: 20rem;
 }
@@ -239,8 +236,8 @@ img.small-portrait {
 	/* border: 1rem solid rgb(253, 246, 226); */
 	margin: -0.9rem 0.1rem 0.1rem 22.1rem;
 	padding: 0.3rem;
-	background-color: rgb(253, 246, 226);
-	background-color: rgba(450, 450, 450, 0.9);
+	color: rgb(96, 29, 70);
+	background-color: rgba(450, 450, 450, 0.5);
 	text-align: justify;
 	border-radius: 0.5rem;
 }
@@ -249,8 +246,8 @@ img.small-portrait {
 	/* border: 1rem solid rgb(253, 246, 226); */
 	margin: 1.1rem 0.1rem 3.1rem 25.1rem;
 	padding: 0.3rem;
-	background-color: rgb(253, 246, 226);
-	background-color: rgba(450, 450, 450, 0.9);
+	color: rgb(96, 29, 70);
+	background-color: rgba(450, 450, 450, 0.7);
 	text-align: justify;
 	border-radius: 0.5rem;
 }
@@ -321,13 +318,13 @@ footer {
 
 /* ................. SEPARATIONS ..................... */
 .outline {
-  border: 1px solid rgba(153, 255, 153, 0.2);
+  /* border: 1px solid rgba(153, 255, 153, 0.2); */
 }
 .outline-bold {
-  border: 1px solid rgba(255, 102, 255, 0.2);
+  /* border: 1px solid rgba(255, 102, 255, 0.2); */
 }
 .outline-sub {
-	border: 0.2px solid blue;
+	/* border: 0.2px solid blue; */
 }
 
 hr {
@@ -609,13 +606,13 @@ a.dev-name-current {
 	color: rgba(46, 54, 71, 0.6);
 	border-radius: 0.5rem;
 	background-color: rgba(430, 430, 450, 1);
-	padding: 0rem 1rem 0rem 1.1rem;
+	padding: 0rem 0.8rem 0rem 0.8rem;
 }
 a.dev-name-notcurrent {
 	color: rgba(46, 54, 71, 1);
 	border-radius: 0.5rem;
 	background-color: rgba(450, 450, 455, 1);
-	padding: 0rem 1.1rem 0rem 1rem;
+	padding: 0rem 0.8rem 0rem 0.8rem;
 }
 
 /*///////////////////////// LISTS */

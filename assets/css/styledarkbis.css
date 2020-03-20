@@ -112,6 +112,12 @@ main {
 	justify-content: space-between;
 	margin-bottom: 3rem;
 }
+.main-top-part-devpage {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .main-title-and-intro {
 	width: 58%;
 	margin-top: 1.5rem;
@@ -119,7 +125,6 @@ main {
 	margin-bottom: 3rem;
 }
 .intro {
-	/* width: 27.8rem; */
 	text-align: justify;
 	font-size: 1.1rem;
 	line-height: 1.25rem;
@@ -127,7 +132,8 @@ main {
 }
 
 .menu {
-	/* width: 15rem; */
+	z-index: 2;
+	position: relative;
 }
 .buttons-and-title {
 	display: flex;
@@ -152,6 +158,13 @@ main {
 	width: 63%;
 	margin: auto;
 }
+.main-bottom-part-devpage {
+
+}
+.dev-names {
+	width: 53rem;
+}
+
 .portrait-column-side {
 	display: flex;
 	flex-direction: column;
@@ -179,11 +192,66 @@ main {
 	border-radius: 0.5rem;
 }
 
-img {
+img.small-portrait {
 	border-radius: 0.5rem 0.5rem 0rem 0rem;
 	/* margin-top: 0.25rem; */
 }
 
+/*////// PAGE CODEUSE ////////////////// */
+
+.color-background {
+	background-color: rgb(193, 209, 225);
+	background-image: url("../photos/portrait1.png");
+	background-position: center;
+	/* background-size: contain; */
+	background-repeat: no-repeat;
+	z-index: 1;
+	height: 34rem;
+	width: 100%;
+	border-radius: 0.5rem;
+	margin: 4rem 0rem;
+}
+
+.dev-cv {
+
+}
+.dev-title {
+	text-align: center;
+	color: rgb(96, 29, 70) !important;
+	/* border: 1rem solid rgb(253, 246, 226); */
+	margin: 1.1rem 0.1rem 8.1rem -0.9rem;
+	background-color: rgba(450, 450, 450, 0.62);
+	border-radius: 0.5rem;
+	width: 20rem;
+}
+
+/* .large-portrait-photo {
+	border-radius: 0rem;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+	border-radius: 0.5rem;
+} */
+.main-title-and-intro-devpage-1 {
+	width: 30rem;
+	/* border: 1rem solid rgb(253, 246, 226); */
+	margin: -0.9rem 0.1rem 0.1rem 22.1rem;
+	padding: 0.3rem;
+	/* background-color: rgb(253, 246, 226); */
+	color: rgb(96, 29, 70);
+	background-color: rgba(450, 450, 450, 0.5);
+	text-align: justify;
+	border-radius: 0.5rem;
+}
+.main-title-and-intro-devpage-2 {
+	width: 24rem;
+	/* border: 1rem solid rgb(253, 246, 226); */
+	margin: 1.1rem 0.1rem 3.1rem 25.1rem;
+	padding: 0.3rem;
+	/* background-color: rgb(253, 246, 226); */
+	background-color: rgba(450, 450, 450, 0.7);
+	color: rgb(96, 29, 70);
+	text-align: justify;
+	border-radius: 0.5rem;
+}
 
 /* FOOTER */
 
@@ -295,7 +363,7 @@ h2 {
   font-family: 'Concert One', cursive;
   font-size: 1.35rem;
   background-color: rgba(253, 249, 190, 0.7);
-  border-radius: 1.25rem;
+  border-radius: 0.25rem;
   padding: 0.15rem 0.2rem 0.3rem 0.2rem;
   /* text-shadow: 0px 0px 4px rgba(187, 194, 210, 0.5); */
 }
@@ -327,6 +395,7 @@ h5 {
   font-family: 'Fredoka One', cursive;
   font-size: 2.9rem;
   color: rgba(193, 209, 225, 1);
+	text-align: center;
   /* text-shadow:
    -2px -2px 0 rgb(231, 159, 57),
     2px -2px 0 rgb(231, 159, 57),
@@ -337,6 +406,10 @@ h5 {
 }
 h5.espace-pro {
 	font-size: 2.86rem;
+}
+
+h5.dev-title {
+	color: rgb(96, 29, 70);
 }
 
 h6 {
@@ -387,6 +460,11 @@ p.p-footer {
 
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
   color: rgb(255, 248, 140);
+}
+/* fa espace pro */
+
+.far.fa-smile {
+
 }
 
 /*///////////////////// PHOTOS */
@@ -529,6 +607,19 @@ a.portrait-link {
 	flex-direction: column;
 	justify-content: center;
 }
+/* ........PAGE CODEUSE ......./*/
+a.dev-name-current {
+	color: rgba(46, 54, 71, 0.6);
+	border-radius: 0.5rem;
+	background-color: rgba(255, 248, 140, 1);
+	padding: 0rem 0.8rem 0rem 0.8rem;
+}
+a.dev-name-notcurrent {
+	color: rgba(46, 54, 71, 1);
+	border-radius: 0.5rem;
+	background-color: rgba(255, 248, 140, 1);
+	padding: 0rem 0.8rem 0rem 0.8rem;
+}
 
 /*///////////////////////// LISTS */
 
@@ -537,7 +628,6 @@ li.dropdown-li {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9rem;
   font-weight: 400;
-  list-style-type: none;
 	padding: 0.1rem;
 }
 
@@ -550,6 +640,29 @@ ul.dropdown {
 	border-radius: 0rem 0rem 1.2rem 1.2rem;
 	padding: 1rem 1rem 1rem 1rem;
 	width: 13rem;
+}
+
+/* ........PAGE CODEUSE ......./*/
+ul.dev-names {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* margin: auto; */
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+}
+li.dev-names {
+	text-align: center;
+}
+
+ol.asset-list {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+	color: rgb(96, 29, 70);
+}
+li.asset {
+	list-style: inside;
+	list-style-type: '-';
 }
 
 /* ALIGNEMENTS & COLORS */
