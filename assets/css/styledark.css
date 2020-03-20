@@ -420,6 +420,21 @@ p.p-footer {
   box-shadow: none;
   border-radius: 0.4rem;
   font-family: 'Concert One', cursive;
+  color: #E9E2CE;
+  font-size: 1.5rem;
+  background-color: rgba(253, 249, 190, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+}
+.light-button:hover {
+  border: none;
+  box-shadow: none;
+  border-radius: 0.4rem;
+  font-family: 'Concert One', cursive;
   color: rgba(46, 54, 71, 1);
   font-size: 1.5rem;
   background-color: rgba(253, 249, 190, 0.7);
@@ -428,10 +443,24 @@ p.p-footer {
   align-items: center;
   text-align: center;
   padding: 1rem 1rem;
-  /* width: 10rem; */
   margin-top: 1rem;
 }
 .dark-button {
+  border: none;
+  box-shadow: none;
+  border-radius: 0.6rem;
+  font-family: 'Concert One', cursive;
+  color: #E9E2CE;
+  font-size: 1.5rem;
+  background-color: rgba(46, 54, 71, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin: 0rem;
+}
+.dark-button:hover {
   border: none;
   box-shadow: none;
   border-radius: 0.6rem;
@@ -444,7 +473,6 @@ p.p-footer {
   align-items: center;
   text-align: center;
   padding: 1rem 1rem;
-  /* width: 10rem; */
   margin: 0rem;
 }
 

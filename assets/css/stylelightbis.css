@@ -423,6 +423,21 @@ p {
   box-shadow: none;
   border-radius: 0.4rem;
   font-family: 'Concert One', cursive;
+  color: rgb(253, 246, 226);
+  font-size: 1rem;
+  background-color: rgba(253, 246, 226, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 0.7rem;
+  margin-top: 1rem;
+}
+.light-button:hover {
+  border: none;
+  box-shadow: none;
+  border-radius: 0.4rem;
+  font-family: 'Concert One', cursive;
   color: rgba(46, 54, 71, 1);
   font-size: 1rem;
   background-color: rgba(253, 246, 226, 0.7);
@@ -431,10 +446,25 @@ p {
   align-items: center;
   text-align: center;
   padding: 0.7rem;
-  /* width: 3rem; */
   margin-top: 1rem;
 }
+
 .dark-button {
+  border: none;
+  box-shadow: none;
+  border-radius: 0.6rem;
+  font-family: 'Concert One', cursive;
+  color: rgb(253, 246, 226);
+  font-size: 1rem;
+  background-color: rgba(34, 43, 64, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 0.7rem;
+  margin: 0rem;
+}
+.dark-button:hover {
   border: none;
   box-shadow: none;
   border-radius: 0.6rem;
@@ -447,7 +477,6 @@ p {
   align-items: center;
   text-align: center;
   padding: 0.7rem;
-  /* width: 3rem; */
   margin: 0rem;
 }
 
@@ -568,7 +597,7 @@ font-family: 'VT323', monospace; */
   /* rgb(96, 29, 70) */
 }
 .beige {
-  color: (253, 246, 226);
+  color: rgb(253, 246, 226);
   /* rgb(233, 226, 206) */
 }
 /* .text-shadow {
