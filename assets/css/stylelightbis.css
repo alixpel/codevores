@@ -126,6 +126,14 @@ main {
 	margin-bottom: 3rem;
 	/* height: 10rem; */
 }
+.main-title-and-intro-devpage {
+	width: 58%;
+	margin-top: 1.5rem;
+	margin-left: 0rem;
+	margin-bottom: 1rem;
+	/* height: 10rem; */
+}
+
 .intro {
 	/* width: 27.8rem; */
 	text-align: justify;
@@ -162,6 +170,9 @@ main {
 }
 .main-bottom-part-devpage {
 
+}
+.dev-names {
+	width: 56rem;
 }
 
 .portrait-column-side {
@@ -350,6 +361,9 @@ h5 {
 }
 h5.espace-pro {
 	font-size: 2.86rem;
+}
+h5.dev-title {
+	text-align: left;
 }
 
 h6 {
@@ -545,6 +559,19 @@ a.portrait-link {
 	flex-direction: column;
 	justify-content: center;
 }
+/* ........PAGE CODEUSE ......./*/
+a.dev-name-current {
+	color: rgba(46, 54, 71, 0.6);
+	border-radius: 0.5rem;
+	background-color: rgba(430, 430, 450, 1);
+	padding: 0rem 1rem 0rem 1.1rem;
+}
+a.dev-name-notcurrent {
+	color: rgba(46, 54, 71, 1);
+	border-radius: 0.5rem;
+	background-color: rgba(450, 450, 455, 1);
+	padding: 0rem 1.1rem 0rem 1rem;
+}
 
 /*///////////////////////// LISTS */
 
@@ -573,14 +600,14 @@ ul.dev-names {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: auto;
+	/* margin: auto; */
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
 }
-li.dev-name-current {
-	color: rgba(46, 54, 71, 1);
+li.dev-names {
+	text-align: center;
 }
-li.dev-name-notcurrent {
-	color: rgba(46, 54, 71, 0.6)
-}
+
 
 
 
