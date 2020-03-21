@@ -1,16 +1,3 @@
-// function dark(){
-// 	document.querySelector('body').classList.add('theme-sombre');
-//   document.querySelector('body').classList.remove('theme-clair');
-// }
-//
-// function light(){
-// 	document.querySelector('body').classList.add('theme-clair');
-//   document.querySelector('body').classList.remove('theme-sombre');
-// }
-//
-// document.querySelector('.dark-button').addEventListener('click', dark);
-// document.querySelector('.light-button').addEventListener('click', light);
-
 
 // *** TO BE CUSTOMISED ***
 var style_cookie_name = "style" ;
@@ -74,6 +61,7 @@ function get_cookie ( cookie_name )
 }
 
 // ////////////////////////////////////////////////////////////////////
+
 // ouverture du burger
 
     document.querySelector('.close-button').style.display = "none";
@@ -93,3 +81,24 @@ document.querySelector('.close-button').addEventListener('click', function(){
     document.querySelector('.close-button').style.display = "none";
     document.querySelector('ul').style.display = 'none';
 });
+
+// ////////////////////////////////////////////////////////////////////
+// animation du texte
+function animate_text1() {
+  let delay = 200,
+    delay_start = 0,
+    contents,
+    letters;
+  document.querySelectorAll(".animate-text").forEach(function (elem) {
+    contents = elem.textContent.trim();
+    elem.textContent = "";
+    letters = contents.split("");
+    letters.forEach(function (letter, index_1) {
+      setTimeout(function () {
+        elem.textContent += letter;
+      }, delay_start + delay * (index_1 / 5));
+    });
+    delay_start += delay * letters.length / 5;
+  });
+}
+animate_text1()

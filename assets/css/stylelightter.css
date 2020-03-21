@@ -159,94 +159,8 @@ main {
 	width: 63%;
 	margin: auto;
 }
-.main-bottom-part-devpage {
 
-}
-.dev-names {
-	width: 53rem;
-}
-
-.portrait-column-side {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 6rem 0.25rem;
-}
-.portrait-column-border {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 6rem 0.25rem;
-}
-.portrait-column-middle {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0rem 0.25rem;
-}
-.portrait {
-	margin: 0.25rem;
-	padding: 0px;
-	/* background-color: black; */
-	border-radius: 0.5rem;
-}
-
-img.small-portrait {
-	border-radius: 0.5rem 0.5rem 0rem 0rem;
-	/* margin-top: 0.25rem; */
-}
-
-/*////// PAGE CODEUSE ////////////////// */
-
-.color-background {
-	background-color: rgba(255, 250, 178, 1);
-	background-image: url("../photos/portrait1.png");
-	background-position: center;
-	/* background-size: contain; */
-	background-repeat: no-repeat;
-	z-index: 1;
-	height: 34rem;
-	width: 78%;
-	border-radius: 0.5rem;
-	margin: 4rem 0rem;
-}
-
-.dev-cv {
-
-}
-.dev-title {
-	text-align: center;
-	margin: 1.1rem 0.1rem 8.1rem -0.9rem;
-	background-color: rgba(450, 450, 450, 0.62);
-	border-radius: 0.5rem;
-	width: 20rem;
-}
-
-/* .large-portrait-photo {
-	border-radius: 0rem;
-	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
-	border-radius: 0.5rem;
-} */
-.main-title-and-intro-devpage-1 {
-	width: 30rem;
-	margin: -0.9rem 0.1rem 0.1rem 22.1rem;
-	padding: 0.3rem;
-	/* color: rgb(96, 29, 70); */
-	background-color: rgba(450, 450, 450, 0.5);
-	text-align: justify;
-	border-radius: 0.5rem;
-}
-.main-title-and-intro-devpage-2 {
-	width: 24rem;
-	margin: 1.1rem 0.1rem 3.1rem 25.1rem;
-	padding: 0.3rem;
-	/* color: rgb(96, 29, 70); */
-	background-color: rgba(450, 450, 450, 0.7);
-	text-align: justify;
-	border-radius: 0.5rem;
-}
+/*////// PAGE ACTUS ////////////////// */
 
 
 /* FOOTER */
@@ -257,7 +171,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .sub-footer {
   width: 80%;
@@ -314,13 +227,13 @@ footer {
 
 /* ................. SEPARATIONS ..................... */
 .outline {
-  /* border: 1px solid rgba(153, 255, 153, 0.2); */
+  border: 1px solid rgba(153, 255, 153, 0.2);
 }
 .outline-bold {
-  /* border: 1px solid rgba(255, 102, 255, 0.2); */
+  border: 1px solid rgba(255, 102, 255, 0.2);
 }
 .outline-sub {
-	/* border: 0.2px solid blue; */
+	border: 0.2px solid blue;
 }
 
 hr {
@@ -349,11 +262,6 @@ h1 {
   font-size: 4rem;
   color: rgba(253, 246, 226, 1);
   text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
-  /* text-shadow:
-   -3px -3px 0 rgb(96, 29, 70),
-    3px -3px 0 rgb(96, 29, 70),
-    -3px 3px 0 rgb(96, 29, 70),
-     3px 3px 0 rgb(96, 29, 70); */
 }
 h2 {
   font-family: 'Concert One', cursive;
@@ -361,7 +269,6 @@ h2 {
   background-color: rgba(253, 246, 226, 0.7);
   border-radius: 0.25rem;
   padding: 0.15rem 0.2rem 0.3rem 0.2rem;
-  /* text-shadow: 0px 0px 4px rgba(187, 194, 210, 0.5); */
 }
 
 h3 {
@@ -384,25 +291,17 @@ h4 {
   border-radius: 0.25rem 0.25rem 0rem 0rem;
   padding: 0.5rem 0rem 0.48rem 0.6rem;
   margin-bottom: 1.5rem;
-  /* width: 100%; */
 }
 
 h5 {
   font-family: 'Fredoka One', cursive;
   font-size: 2.9rem;
   color: rgba(193, 209, 225, 1);
-	text-align: center;
-  /* text-shadow:
-   -2px -2px 0 rgb(231, 159, 57),
-    2px -2px 0 rgb(231, 159, 57),
-    -2px 2px 0 rgb(231, 159, 57),
-     2px 2px 0 rgb(231, 159, 57); */
+	text-align: left;
   letter-spacing: .2rem;
   margin: 0rem 0rem 0rem 0rem;
 }
-h5.espace-pro {
-	font-size: 2.86rem;
-}
+
 
 h6 {
 	font-family: 'Baloo Chettan 2', cursive;
@@ -431,6 +330,17 @@ h7 {
 
 p {
   font-family: 'Baloo Chettan 2', cursive;
+}
+p.intro {
+
+}
+
+/* texte animé */
+.animate-text {
+  font-family: courier;
+  color: #2fda00;
+  background-color: rgb(20, 20, 20);
+  border-radius: 0.5rem;
 }
 
 /* icônes fa */
@@ -597,19 +507,8 @@ a.portrait-link {
 	flex-direction: column;
 	justify-content: center;
 }
-/* ........PAGE CODEUSE ......./*/
-a.dev-name-current {
-	color: rgba(46, 54, 71, 0.6);
-	border-radius: 0.5rem;
-	background-color: rgba(430, 430, 450, 0.65);
-	padding: 0rem 0.8rem 0rem 0.8rem;
-}
-a.dev-name-notcurrent {
-	color: rgba(46, 54, 71, 1);
-	border-radius: 0.5rem;
-	background-color: rgba(450, 450, 455, 1);
-	padding: 0rem 0.8rem 0rem 0.8rem;
-}
+/* ........PAGE ACTUS ......./*/
+
 
 /*///////////////////////// LISTS */
 
@@ -632,28 +531,7 @@ ul.dropdown {
 	width: 13rem;
 }
 
-/* ........PAGE CODEUSE ......./*/
-ul.dev-names {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	/* margin: auto; */
-	font-family: 'Baloo Chettan 2', cursive;
-	font-size: 1rem;
-}
-li.dev-names {
-	text-align: center;
-}
-
-ol.asset-list {
-	font-family: 'Baloo Chettan 2', cursive;
-	font-size: 1rem;
-	color: rgb(67, 104, 141);
-}
-li.asset {
-	list-style: inside;
-	list-style-type: '-';
-}
+/* ........PAGE ACTUS ......./*/
 
 
 
