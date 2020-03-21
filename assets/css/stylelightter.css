@@ -336,11 +336,12 @@ p.intro {
 }
 
 /* texte animé */
-.animate-text {
-  font-family: courier;
-  color: #2fda00;
-  background-color: rgb(20, 20, 20);
+.animated-text {
+  font-family: 'Roboto Mono', monospace;;
+  color: rgb(193, 209, 225);
+  background-color: rgba(46, 54, 71, 1);
   border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 /* icônes fa */

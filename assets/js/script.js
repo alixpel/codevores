@@ -84,12 +84,12 @@ document.querySelector('.close-button').addEventListener('click', function(){
 
 // ////////////////////////////////////////////////////////////////////
 // animation du texte
-function animate_text1() {
+function animated_text1() {
   let delay = 200,
     delay_start = 0,
     contents,
     letters;
-  document.querySelectorAll(".animate-text").forEach(function (elem) {
+  document.querySelectorAll(".animated-text").forEach(function (elem) {
     contents = elem.textContent.trim();
     elem.textContent = "";
     letters = contents.split("");
@@ -101,4 +101,4 @@ function animate_text1() {
     delay_start += delay * letters.length / 5;
   });
 }
-animate_text1()
+animated_text1()
