@@ -132,6 +132,10 @@ main {
 	margin-bottom: 3rem;
 
 }
+.main-title-and-intro-faqpage {
+  width: 77%;
+  margin-bottom: 0rem;
+}
 
 .intro {
 	text-align: justify;
@@ -173,6 +177,19 @@ main {
 	text-align: left;
 	width: 63%;
 	margin: auto;
+}
+
+/* faq */
+.main-bottom-part-faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.faq-chapter {
+  background-color: rgba(250,250, 250, 1);
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+  margin-bottom: 1rem;
 }
 
 /* FOOTER */
@@ -305,6 +322,14 @@ h4 {
   margin-bottom: 1.5rem;
 }
 
+h4.faq-title {
+  margin-bottom: 0rem;
+  font-family: 'Roboto Mono', monospace;
+  /* margin-top: 1rem; */
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+
 h5 {
   font-family: 'Fredoka One', cursive;
   font-size: 2.9rem;
@@ -342,6 +367,8 @@ h7 {
 
 p {
   font-family: 'Baloo Chettan 2', cursive;
+  line-height: 1.25rem;
+  text-align: justify;
 }
 p.intro {
 
@@ -350,9 +377,13 @@ span {
   font-size: 1.5rem;
 }
 
+span.smaller {
+  font-size: 2.1rem;
+}
+
 /* texte animé */
 .animated-text {
-  font-family: 'Roboto Mono', monospace;;
+  font-family: 'Roboto Mono', monospace;
   color: rgb(193, 209, 225);
   background-color: rgba(46, 54, 71, 1);
   border-radius: 0.5rem;
@@ -389,6 +420,7 @@ span {
   margin-left: 54rem;
   margin-top: -11.5rem;
 	margin-bottom: -11.5rem;
+  float: right;
 }
 
 /*///////////////////// INPUTS */
