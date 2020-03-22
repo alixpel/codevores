@@ -636,6 +636,7 @@ ul.dropdown {
 ul.dev-names {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	/* margin: auto; */
 	font-family: 'Baloo Chettan 2', cursive;

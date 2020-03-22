@@ -346,6 +346,9 @@ p {
 p.intro {
 
 }
+span {
+  font-size: 1.5rem;
+}
 
 /* texte animé */
 .animated-text {
@@ -526,8 +529,15 @@ a.portrait-link {
 	flex-direction: column;
 	justify-content: center;
 }
-/* ........PAGE ACTUS ......./*/
-
+/* ........PAGE FAQ ......./*/
+a.faq {
+  color: rgba(46, 54, 71, 1);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.95rem;
+  background-color: rgba(250, 250, 250, 1);
+  border-radius: 0.5rem;
+  padding: 0.1rem 1rem;
+}
 
 /*///////////////////////// LISTS */
 
@@ -552,7 +562,16 @@ ul.dropdown {
 
 /* ........PAGE ACTUS ......./*/
 
+/* PAGE FAQ */
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1.6rem;
+}
+li.faq-item {
 
+}
 
 
 /*///////////////////////// FONTS

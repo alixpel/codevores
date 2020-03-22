@@ -102,3 +102,24 @@ function animated_text1() {
   });
 }
 animated_text1()
+
+
+// ////////////////////////////////////////////////////////////////////
+// Envoi du formulaire
+
+// function envoi() {
+//  document.contactform.action="";
+//  // recherche de @ dans l'adresse
+//  let address=window.document.contactform.user_mail.value;
+//  let pos=address.indexOf("@");
+//  if (address=="") {
+//   alert("Vous devez donner une adresse e-mail.");
+//  }
+//  else {
+//   if (pos==-1 || pos==0 || pos==address.length-1) {
+//    alert("Une adresse e-mail a le format nom@domaine");
+//   }
+//   else // tout va bien, on envoie le formulaire
+//    document.contactform.action='mailto:alixpelletierpro@gmail.com?subject="Contact Codevores"';
+//  }
+// }

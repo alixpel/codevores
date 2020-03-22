@@ -42,7 +42,7 @@
         <div class="main-title-and-intro-contactpage outline-sub">
           <h5>formulaire de contact • • • • • •</h5>
             <hr class="main-hr">
-          <p>Devenez membre</p>
+          <p>Contactez-nous via ce formulaire :</p>
         </div>
 
         <!-- MENU DEROULANT -->
@@ -72,7 +72,7 @@
       </div> <!--  fin main top part -->
 
       <div class="main-bottom-part-contact outline-bold"> <!-- formulaire -->
-        <form action="/ma-page-de-traitement" method="post" class="outline">
+        <form name="contactform" action="/ma-page-de-traitement" method="post" ENCTYPE="text/plain" class="outline">
           <p>Les champs obligatoires sont suivis par un <strong><abbr title="required">*</abbr></strong>.</p>
           <fieldset class="outline">
             <legend>formulaire de contact</legend>
@@ -99,9 +99,11 @@
                 <textarea id="msg" name="user_message" placeholder="votre message" class="contact-input" maxlength="120" cols="30" rows="10"></textarea>
               </div>
           </fieldset>
-          <p> <button type="submit">Valider le paiement</button> </p>
+          <p><button type="submit" value="envoyer">Envoi</button></p>
         </form>
-        
+
+
+
 
 
 

@@ -261,7 +261,6 @@ footer {
   background-size: cover;
 }
 
-
 .sub-footer {
   width: 80%;
   margin: auto;
@@ -642,11 +641,11 @@ ul.dropdown {
 }
 
 /* ........PAGE CODEUSE ......./*/
-ul.dev-names {
+/* ul.dev-names {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	/* margin: auto; */
+	margin: auto;
 	font-family: 'Baloo Chettan 2', cursive;
 	font-size: 1rem;
 }
@@ -662,6 +661,13 @@ ol.asset-list {
 li.asset {
 	list-style: inside;
 	list-style-type: '-';
+} */
+/* ........PAGE FAQ ......./*/
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: black;
 }
 
 /* ALIGNEMENTS & COLORS */
