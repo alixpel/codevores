@@ -74,7 +74,8 @@
         <form action="/ma-page-de-traitement" method="post" class="outline">
           <p>Les champs obligatoires sont suivis par un <strong><abbr title="required">*</abbr></strong>.</p>
           <fieldset class="outline">
-            <legend>inscription</legend>
+            <h2>Données personnelles</h2>
+            <!-- <legend>inscription</legend> -->
               <div>
               <label for="mail">
                 <span>e-mail :</span>
@@ -92,7 +93,7 @@
           </fieldset>
           <fieldset>
             <h2>Informations de paiement</h2>
-              <p>
+              <div>
                 <label for="card">
                   <span>Type de carte :</span>
                 </label>
@@ -101,22 +102,22 @@
                   <option value="mc">Mastercard</option>
                   <option value="amex">American Express</option>
                 </select>
-              </p>
-              <p>
+              </div>
+              <div>
                 <label for="number">
                   <span>Numéro de carte :</span>
                   <strong><abbr title="required">*</abbr></strong>
                 </label>
                 <input type="text" id="number" name="cardnumber">
-              </p>
-              <p>
+              </div>
+              <div>
                 <label for="date">
                   <span>Validité :</span>
                   <strong><abbr title="required">*</abbr></strong>
                   <em>format mm/aa</em>
                 </label>
                 <input type="text" id="date" name="expiration">
-              </p>
+              </div>
           </fieldset>
         </form>
 
