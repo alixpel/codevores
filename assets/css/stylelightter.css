@@ -125,6 +125,14 @@ main {
 	margin-bottom: 3rem;
 }
 
+.main-title-and-intro-contactpage {
+	width: 77%;
+	margin-top: 1.5rem;
+	margin-left: 0rem;
+	margin-bottom: 3rem;
+
+}
+
 .intro {
 	text-align: justify;
 	font-size: 1.1rem;
