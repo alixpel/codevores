@@ -167,9 +167,13 @@ main {
 	width: 63%;
 	margin: auto;
 }
-
-/*////// PAGE ACTUS ////////////////// */
-
+.main-bottom-part-contact {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	width: 63%;
+	margin: auto;
+}
 
 /* FOOTER */
 
@@ -397,7 +401,13 @@ p.intro {
   padding: 0.1rem 0.7rem 0.25rem 0.7rem;
   width: 43%;
 }
-
+.contact-input {
+  font-family: 'Roboto Mono', monospace;
+}
+abbr[title] {
+    text-decoration: none;
+    color: rgb(96, 29, 70);
+}
 /*///////////////////// BUTTONS */
 
 .light-button {

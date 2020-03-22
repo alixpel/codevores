@@ -40,7 +40,7 @@
       <div class="main-top-part outline-bold">
 
         <div class="main-title-and-intro-contactpage outline-sub">
-          <h5>formulaire de contact</h5>
+          <h5>formulaire de contact • • • • • •</h5>
             <hr class="main-hr">
         </div>
 
@@ -59,9 +59,9 @@
             <ul class="dropdown outline-bold">
               <li class="dropdown-li"><a class="menu-item" href="index.html">espace recruteur</a></li>
               <li class="dropdown-li"><a class="menu-item" href="espace-pro.html">espace professionnel</a></li>
-              <li class="dropdown-li"><a class="menu-item-current" href="communaute.html">la communauté</a></li>
+              <li class="dropdown-li"><a class="menu-item" href="communaute.html">la communauté</a></li>
               <li class="dropdown-li"><a class="menu-item" href="actualites.html">actualités</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="contact.html">contact</a></li>
+              <li class="dropdown-li"><a class="menu-item-current" href="contact.html">contact</a></li>
               <li class="dropdown-li"><a class="menu-item" href="faq.html">f.a.q.</a></li>
               <li class="dropdown-li"><a class="menu-item" href="inscription.html">inscription</a></li>
               <li class="dropdown-li"><a class="menu-item" href="connection.html">connection</a></li>
@@ -70,21 +70,26 @@
         </div>
       </div> <!--  fin main top part -->
 
-      <div class="main-bottom-part outline-bold"> <!-- formulaire -->
-        <form action="/ma-page-de-traitement" method="post">
-    <div>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-    <div>
-        <label for="mail">e-mail :</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
-</form>
+      <div class="main-bottom-part-contact outline-bold"> <!-- formulaire -->
+        <form action="/ma-page-de-traitement" method="post" class="outline">
+          <p>Les champs obligatoires sont suivis par un <strong><abbr title="required">*</abbr></strong>.</p>
+          <fieldset class="outline">
+            <legend>formulaire de contact</legend>
+              <div>
+                <label for="name">Nom :<abbr title="required">*</abbr></label>
+                <input type="text" id="name" name="user_name" placeholder="nom" class="contact-input">
+              </div>
+              <div>
+                <label for="mail">e-mail :<abbr title="required">*</abbr></label>
+                <input type="email" id="mail" name="user_mail" placeholder="e-mail" class="contact-input">
+              </div>
+              <div>
+                <label for="msg">Message :<abbr title="required">*</abbr></label>
+                <textarea id="msg" name="user_message" placeholder="votre message" class="contact-input"></textarea>
+              </div>
+          </fieldset>
+        </form>
+
 
 
 
