@@ -103,7 +103,6 @@ main {
 .sub-main {
   width: 80%;
   margin: auto;
-  /* padding-top: 3rem; */
   padding-bottom: 2rem;
 }
 .main-top-part {
@@ -130,7 +129,6 @@ main {
 	margin-top: 1.5rem;
 	margin-left: 0rem;
 	margin-bottom: 3rem;
-
 }
 .main-title-and-intro-faqpage {
   width: 77%;
@@ -325,7 +323,6 @@ h4 {
 h4.faq-title {
   margin-bottom: 0rem;
   font-family: 'Roboto Mono', monospace;
-  /* margin-top: 1rem; */
   font-size: 1.2rem;
   background-color: rgba(255, 255, 255, 0);
 }
@@ -354,7 +351,6 @@ h6 {
 
 h7 {
 	font-family: 'Baloo Chettan 2', cursive;
-	/* font-weight: 600; */
 	color: rgb(255, 255, 255);
 	text-align: center;
 	font-size: 0.8rem;
@@ -420,7 +416,7 @@ span.smaller {
   margin-left: 54rem;
   margin-top: -11.5rem;
 	margin-bottom: -11.5rem;
-  float: right;
+  /* float: right; */
 }
 
 /*///////////////////// INPUTS */
@@ -594,7 +590,7 @@ ul.dropdown {
 
 /* ........PAGE ACTUS ......./*/
 
-/* PAGE FAQ */
+/* ..........PAGE FAQ......... */
 ol {
   display: flex;
   flex-direction: column;
