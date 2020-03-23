@@ -72,32 +72,23 @@
 
       <div class="main-bottom-part-contact outline-bold"> <!-- formulaire -->
         <form action="/ma-page-de-traitement" method="post" class="outline">
-          <h2>Données personnelles</h2>
+          <h2 class="no-background">Données personnelles</h2>
           <p>Les champs obligatoires sont suivis par un <strong><abbr title="required">*</abbr></strong>.</p>
           <fieldset class="outline">
             <!-- <legend>inscription</legend> -->
-              <div>
-              <label for="mail">
-                <p>e-mail :</P>
-                <strong><abbr title="required">*</abbr></strong>
-              </label>
+              <div class="form-item outline">
+              <label class="form-label" for="mail"><p>E-mail :</p><strong><abbr title="required">*</abbr></strong></label>
               <input type="email" id="mail" name="usermail">
-            </div>
-            <div>
-              <label for="pwd">
-                <p>Mot de passe :</p>
-                <strong><abbr title="required">*</abbr></strong>
-              </label>
-              <input type="password" id="pwd" name="password">
-            </div>
-            <div>
-              <label for="pwd">
-                <p>Re-tapez votre mot de passe :</p>
-                <strong><abbr title="required">*</abbr></strong>
-              </label>
-              <input type="password" id="pwd" name="password">
-            </div>
-
+              </div>
+              <div class="form-item outline">
+                <label class="form-label" for="pwd"><p>Mot de passe :</p><strong><abbr title="required">*</abbr></strong></label>
+                <input type="password" id="pwd" name="password">
+              </div>
+              <div class="form-item outline">
+                <label class="form-label" for="pwd"><p>Re-tapez votre mot de passe :</p><strong><abbr title="required">*</abbr></strong></label>
+                <input type="password" id="pwd" name="password">
+              </div>
+              <button class="envoi" type="submit" value="envoyer">Inscription</button>
           </fieldset>
           <!-- <fieldset>
             <h2>Informations de paiement</h2>

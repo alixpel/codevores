@@ -40,7 +40,7 @@
       <div class="main-top-part outline-bold">
 
         <div class="main-title-and-intro-contactpage outline-sub">
-          <h5>Connection</h5>
+          <h5>Connection <span class="smaller">• • • • • • • • • • • • • • • • • •</span></h5>
             <hr class="main-hr">
         </div>
 
@@ -77,28 +77,15 @@
           <p>Les champs obligatoires sont suivis par un <strong><abbr title="required">*</abbr></strong>.</p>
           <fieldset class="outline">
             <!-- <legend>inscription</legend> -->
-              <div>
-              <label for="mail">
-                <p>e-mail :</P>
-                <strong><abbr title="required">*</abbr></strong>
-              </label>
-              <input type="email" id="mail" name="usermail">
-            </div>
-            <div>
-              <label for="pwd">
-                <p>Mot de passe :</p>
-                <strong><abbr title="required">*</abbr></strong>
-              </label>
-              <input type="password" id="pwd" name="password">
-            </div>
-            <div>
-              <label for="pwd">
-                <p>Re-tapez votre mot de passe :</p>
-                <strong><abbr title="required">*</abbr></strong>
-              </label>
-              <input type="password" id="pwd" name="password">
-            </div>
-
+              <div class="form-item">
+                <label class="form-label" for="mail"><p>e-mail :</p><strong><abbr title="required">*</abbr></strong></label>
+                <input type="email" id="mail" name="usermail">
+              </div>
+              <div class="form-item">
+                <label class="form-label" for="pwd"><p>Mot de passe :</p><strong><abbr title="required">*</abbr></strong></label>
+                <input type="password" id="pwd" name="password">
+              </div>
+              <button class="envoi" type="submit" value="envoyer">Connection</button>
           </fieldset>
           <!-- <fieldset>
             <h2>Informations de paiement</h2>
