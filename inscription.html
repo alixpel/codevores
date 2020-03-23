@@ -40,7 +40,7 @@
       <div class="main-top-part outline-bold">
 
         <div class="main-title-and-intro-contactpage outline-sub">
-          <h5>formulaire d’inscription</h5>
+          <h5>formulaire d’inscription&nbsp;&nbsp;<i class="fas fa-pen-alt"></i></h5>
             <hr class="main-hr">
         </div>
 
@@ -61,9 +61,9 @@
               <li class="dropdown-li"><a class="menu-item" href="espace-pro.html">espace professionnel</a></li>
               <li class="dropdown-li"><a class="menu-item" href="communaute.html">la communauté</a></li>
               <li class="dropdown-li"><a class="menu-item" href="actualites.html">actualités</a></li>
-              <li class="dropdown-li"><a class="menu-item-current" href="contact.html">contact</a></li>
+              <li class="dropdown-li"><a class="menu-item" href="contact.html">contact</a></li>
               <li class="dropdown-li"><a class="menu-item" href="faq.html">f.a.q.</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="inscription.html">inscription</a></li>
+              <li class="dropdown-li"><a class="menu-item-current" href="inscription.html">inscription</a></li>
               <li class="dropdown-li"><a class="menu-item" href="connection.html">connection</a></li>
             </ul>
           </div>
@@ -72,26 +72,34 @@
 
       <div class="main-bottom-part-contact outline-bold"> <!-- formulaire -->
         <form action="/ma-page-de-traitement" method="post" class="outline">
+          <h2>Données personnelles</h2>
           <p>Les champs obligatoires sont suivis par un <strong><abbr title="required">*</abbr></strong>.</p>
           <fieldset class="outline">
-            <h2>Données personnelles</h2>
             <!-- <legend>inscription</legend> -->
               <div>
               <label for="mail">
-                <span>e-mail :</span>
+                <p>e-mail :</P>
                 <strong><abbr title="required">*</abbr></strong>
               </label>
               <input type="email" id="mail" name="usermail">
             </div>
             <div>
               <label for="pwd">
-                <span>Mot de passe :</span>
+                <p>Mot de passe :</p>
                 <strong><abbr title="required">*</abbr></strong>
               </label>
               <input type="password" id="pwd" name="password">
             </div>
+            <div>
+              <label for="pwd">
+                <p>Re-tapez votre mot de passe :</p>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="password" id="pwd" name="password">
+            </div>
+
           </fieldset>
-          <fieldset>
+          <!-- <fieldset>
             <h2>Informations de paiement</h2>
               <div>
                 <label for="card">
@@ -118,7 +126,7 @@
                 </label>
                 <input type="text" id="date" name="expiration">
               </div>
-          </fieldset>
+          </fieldset> -->
         </form>
 
 

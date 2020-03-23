@@ -2,25 +2,198 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/stylelight.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylelightter.css" title="light">
+    <link rel="alternate stylesheet" type="text/css" href="assets/css/styledarkter.css" title="dark">
 
     <link href="https://fonts.googleapis.com/css?family=Anaheim|Baloo+Chettan+2:400,500,600,700,800|Baloo+Thambi+2:400,500,600,700,800|Concert+One|Fredoka+One|Pridi:200,300,400,500,600,700|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Saira:100,200,300,400,500,600,700,800,900|VT323&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
     <script src="https://kit.fontawesome.com/030bc59c7c.js" crossorigin="anonymous"></script>
+
     <link rel="icon" type="image/x-icon" href="assets/photos/favicon.ico">
 
     <title>Codevores</title>
 
   </head>
-  <body>
-<!-- //////////////////SMALL HEADER////////////////// -->
+  <body onload="set_style_from_cookie()">
+<!-- //////////////////SHORT HEADER////////////////// -->
+  <header>
+      <div class="main-header outline">
+        <div class="main-header-top outline">
+          <div class="main-title outline">
+            <h1 class="left">CODEVORES</h1>
+            <h2 class="wine left">Egalité, raccourcis, croisillons.</h2>
+          </div>
+          <div class="header-button-group outline right">
+            <button class="light-button" type="button" onclick="switch_style('light');return false;" name="theme" value="Light Theme" id="light"><i class="far fa-sun fa-lg"></i></button>
+            <button class="dark-button" type="button" onclick="switch_style('dark');return false;" name="theme" value="Dark Theme" id="dark"><i class="fas fa-moon fa-lg"></i></button>
+          </div>
+        </div>
+        <!-- <div class="round-logo outline"><h3 class="center">C#</h3></div> -->
+      </div>
 
-
+  </header>
+  <hr>
 <!-- //////////////////SECTION////////////////// -->
+  <main>
+    <div class="sub-main outline">
+
+      <div class="main-top-part outline-bold">
+
+        <div class="main-title-and-intro-contactpage outline-sub">
+          <h5>Connection</h5>
+            <hr class="main-hr">
+        </div>
+
+        <!-- MENU DEROULANT -->
+        <div class="menu outline-bold">
+          <div class="buttons-and-title">
+            <div class="menu-buttons outline-sub">
+              <button type="button" class="close-button"><i class="fas fa-times fa-lg"></i></button>
+              <button type="button" class="open-button"><i class="fas fa-bars fa-lg"></i></button>
+            </div>
+            <div class="visible border outline-sub">
+             <h6>menu</h6>
+            </div>
+          </div>
+          <div class='peek border outline-bold'>
+            <ul class="dropdown outline-bold">
+              <li class="dropdown-li"><a class="menu-item" href="index.html">espace recruteur</a></li>
+              <li class="dropdown-li"><a class="menu-item" href="espace-pro.html">espace professionnel</a></li>
+              <li class="dropdown-li"><a class="menu-item" href="communaute.html">la communauté</a></li>
+              <li class="dropdown-li"><a class="menu-item" href="actualites.html">actualités</a></li>
+              <li class="dropdown-li"><a class="menu-item" href="contact.html">contact</a></li>
+              <li class="dropdown-li"><a class="menu-item" href="faq.html">f.a.q.</a></li>
+              <li class="dropdown-li"><a class="menu-item" href="inscription.html">inscription</a></li>
+              <li class="dropdown-li"><a class="menu-item-current" href="connection.html">connection</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> <!--  fin main top part -->
+
+      <div class="main-bottom-part-contact outline-bold"> <!-- formulaire -->
+        <form action="/ma-page-de-traitement" method="post" class="outline">
+          <h2>Connecte-vous</h2>
+          <p>Vous n'avez pas encore de compte Codevore ? <a class="inscrivez-vous" href="inscription.html">Inscrivez-vous !</a></p>
+          <p>Les champs obligatoires sont suivis par un <strong><abbr title="required">*</abbr></strong>.</p>
+          <fieldset class="outline">
+            <!-- <legend>inscription</legend> -->
+              <div>
+              <label for="mail">
+                <p>e-mail :</P>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="email" id="mail" name="usermail">
+            </div>
+            <div>
+              <label for="pwd">
+                <p>Mot de passe :</p>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="password" id="pwd" name="password">
+            </div>
+            <div>
+              <label for="pwd">
+                <p>Re-tapez votre mot de passe :</p>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="password" id="pwd" name="password">
+            </div>
+
+          </fieldset>
+          <!-- <fieldset>
+            <h2>Informations de paiement</h2>
+              <div>
+                <label for="card">
+                  <span>Type de carte :</span>
+                </label>
+                <select id="card" name="usercard">
+                  <option value="visa">Visa</option>
+                  <option value="mc">Mastercard</option>
+                  <option value="amex">American Express</option>
+                </select>
+              </div>
+              <div>
+                <label for="number">
+                  <span>Numéro de carte :</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="number" name="cardnumber">
+              </div>
+              <div>
+                <label for="date">
+                  <span>Validité :</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                  <em>format mm/aa</em>
+                </label>
+                <input type="text" id="date" name="expiration">
+              </div>
+          </fieldset> -->
+        </form>
 
 
-<!-- //////////////////FOOTER////////////////// -->
+      </div> <!-- fin main bottom part -->
+      <img class="tiger outline-bold" src="assets/photos/tiger-color.png" alt="">
+    </div>
+  </main>
+
+
+
+  <!-- <hr> -->
+<!-- /////////////////////////////FOOTER////////////////////////////// -->
+  <footer>
+
+    <div class="sub-footer outline">
+      <div class="sub-footer-top outline">
+        <div class="tenez outline">
+          <form>
+            <h4>Tenez-vous au courant&nbsp;&nbsp;<i class="fas fa-plug"></i>&nbsp;&nbsp;<i class="fas fa-hand-point-left"></i></h4>
+            <div class="mailing-list-ensemble outline">
+              <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="mailing-list-group outline">
+              <input class="mailing-list" type="text" placeholder="Email address" name="mail" required>
+              <input class="mailing-list-button" type="submit" value="Subscribe">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="connectez outline">
+          <h4>Connectez-vous&nbsp;&nbsp;<i class="fas fa-hand-point-right"></i>&nbsp;<i class="fas fa-hand-point-left"></i></h4>
+            <div class="social-networks outline">
+              <div class="social-networks-text outline">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+              </div>
+              <div class="social-networks-icons outline">
+                <i class="fab fa-twitter-square fa-2x"></i>
+                <i class="fab fa-facebook-square fa-2x"></i>
+                <i class="fab fa-instagram-square fa-2x"></i>
+                <i class="fab fa-linkedin fa-2x"></i>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="sub-footer-bottom outline">
+        <div class="copyright">
+          <p>Made by ©alixpelletier in Paris during confinment in 2020</p>
+        </div>
+        <div class="mentions-legales">
+          <ul class="right">
+            <li><a href="#">CGU</a></li>
+            <li><a class="right" href="mailto:alixpelletierpro@gmail.com">contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.fittext.js"></script>
+    <script>
+      jQuery("h5").fitText();
+    </script> -->
+
     <script type="text/javascript" src="assets/js/script.js"></script>
   </body>
 </html>

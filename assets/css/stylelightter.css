@@ -124,12 +124,14 @@ main {
 	margin-bottom: 3rem;
 }
 
+/* Contact - inscription - connection */
 .main-title-and-intro-contactpage {
 	width: 77%;
 	margin-top: 1.5rem;
 	margin-left: 0rem;
 	margin-bottom: 3rem;
 }
+/* faq */
 .main-title-and-intro-faqpage {
   width: 77%;
   margin-bottom: 0rem;
@@ -169,12 +171,13 @@ main {
 	width: 63%;
 	margin: auto;
 }
+/* contact - inscription - connection */
 .main-bottom-part-contact {
 	display: flex;
 	flex-direction: row;
 	text-align: left;
 	width: 63%;
-	margin: auto;
+	/* margin: auto; */
 }
 
 /* faq */
@@ -565,6 +568,16 @@ a.faq {
   background-color: rgba(250, 250, 250, 1);
   border-radius: 0.5rem;
   padding: 0.1rem 1rem;
+}
+/* ...... PAGE connection */
+.inscrivez-vous {
+	font-family: 'Baloo Chettan 2', cursive;
+  line-height: 1.25rem;
+	color: rgba(66, 74, 91, 1);
+	font-weight: 500;
+}
+.inscrivez-vous:hover {
+	color: rgb(173, 189, 205);
 }
 
 /*///////////////////////// LISTS */
