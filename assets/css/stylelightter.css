@@ -395,6 +395,12 @@ span.smaller {
   font-size: 2.1rem;
 }
 
+legend {
+	font-family: 'Baloo Chettan 2', cursive;
+  line-height: 1.25rem;
+  text-align: justify;
+}
+
 /* texte animé */
 .animated-text {
   font-family: 'Roboto Mono', monospace;
@@ -453,6 +459,21 @@ span.smaller {
 .contact-input {
   font-family: 'Roboto Mono', monospace;
 }
+
+select {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  border: 0rem;
+  border-style: solid;
+  border-radius: 0.25rem;
+  box-shadow: none;
+	color: rgba(140, 140, 140, 1);
+  background-color: rgb(255, 255, 255);
+  padding: 0.1rem 0.7rem 0.25rem 0.7rem;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+
 abbr[title] {
     text-decoration: none;
     color: rgb(96, 29, 70);
@@ -567,18 +588,21 @@ abbr[title] {
   width: 49%;
 }
 
-/* forms */
 .envoi {
-	font-family: 'Baloo Thambi 2', cursive;
+	font-family: 'Concert One', cursive;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: rgba(46, 54, 71, 1);
   border-radius: 0.25rem;
   background-color: rgb(255, 248, 140);
   border: 0rem;
   box-shadow: none;
 	margin-top: 1rem;
+	padding: 0.2rem 0.4rem 0.2rem 0.4rem;
 }
+
+/* forms */
+
 
 /*////////////////////////// LINKS */
 
@@ -620,7 +644,7 @@ a.faq {
 .inscrivez-vous {
 	font-family: 'Baloo Chettan 2', cursive;
   line-height: 1.25rem;
-	color: rgba(66, 74, 91, 1);
+	color: rgb(88, 118, 181);
 	font-weight: 500;
 }
 .inscrivez-vous:hover {
