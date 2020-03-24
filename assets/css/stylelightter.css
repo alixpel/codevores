@@ -653,6 +653,14 @@ a.portrait-link {
 	flex-direction: column;
 	justify-content: center;
 }
+
+a.cgu {
+	font-family: 'Baloo Chettan 2', cursive;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
+}
+
 /* ........PAGE FAQ ......./*/
 a.faq {
   color: rgba(46, 54, 71, 1);

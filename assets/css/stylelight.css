@@ -225,6 +225,11 @@ footer {
   padding: 1.5rem 0rem 0.5rem 0rem;
 }
 
+/* .copyright-mentions-legales {
+	font-family: 'Baloo Chettan 2', cursive;
+	color: rgb(253, 246, 226);
+} */
+
 /* ................. SEPARATIONS ..................... */
 .outline {
   /* border: 1px solid rgba(153, 255, 153, 1); */
@@ -531,6 +536,12 @@ a.menu-item-current {
 	font-family: 'Baloo Thambi 2', cursive;
   font-weight: 600;
   font-size: 1rem;
+	text-decoration: none;
+}
+a.cgu {
+	font-family: 'Baloo Chettan 2', cursive;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
 	text-decoration: none;
 }
 
