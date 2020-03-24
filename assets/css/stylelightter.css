@@ -183,7 +183,7 @@ main {
 	width: 100%;
 	background-color: rgba(250,250, 250, 1);
 	border-radius: 0.5rem;
-	padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+	padding: 0.5rem 0.5rem 0.7rem 0.5rem;
  }
 
 .form-item {
@@ -377,6 +377,9 @@ h7 {
 
 .no-background {
 	background-color: rgba(255, 255, 255, 0);
+	margin-bottom: 1rem;
+	margin-top: 0.7rem;
+	text-align: left;
 }
 
 /* p et span */
@@ -491,6 +494,10 @@ abbr[title] {
   background-color: rgb(255, 255, 255);
   padding: 0.1rem 0.7rem 0.25rem 0.7rem;
 	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+#mail, #pwd, #pwd, #name {
+	width: 20rem;
 }
 
 /* labels */

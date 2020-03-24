@@ -1,5 +1,5 @@
 
-// *** TO BE CUSTOMISED ***
+// CHANGEMENT DE FICHIER CSS
 var style_cookie_name = "style" ;
 var style_cookie_duration = 30 ;
 var style_domain = "thesitewizard.com" ;
@@ -123,3 +123,25 @@ animated_text1()
 //    document.contactform.action='mailto:alixpelletierpro@gmail.com?subject="Contact Codevores"';
 //  }
 // }
+
+// DESNIERES ACTUS ////////////////////
+function afficheArticle(article) {
+
+  let element = document.createElement("li")
+
+  let lien = document.createElement("a")
+  lien.href = article.url
+  lien.textContent = article.title
+
+  element.appendChild(lien)
+  return element
+}
+
+let liste = document.createElement("ol")
+
+for(let i = 0; i < 10; i++) {
+  article = afficheArticle(data.items[i])
+  liste.appendChild(article)
+}
+
+document.querySelector("body").appendChild(liste)
