@@ -582,24 +582,23 @@ p.p-footer {
 
 /*////////////////////////// LINKS */
 
-a {
+a.menu-item {
   font-family: 'Baloo Thambi 2', cursive;
   font-weight: 600;
   font-size: 1rem;
-  color: rgba(233, 226, 206, 1);
+  color: rgba(46, 53, 70, 1);
   text-decoration: none;
 }
-a:hover {
+a.menu-item:hover {
   text-decoration: none;
   color: rgb(193, 209, 225);
 }
-
-a.menu-item {
-	color: rgb(46, 53, 70);
-}
-
 a.menu-item-current {
 	color: rgba(46, 53, 70, 0.6);
+	font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 600;
+  font-size: 1rem;
+	text-decoration: none;
 }
 
 a.portrait-link {

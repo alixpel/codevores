@@ -38,7 +38,7 @@
   <main>
     <div class="sub-main outline">
 
-      <div class="main-top-part outline-bold">
+      <div class="main-top-part-actu outline-bold">
 
         <div class="main-title-and-intro outline-sub">
           <h5>actualités</h5>
@@ -47,7 +47,6 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, t mollit anim id est laborum.
             </div>
         </div>
-
         <!-- MENU DEROULANT -->
         <div class="menu outline-bold">
           <div class="buttons-and-title">
@@ -74,29 +73,18 @@
         </div>
       </div> <!--  fin main top part -->
 
-      <div class="main-bottom outline-bold"> <!-- ACTUALITES GEEKZONE -->
-        <h2 class="no-background">Dernières actus sur Geekzone :</h2>
+      <div class="main-bottom-part-geekzone outline-bold">
+        <div class="actualites-geekzone"><!-- ACTUALITES GEEKZONE -->
+          <h2 class="no-background">Dernières actus sur Geekzone :</h2>
+          <ol id="listeActualites">
+            <!-- actualités voir fichiers json et js -->
+          </ol>
+        </div> <!-- fin main bottom part -->
+        <img class="tiger outline-bold" src="assets/photos/tiger-color.png" alt="">
+      </div>
 
-        <ol>
-          <li>article</li>
-          <li><a>article</a></li>
-          <li><a href="https://www.geekzone.fr/category/web">article</a></li>
-          <li><a href="https://www.geekzone.fr/category/web/feed/json">article</a></li>
-          <li><a href="https://www.geekzone.fr/category/web/feed/json">article</a></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-
-      </div> <!-- fin main bottom part -->
-      <img class="tiger outline-bold" src="assets/photos/tiger-color.png" alt="">
     </div>
   </main>
-
-
-
   <!-- <hr> -->
 <!-- /////////////////////////////FOOTER////////////////////////////// -->
   <footer>
@@ -145,9 +133,8 @@
     </div>
 
   </footer>
-
+    <script src="assets/js/geekzonefeed.json"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-    <script src="assets/js/geekzonefeed.json"></script>
   </body>
 </html>

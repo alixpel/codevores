@@ -1,16 +1,11 @@
 
-// CHANGEMENT DE FICHIER CSS
+// Changement de fichier css
 var style_cookie_name = "style" ;
 var style_cookie_duration = 30 ;
 var style_domain = "thesitewizard.com" ;
 
-// *** END OF CUSTOMISABLE SECTION ***
-// You do not need to customise anything below this line
 function switch_style ( css_title )
 {
-// You may use this script on your site free of charge provided
-// you do not remove this notice or the URL below. Script from
-// https://www.thesitewizard.com/javascripts/change-style-sheets.shtml
   var i, link_tag ;
   for (i = 0, link_tag = document.getElementsByTagName("link") ;
     i < link_tag.length ; i++ ) {
@@ -46,7 +41,6 @@ function set_cookie ( cookie_name, cookie_value,
 }
 function get_cookie ( cookie_name )
 {
-    // https://www.thesitewizard.com/javascripts/cookies.shtml
 	var cookie_string = document.cookie ;
 	if (cookie_string.length != 0) {
 		var cookie_array = cookie_string.split( '; ' );
@@ -61,8 +55,7 @@ function get_cookie ( cookie_name )
 }
 
 // ////////////////////////////////////////////////////////////////////
-
-// ouverture du burger
+// Ouverture du burger
 
     document.querySelector('.close-button').style.display = "none";
     document.querySelector('ul').style.display = 'none';
@@ -74,7 +67,7 @@ document.querySelector('.open-button').addEventListener('click', function(){
     document.querySelector('ul').style.display = 'block';
 });
 
-// fermeture du burger
+// Fermeture du burger
 
 document.querySelector('.close-button').addEventListener('click', function(){
     document.querySelector('.open-button').style.display = "block";
@@ -107,24 +100,9 @@ animated_text1()
 // ////////////////////////////////////////////////////////////////////
 // Envoi du formulaire
 
-// function envoi() {
-//  document.contactform.action="";
-//  // recherche de @ dans l'adresse
-//  let address=window.document.contactform.user_mail.value;
-//  let pos=address.indexOf("@");
-//  if (address=="") {
-//   alert("Vous devez donner une adresse e-mail.");
-//  }
-//  else {
-//   if (pos==-1 || pos==0 || pos==address.length-1) {
-//    alert("Une adresse e-mail a le format nom@domaine");
-//   }
-//   else // tout va bien, on envoie le formulaire
-//    document.contactform.action='mailto:alixpelletierpro@gmail.com?subject="Contact Codevores"';
-//  }
-// }
 
-// DESNIERES ACTUS ////////////////////
+// ////////////////////////////////////////////////////////////////////
+// Dernières actus
 function afficheArticle(article) {
 
   let element = document.createElement("li")
@@ -137,11 +115,9 @@ function afficheArticle(article) {
   return element
 }
 
-let liste = document.createElement("ol")
+let liste = document.querySelector("#listeActualites")
 
 for(let i = 0; i < 10; i++) {
   article = afficheArticle(data.items[i])
   liste.appendChild(article)
 }
-
-document.querySelector("body").appendChild(liste)
