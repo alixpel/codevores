@@ -140,7 +140,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	margin-top: -2.45rem;
+	margin-top: -2.25rem;
 	width: 15rem;
 }
 .visible {
@@ -321,7 +321,7 @@ footer {
 }
 
 /* ................. SEPARATIONS ..................... */
-.outline {
+/* .outline {
   border: 1px solid rgba(153, 255, 153, 0.2);
 }
 .outline-bold {
@@ -329,7 +329,7 @@ footer {
 }
 .outline-sub {
 	border: 0.2px solid blue;
-}
+} */
 
 hr {
   background-color: rgb(255, 248, 140);
