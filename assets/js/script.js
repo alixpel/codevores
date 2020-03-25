@@ -78,7 +78,7 @@ document.querySelector('.close-button').addEventListener('click', function(){
 // ////////////////////////////////////////////////////////////////////
 // animation du texte
 function animated_text1() {
-  let delay = 200,
+  let delay = 100,
     delay_start = 0,
     contents,
     letters;

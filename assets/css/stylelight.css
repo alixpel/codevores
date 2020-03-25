@@ -114,7 +114,7 @@ main {
 	height: 20rem;
 }
 .main-title-and-intro {
-	width: 57%;
+	width: 77%;
 	margin-top: 1.5rem;
 }
 .intro {
@@ -305,20 +305,19 @@ h4 {
   /* width: 100%; */
 }
 
-h5 {
+h5.index-title {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.759rem;
+  font-size: 4.2rem;
   color: rgba(193, 209, 225, 1);
-  /* text-shadow:
-   -2px -2px 0 rgb(231, 159, 57),
-    2px -2px 0 rgb(231, 159, 57),
-    -2px 2px 0 rgb(231, 159, 57),
-     2px 2px 0 rgb(231, 159, 57); */
   letter-spacing: .2rem;
   margin: 0rem 0rem 0rem 0rem;
 }
 h5.espace-pro {
-	font-size: 2.86rem;
+	font-family: 'Fredoka One', cursive;
+	font-size: 3.8rem;
+	color: rgba(193, 209, 225, 1);
+	letter-spacing: .2rem;
+	margin: 0rem 0rem 0rem 0rem;
 }
 
 h6 {
@@ -337,6 +336,18 @@ h6 {
 
 p {
   font-family: 'Baloo Chettan 2', cursive;
+}
+
+/* texte animé */
+.animated-text {
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(193, 209, 225);
+  background-color: rgba(46, 54, 71, 1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+	margin-top: 1.8rem;
+	height: 9rem;
+	line-height: 1.5rem;
 }
 
 /* icônes fa */
@@ -540,6 +551,10 @@ a.menu-item-current {
   font-weight: 600;
   font-size: 1rem;
 	text-decoration: none;
+}
+a.contact-link {
+	font-family: 'Roboto Mono', monospace;
+  color: rgb(193, 209, 225);
 }
 a.cgu {
 	font-family: 'Baloo Chettan 2', cursive;
