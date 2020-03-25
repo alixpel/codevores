@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" media="screen and (max-width: 1370px)" href="petite_resolution.css" />
     <!-- <link rel="stylesheet" href="assets/css/stylelight.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/stylelight.css" title="light">
     <link rel="alternate stylesheet" type="text/css" href="assets/css/styledark.css" title="dark">
@@ -14,138 +15,121 @@
     <title>Codevores</title>
 
   </head>
-  <body onload="set_style_from_cookie()">
-<!-- //////////////////MAIN HEADER////////////////// -->
-  <header>
-      <div class="main-header outline">
-        <div class="main-header-top outline">
-          <div class="main-title outline">
-            <h1 class="left">CODEVORES</h1>
-            <h2 class="wine left">Egalité, raccourcis, croisillons.</h2>
+    <body onload="set_style_from_cookie()">
+    <!-- //////////////////MAIN HEADER////////////////// -->
+    <header>
+        <div class="main-header outline">
+          <div class="main-header-top outline">
+            <div class="main-title outline">
+              <h1 class="left">CODEVORES</h1>
+              <h2 class="wine left">Egalité, raccourcis, croisillons.</h2>
+            </div>
+            <div class="header-button-group outline right">
+              <button class="light-button" type="button" onclick="switch_style('light');return false;" name="theme" value="Light Theme" id="light"><i class="far fa-sun fa-lg"></i></button>
+              <button class="dark-button" type="button" onclick="switch_style('dark');return false;" name="theme" value="Dark Theme" id="dark"><i class="fas fa-moon fa-lg"></i></button>
+            </div>
+          <!-- </div>
+          <div class="round-logo outline"><h3 class="center">C#</h3></div>
+        </div> -->
+    </header>
+    <hr>
+  <!-- //////////////////SECTION////////////////// -->
+    <main>
+      <div class="sub-main outline">
+        <div class="main-top-part outline-bold">
+          <div class="main-title-and-intro outline-sub">
+            <h5 class="center index-title">TRAVAILLEZ AVEC LA CREME DE LA CREME</h5>
+            <hr class="main-hr">
+            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-          <div class="header-button-group outline right">
-            <button class="light-button" type="button" onclick="switch_style('light');return false;" name="theme" value="Light Theme" id="light"><i class="far fa-sun fa-lg"></i></button>
-            <button class="dark-button" type="button" onclick="switch_style('dark');return false;" name="theme" value="Dark Theme" id="dark"><i class="fas fa-moon fa-lg"></i></button>
+          <div class="menu outline-bold">
+            <div class="buttons-and-title"><!-- MENU DéROULANT -->
+              <div class="menu-buttons outline-sub">
+                <button type="button" class="close-button"><i class="fas fa-times fa-lg"></i></button>
+                <button type="button" class="open-button"><i class="fas fa-bars fa-lg"></i></button>
+              </div>
+              <div class="visible border outline-sub">
+               <h6>menu</h6>
+              </div>
+            </div>
+            <div class='peek border outline-bold'>
+              <ul class="dropdown outline-bold">
+                <li class="dropdown-li"><a class="menu-item-current" href="index.html">espace recruteur</a></li>
+                <li class="dropdown-li"><a class="menu-item" href="espace-pro.html">espace professionnel</a></li>
+                <li class="dropdown-li"><a class="menu-item" href="communaute.html">la communauté</a></li>
+                <li class="dropdown-li"><a class="menu-item" href="actualites.html">actualités</a></li>
+                <li class="dropdown-li"><a class="menu-item" href="contact.html">contact</a></li>
+                <li class="dropdown-li"><a class="menu-item" href="faq.html">f.a.q.</a></li>
+                <li class="dropdown-li"><a class="menu-item" href="inscription.html">inscription</a></li>
+                <li class="dropdown-li"><a class="menu-item" href="connection.html">connection</a></li>
+              </ul>
+            </div><!-- fin du MENU DéROULANT -->
           </div>
-        <!-- </div>
-        <div class="round-logo outline"><h3 class="center">C#</h3></div>
-      </div> -->
+        </div> <!--  fin main top part -->
+        <div class="main-bottom-part outline-bold">
+          <div class="pinned-ensemble"><!-- fiche punaisée -->
+            <div class="punaise"><i class="fas fa-map-pin fa-3x"></i></div>
+            <div class="pinned">
+              <ul>
+                <li class="pinned-li">Lorem ipsum dolor sit amet ekhr ielrjl cir</li>
+                <li class="pinned-li">Quip exfef effz cone rzkiuhrz rz</li>
+                <li class="pinned-li">Icia deserunt mollit zieua zeuhazh anim id</li>
+                <li class="pinned-li">Quip ex ea commodo cone rzkiuhrz rz</li>
+                <li class="pinned-li">Icia deserunt mdzzollit zieua  anim id</li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- fin main bottom part -->
+        <img class="tiger outline-bold" src="assets/photos/panther-vector.gif" alt="">
+      </div>
+    </main>
+  <!-- //////////////////FOOTER////////////////// -->
+    <footer>
 
-  </header>
-  <hr>
-<!-- //////////////////SECTION////////////////// -->
-  <main>
-    <div class="sub-main outline">
-
-      <!-- MENU DéROULANT -->
-      <div class="main-top-part outline-bold">
-
-        <div class="main-title-and-intro outline-sub">
-          <h5 class="center index-title">TRAVAILLEZ AVEC LA CREME DE LA CREME</h5>
-          <hr class="main-hr">
-          <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="sub-footer outline">
+        <div class="sub-footer-top outline">
+          <div class="tenez outline">
+            <form>
+              <h4>Tenez-vous au courant&nbsp;&nbsp;<i class="fas fa-plug"></i>&nbsp;&nbsp;<i class="fas fa-hand-point-left"></i></h4>
+              <div class="mailing-list-ensemble outline">
+                <p>Abonnez-vous à notre newsletter !</p>
+                <div class="mailing-list-group outline">
+                <input class="mailing-list" type="text" placeholder="Email address" name="mail" required>
+                <input class="mailing-list-button" type="submit" value="Subscribe">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="connectez outline">
+            <h4>Connectez-vous&nbsp;&nbsp;<i class="fas fa-hand-point-right"></i>&nbsp;<i class="fas fa-hand-point-left"></i></h4>
+              <div class="social-networks outline">
+                <div class="social-networks-text outline">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+                <div class="social-networks-icons outline">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                  <i class="fab fa-facebook-square fa-2x"></i>
+                  <i class="fab fa-instagram-square fa-2x"></i>
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </div>
+              </div>
+          </div>
         </div>
-        <!-- •••••••••••••••••••• -->
-
-        <div class="menu outline-bold">
-          <div class="buttons-and-title">
-            <div class="menu-buttons outline-sub">
-              <button type="button" class="close-button"><i class="fas fa-times fa-lg"></i></button>
-              <button type="button" class="open-button"><i class="fas fa-bars fa-lg"></i></button>
-            </div>
-            <div class="visible border outline-sub">
-             <h6>menu</h6>
-            </div>
+        <div class="sub-footer-bottom outline">
+          <div class="copyright-mentions-legales">
+            <p>Made by ©alixpelletier in Paris during confinment in 2020</p>
           </div>
-          <div class='peek border outline-bold'>
-            <ul class="dropdown outline-bold">
-              <li class="dropdown-li"><a class="menu-item-current" href="index.html">espace recruteur</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="espace-pro.html">espace professionnel</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="communaute.html">la communauté</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="actualites.html">actualités</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="contact.html">contact</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="faq.html">f.a.q.</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="inscription.html">inscription</a></li>
-              <li class="dropdown-li"><a class="menu-item" href="connection.html">connection</a></li>
+          <div class="copyright-mentions-legales">
+            <ul class="right">
+              <li><a class="cgu" href="#">CGU</a></li>
+              <li><a class="cgu" href="mailto:alixpelletierpro@gmail.com">contact</a></li>
             </ul>
           </div>
-
-        </div>
-
-      </div> <!--  fin main top part -->
-
-      <div class="main-bottom-part outline-bold">
-        <div class="punaise"><i class="fas fa-map-pin fa-3x"></i></div>
-        <div class="pinned">
-          <ul>
-            <li class="pinned-li">Lorem ipsum dolor sit amet ekhr ielrjl cir</li>
-            <li class="pinned-li">Quip exfef effz cone rzkiuhrz rz</li>
-            <li class="pinned-li">Icia deserunt mollit zieua zeuhazh anim id</li>
-            <li class="pinned-li">Quip ex ea commodo cone rzkiuhrz rz</li>
-            <li class="pinned-li">Icia deserunt mdzzollit zieua  anim id</li>
-          </ul>
-        </div>
-      </div> <!-- fin main bottom part -->
-      <img class="tiger outline-bold" src="assets/photos/panther-vector.gif" alt="">
-    </div>
-  </main>
-
-  <!-- <hr> -->
-<!-- //////////////////FOOTER////////////////// -->
-  <footer>
-
-    <div class="sub-footer outline">
-      <div class="sub-footer-top outline">
-        <div class="tenez outline">
-          <form>
-            <h4>Tenez-vous au courant&nbsp;&nbsp;<i class="fas fa-plug"></i>&nbsp;&nbsp;<i class="fas fa-hand-point-left"></i></h4>
-            <div class="mailing-list-ensemble outline">
-              <p>Abonnez-vous à notre newsletter !</p>
-              <div class="mailing-list-group outline">
-              <input class="mailing-list" type="text" placeholder="Email address" name="mail" required>
-              <input class="mailing-list-button" type="submit" value="Subscribe">
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="connectez outline">
-          <h4>Connectez-vous&nbsp;&nbsp;<i class="fas fa-hand-point-right"></i>&nbsp;<i class="fas fa-hand-point-left"></i></h4>
-            <div class="social-networks outline">
-              <div class="social-networks-text outline">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <div class="social-networks-icons outline">
-                <i class="fab fa-twitter-square fa-2x"></i>
-                <i class="fab fa-facebook-square fa-2x"></i>
-                <i class="fab fa-instagram-square fa-2x"></i>
-                <i class="fab fa-linkedin fa-2x"></i>
-              </div>
-            </div>
         </div>
       </div>
-      <div class="sub-footer-bottom outline">
-        <div class="copyright-mentions-legales">
-          <p>Made by ©alixpelletier in Paris during confinment in 2020</p>
-        </div>
-        <div class="copyright-mentions-legales">
-          <ul class="right">
-            <li><a class="cgu" href="#">CGU</a></li>
-            <li><a class="cgu" href="mailto:alixpelletierpro@gmail.com">contact</a></li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
-  </footer>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="jquery.fittext.js"></script>
-    <script>
-      jQuery("h5").fitText();
-    </script> -->
-
     <script type="text/javascript" src="assets/js/script.js"></script>
   </body>
 </html>
