@@ -134,9 +134,9 @@ main {
 	margin-top: -2.29rem;
 	width: 15rem;
 }
-.visible {
+/* .visible {
 
-}
+} */
 .peek {
 	display: flex;
 	justify-content: flex-end;
@@ -364,7 +364,7 @@ p.recruitment {
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
 	margin-top: 1.8rem;
-	height: 9rem;
+	/* height: 9rem; */
 	line-height: 1.5rem;
 }
 
@@ -621,16 +621,48 @@ li.pinned-li {
 
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad pro*/
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1200px) {
     body {
         background-color: pink;
     }
+		.main-header, .sub-main, .sub-footer {
+		  width: 95%;
+		}
+		.main-header {
+			justify-content: center;
+			height: auto;
+		}
+		.main-header-top {
+			justify-content: space-between;
+			margin-top: 0rem;
+			margin-bottom: 0.5rem;
+		}
+		.menu {
+			display: none;
+		}
+		.main-title-and-intro {
+			width: 100%;
+		}
+		h1 {
+			font-size: 12rem;
+		}
+		h2 {
+			font-size: 3.9rem;
+			text-align: center;
+		}
+		h5.index-title {
+			font-size: 2.5rem;
+		}
+		h5.espace-pro {
+			font-size: 2.7rem;
+		}
 		p
 		{
 			color: grey;
 		}
-		
-
+		img {
+			display: none;
+		}
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad*/
@@ -666,6 +698,9 @@ li.pinned-li {
     body {
         background-color: pink;
     }
+		h5.espace-pro {
+			font-size: 2.5rem;
+		}
 		p
 		{
 			color: red;
