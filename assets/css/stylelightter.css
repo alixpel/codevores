@@ -502,7 +502,11 @@ abbr[title] {
   padding: 0.1rem 0.7rem 0.25rem 0.7rem;
 	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
 }
-
+#file {
+	font-family: 'Baloo Chettan 2', cursive;
+  line-height: 1.25rem;
+	font-size: 1rem;
+}
 #mail, #pwd, #pwd, #name {
 	width: 20rem;
 }
@@ -733,7 +737,6 @@ ol {
 li.faq-item {
 
 }
-
 
 /*///////////////////////// FONTS
 font-family: 'Anaheim', sans-serif;
