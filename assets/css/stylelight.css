@@ -264,7 +264,7 @@ hr.main-hr {
 
 h1 {
   font-family: 'Concert One', cursive;
-  font-size: 6rem;
+  font-size: 8rem;
   color: rgba(253, 246, 226, 1);
   text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
   /* text-shadow:
@@ -275,7 +275,7 @@ h1 {
 }
 h2 {
   font-family: 'Concert One', cursive;
-  font-size: 2.05rem;
+  font-size: 2.7rem;
   background-color: rgba(253, 246, 226, 0.7);
   border-radius: 0.25rem;
   padding: 0.15rem 0.2rem 0.3rem 0.2rem;
@@ -382,6 +382,9 @@ p {
 .right {
   text-align: right;
 }
+.justify {
+	text-align: justify;
+}
 
 .dark-blue {
   color: #2e3647;
@@ -436,14 +439,14 @@ p {
   border-radius: 0.4rem;
   font-family: 'Concert One', cursive;
   color: #E9E2CE;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: rgba(253, 246, 226, 0);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
-  margin-top: 1rem;
+  padding: 1.2rem 0.8rem;
+  margin-top: 1.8rem;
 }
 .light-button:hover {
   border: none;
@@ -451,14 +454,14 @@ p {
   border-radius: 0.4rem;
   font-family: 'Concert One', cursive;
   color: rgba(46, 54, 71, 1);
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: rgba(253, 246, 226, 0.7);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
-  margin-top: 1rem;
+  padding: 1.2rem 0.8rem;
+  margin-top: 1.8rem;
 }
 .dark-button {
   border: none;
@@ -466,13 +469,13 @@ p {
   border-radius: 0.6rem;
   font-family: 'Concert One', cursive;
   color: #E9E2CE;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: rgba(34, 43, 64, 0);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
+  padding: 1.2rem 0.8rem;
   margin: 0rem;
 }
 .dark-button:hover {
@@ -481,13 +484,13 @@ p {
   border-radius: 0.6rem;
   font-family: 'Concert One', cursive;
   color: #E9E2CE;
-  font-size: 1.5rem;
-  background-color: rgba(34, 43, 64, 0.95);
+  font-size: 2rem;
+  background-color: rgba(34, 43, 64, 0.8);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
+  padding: 1.2rem 0.8rem;
   margin: 0rem;
 }
 
