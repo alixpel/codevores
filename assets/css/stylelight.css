@@ -101,6 +101,8 @@ header {
 }
 .smartphone-menu {
 	display: none;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* MAIN */
@@ -837,7 +839,7 @@ li.pinned-li {
 			display: none;
 		}
 		.smartphone-menu {
-			display: block;
+			/* display: block; */
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
