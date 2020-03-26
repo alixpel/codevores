@@ -164,23 +164,28 @@ main {
 	padding: 1.4rem 1rem;
 }
 
+.main-bottom-part-index, .main-bottom-part-pro {
+
+}
+
 .on-recherche {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+
 .pinned-ensemble-group {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: auto;
 	width: 100%;
 }
 .pinned-ensemble-group-single {
-	margin: auto;
-	width: 0%;
+	margin-left: 2rem;
+	/* width: 0%; */
 }
-.pinned-ensemble {
+.pinned-ensemble, .pinned-ensemble-pro {
 	margin-left: 0rem;
 	width: 45%;
 	display: flex;
@@ -670,7 +675,7 @@ li.pinned-li {
 /*///////////////////////////////// media queries ///////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad pro*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1050px) {
     body {
         background-color: pink;
     }
@@ -708,16 +713,27 @@ li.pinned-li {
 		}
 		.main-title-and-intro {
 			width: 100%;
+		}.main-top-part-index {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
 		}
-		.main-bottom-part {
+		.main-bottom-part-index, .main-bottom-part-pro {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-around;
 			margin-bottom: 1rem;
 		}
+		.pinned-ensemble-group-single {
+			margin-left: 0rem;
+		}
 		.pinned-ensemble {
     margin-left: 0rem;
+		margin-top: -1.6rem;;
+		}
+		.pinned-ensemble-pro {
 		margin-top: -1.6rem;
+		width: 100%;
 		}
 		.pinned {
 			margin: Orem 1rem 2rem 0rem;
@@ -726,7 +742,7 @@ li.pinned-li {
 		}
 		img.women-group {
 			display: block;
-			object-fit: contain;
+			/* object-fit: contain; */
 		}
 		h1 {
 			font-size: 9rem;
@@ -741,7 +757,7 @@ li.pinned-li {
 			font-size: 2.5rem;
 		}
 		h5.espace-pro {
-			font-size: 2.7rem;
+			font-size: 4.5rem !important;
 		}
 		p
 		{
@@ -754,12 +770,19 @@ li.pinned-li {
 			display: none;
 		}
 }
+/* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad*/
 @media screen and (max-width: 1050px) {
     body {
         background-color: orange;
     }
+		h5.index-title {
+			font-size: 2.5rem;
+		}
+		h5.espace-pro {
+			font-size: 2.7rem;
+		}
 		p
 		{
 
