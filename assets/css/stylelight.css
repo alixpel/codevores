@@ -97,6 +97,10 @@ header {
 
 .small-device-menu {
 	display: none;
+	margin: 1rem 0rem 1.2rem 0rem;
+}
+.smartphone-menu {
+	display: none;
 }
 
 /* MAIN */
@@ -414,6 +418,7 @@ span.fluo {
 .animated-text {
   font-family: 'Roboto Mono', monospace;
   color: rgb(193, 209, 225);
+	font-size: 1rem;
   background-color: rgba(46, 54, 71, 1);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
@@ -486,7 +491,7 @@ span.fluo {
   /* rgb(96, 29, 70) */
 }
 .beige {
-  color: (253, 246, 226);
+  color: rgb(253, 246, 226);
   /* rgb(233, 226, 206) */
 }
 /* .text-shadow {
@@ -708,7 +713,7 @@ li.pinned-li {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
-			margin-bottom: 1rem;
+			/* margin-bottom: 1rem; */
 		}
 		.small-device-li {
 			background-color: rgba(250, 250, 250, 0.9);
@@ -743,7 +748,7 @@ li.pinned-li {
 		width: 100%;
 		}
 		.pinned {
-			margin: Orem 1rem 2rem 0rem;
+			margin: 0rem 1rem 2rem 0rem;
 			width: 81%;
 			height: 59%;
 		}
@@ -761,14 +766,18 @@ li.pinned-li {
 			padding-bottom: 0.7rem;
 		}
 		h5.index-title {
-			font-size: 2.5rem !important;
+			font-size: 2.5rem;
 		}
 		h5.espace-pro {
-			font-size: 4.5rem !important;
+			font-size: 4.5rem;
 		}
 		p
 		{
-
+			font-size: 1.1rem;
+		}
+		a.menu-item {
+			font-size: 1.1rem;
+			letter-spacing: 0rem;
 		}
 		.light-button, .dark-button {
 			font-size: 3.5rem;
@@ -780,12 +789,18 @@ li.pinned-li {
 /* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad*/
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 780px) {
     body {
         background-color: orange;
     }
 		.main-title {
-			width: 72%;
+			width: 72% !important;
+		}
+		.small-device-menu {
+			margin: 0.5rem 0rem;
+		}
+		h2 {
+			font-size: 2.3rem;
 		}
 		h5.index-title {
 			font-size: 2.3rem;
@@ -793,11 +808,21 @@ li.pinned-li {
 		h5.espace-pro {
 			font-size: 2.7rem;
 		}
-		p
-		{
-
+		.animated-text {
+			font-size: 1rem;
 		}
-
+		.small-device-li {
+			padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+			border-radius: 0.5rem;
+		}
+		a.menu-item {
+			font-size: 1.1rem;
+			letter-spacing: -0.01rem;
+		}
+		p.intro
+		{
+			font-size: 0.9rem;
+		}
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Iphone 6/7/8+*/
@@ -808,6 +833,15 @@ li.pinned-li {
 		.header-button-group {
 			margin: 1rem 0.1rem 0.1rem 1rem;
 		}
+		.small-device-menu {
+			display: none;
+		}
+		.smartphone-menu {
+			display: block;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
 		h1 {
 			font-size: 11.5rem;
 		}
@@ -816,8 +850,9 @@ li.pinned-li {
 			text-align: center;
 			padding-bottom: 0.7rem;
 		}
-
-
+		.smartphone-li {
+			font-size: 1rem;
+		}
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Iphone X & 6/7/8*/
@@ -826,10 +861,8 @@ li.pinned-li {
         background-color: pink;
     }
 		h5.espace-pro {
-			font-size: 2.5rem;
+
 		}
-
-
 }
 /*///////////////////////////////////////////////////////////////////////////////////*//*Galaxy S5*/
 @media screen and (max-width: 370px) {
