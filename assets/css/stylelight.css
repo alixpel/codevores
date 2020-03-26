@@ -94,6 +94,10 @@ header {
   margin-top: 3rem;
 }
 
+.small-device-menu {
+	display: none;
+}
+
 /* MAIN */
 
 main {
@@ -467,7 +471,7 @@ p.recruitment {
   box-shadow: none;
   border-radius: 0.4rem;
   font-family: 'Concert One', cursive;
-  color: #E9E2CE;
+  color: #fdf6e2;
   font-size: 2rem;
   background-color: rgba(253, 246, 226, 0);
   display: flex;
@@ -497,7 +501,7 @@ p.recruitment {
   box-shadow: none;
   border-radius: 0.6rem;
   font-family: 'Concert One', cursive;
-  color: #E9E2CE;
+  color: #fdf6e2;
   font-size: 2rem;
   background-color: rgba(34, 43, 64, 0);
   display: flex;
@@ -619,6 +623,7 @@ li.pinned-li {
 	font-size: 0.9rem;
 }
 
+/*///////////////////////////////// media queries ///////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad pro*/
 @media screen and (max-width: 1200px) {
@@ -633,9 +638,12 @@ li.pinned-li {
 			height: auto;
 		}
 		.main-header-top {
-			justify-content: space-between;
+			justify-content: space-around;
 			margin-top: 0rem;
 			margin-bottom: 0.5rem;
+		}
+		.header-button-group {
+			margin: 0rem 0.1rem 1rem 1rem;
 		}
 		.menu {
 			display: none;
@@ -644,11 +652,12 @@ li.pinned-li {
 			width: 100%;
 		}
 		h1 {
-			font-size: 12rem;
+			font-size: 9rem;
 		}
 		h2 {
-			font-size: 3.9rem;
+			font-size: 3rem;
 			text-align: center;
+			padding-bottom: 0.7rem;
 		}
 		h5.index-title {
 			font-size: 2.5rem;
@@ -659,6 +668,9 @@ li.pinned-li {
 		p
 		{
 			color: grey;
+		}
+		.light-button, .dark-button {
+			font-size: 3.5rem;
 		}
 		img {
 			display: none;
@@ -682,14 +694,18 @@ li.pinned-li {
     body {
         background-color: olive;
     }
-		p
-		{
-			color: white;
+		.header-button-group {
+			margin: 1rem 0.1rem 0.1rem 1rem;
 		}
-		header
-		{
-			background-image: url("images/banner_mini.jpg");
+		h1 {
+			font-size: 11.5rem;
 		}
+		h2 {
+			font-size: 3.9rem;
+			text-align: center;
+			padding-bottom: 0.7rem;
+		}
+
 
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
@@ -701,10 +717,7 @@ li.pinned-li {
 		h5.espace-pro {
 			font-size: 2.5rem;
 		}
-		p
-		{
-			color: red;
-		}
+
 
 }
 /*///////////////////////////////////////////////////////////////////////////////////*//*Galaxy S5*/
@@ -712,10 +725,6 @@ li.pinned-li {
     body {
         background-color: pink;
     }
-		p
-		{
-			color: red;
-		}
 
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
@@ -724,11 +733,6 @@ li.pinned-li {
     body {
         background-color: pink;
     }
-		p
-		{
-			color: blue;
-		}
-
 }
 /*///////////////////////// FONTS
 font-family: 'Anaheim', sans-serif;

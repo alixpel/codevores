@@ -652,6 +652,19 @@ a.menu-item-current {
 	text-decoration: none;
 }
 
+a.faq-link {
+	background-color: rgba(255, 255, 255, 0);
+	margin: 0rem;
+	padding: 0rem;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 100%;
+  font-weight: 600;
+	text-decoration: none;
+}
+a.faq-link:hover {
+	color: rgb(96, 29, 70);
+}
+
 a.portrait-link {
 	display: flex;
 	flex-direction: column;
