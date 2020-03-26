@@ -176,6 +176,10 @@ main {
 	margin: auto;
 	width: 100%;
 }
+.pinned-ensemble-group-single {
+	margin: auto;
+	width: 0%;
+}
 .pinned-ensemble {
 	margin-left: 0rem;
 	width: 45%;
@@ -481,8 +485,8 @@ p.pinned-title {
 /*///////////////////// PHOTOS */
 
 .tiger {
-  margin-left: 54rem;
-  margin-bottom: -12rem;
+  margin: -16rem 0rem 0rem 52rem;
+	position: absolute;
 }
 
 /*///////////////////// INPUTS */
