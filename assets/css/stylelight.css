@@ -675,7 +675,7 @@ li.pinned-li {
 /*///////////////////////////////// media queries ///////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad pro*/
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1030px) {
     body {
         background-color: pink;
     }
@@ -779,12 +779,15 @@ li.pinned-li {
 /* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad*/
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 770px) {
     body {
         background-color: orange;
     }
+		.main-title {
+			width: 72%;
+		}
 		h5.index-title {
-			font-size: 2.5rem;
+			font-size: 2.3rem;
 		}
 		h5.espace-pro {
 			font-size: 2.7rem;
