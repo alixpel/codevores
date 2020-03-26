@@ -76,7 +76,7 @@ header {
 }
 
 .main-title {
-  /* margin-top: 1em; */
+  width: 57%;
 }
 
 .header-button-group {
@@ -691,6 +691,9 @@ li.pinned-li {
 			margin-top: 0rem;
 			margin-bottom: 0.5rem;
 		}
+		.main-title {
+			width: 69%;
+		}
 		.header-button-group {
 			margin: 0rem 0.1rem 1rem 1rem;
 		}
@@ -718,6 +721,9 @@ li.pinned-li {
 			flex-direction: row;
 			justify-content: space-between;
 		}
+		.main-top-sub-part {
+			width: 100%;
+		}
 		.main-bottom-part-index, .main-bottom-part-pro {
 			display: flex;
 			flex-direction: row;
@@ -725,7 +731,7 @@ li.pinned-li {
 			margin-bottom: 1rem;
 		}
 		.pinned-ensemble-group-single {
-			margin-left: 0rem;
+			/* margin-left: 2rem; */
 		}
 		.pinned-ensemble {
     margin-left: 0rem;
@@ -754,7 +760,7 @@ li.pinned-li {
 			padding-bottom: 0.7rem;
 		}
 		h5.index-title {
-			font-size: 2.5rem;
+			font-size: 2.5rem !important;
 		}
 		h5.espace-pro {
 			font-size: 4.5rem !important;
