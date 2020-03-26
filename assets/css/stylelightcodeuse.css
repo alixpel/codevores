@@ -93,6 +93,10 @@ header {
   margin-top: 3rem;
 }
 
+.small-device-menu {
+	display: none;
+}
+
 /* MAIN */
 
 main {

@@ -2,21 +2,22 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" media="screen and (max-width: 1370px)" href="petite_resolution.css" />
+    <!-- css -->
     <link rel="stylesheet" type="text/css" href="assets/css/stylelightcodeuse.css" title="light">
     <link rel="alternate stylesheet" type="text/css" href="assets/css/styledarkcodeuse.css" title="dark">
-
+    <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Anaheim|Baloo+Chettan+2:400,500,600,700,800|Baloo+Thambi+2:400,500,600,700,800|Concert+One|Fredoka+One|Pridi:200,300,400,500,600,700|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Saira:100,200,300,400,500,600,700,800,900|VT323&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
+    <!-- icons -->
     <script src="https://kit.fontawesome.com/030bc59c7c.js" crossorigin="anonymous"></script>
-
     <link rel="icon" type="image/x-icon" href="assets/photos/favicon.ico">
 
     <title>Codevores</title>
 
   </head>
   <body onload="set_style_from_cookie()">
-<!-- //////////////////SHORT HEADER////////////////// -->
+  <!-- //////////////////SHORT HEADER////////////////// -->
   <header>
       <div class="main-header outline">
         <div class="main-header-top outline">
@@ -29,7 +30,18 @@
             <button class="dark-button" type="button" onclick="switch_style('dark');return false;" name="theme" value="Dark Theme" id="dark"><i class="fas fa-moon fa-lg"></i></button>
           </div>
         </div>
-        <!-- <div class="round-logo outline"><h3 class="center">C#</h3></div> -->
+        <div class="small-device-menu"> <!--menu petits écrans-->
+          <ol class="small-device-ol outline-bold">
+            <li class="small-device-li"><a class="menu-item-current" href="index.html">espace recruteur</a></li>
+            <li class="small-device-li"><a class="menu-item" href="espace-pro.html">espace professionnel</a></li>
+            <li class="small-device-li"><a class="menu-item" href="communaute.html">la communauté</a></li>
+            <li class="small-device-li"><a class="menu-item" href="actualites.html">actualités</a></li>
+            <li class="small-device-li"><a class="menu-item" href="contact.html">contact</a></li>
+            <li class="small-device-li"><a class="menu-item" href="faq.html">f.a.q.</a></li>
+            <li class="small-device-li"><a class="menu-item" href="inscription.html">inscription</a></li>
+            <li class="small-device-li"><a class="menu-item" href="connection.html">connection</a></li>
+          </ol>
+        </div> <!-- fin menu petits écrans-->
       </div>
 
   </header>
