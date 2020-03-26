@@ -399,6 +399,11 @@ p.pinned-title {
 	margin-bottom: 1rem;
 }
 
+span.fluo {
+	background-color: rgb(255, 183, 255);
+	padding: 0rem 0.8rem 0rem 0.6rem;
+}
+
 /* texte animé */
 .animated-text {
   font-family: 'Roboto Mono', monospace;
