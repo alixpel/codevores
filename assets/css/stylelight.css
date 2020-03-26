@@ -115,7 +115,8 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 20rem;
+	margin: 2rem 0rem 2rem 0rem;
+	/* height: 20rem; */
 }
 .main-top-sub-part {
 	display: flex;
@@ -125,8 +126,8 @@ main {
 }
 .main-title-and-intro {
 	width: 100%;
-	margin-top: 1.5rem;
-	height: auto;
+	/* margin-top: 2.5rem; */
+	/* height: auto; */
 }
 .intro {
 	/* width: 27.8rem; */
@@ -155,29 +156,47 @@ main {
 }
 
 .recruitment {
-	width: 73%;
-	margin: 1rem 0rem 2rem 0rem;
+	width: 95%;
+	margin: 1rem 0rem;
 	text-align: center;
 	background-color: rgba(250, 250, 251, 1);
 	border-radius: 0.5rem;
-	padding: 0.5rem 1rem;
+	padding: 1.4rem 1rem;
 }
 
+.on-recherche {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.pinned-ensemble-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto;
+	width: 100%;
+}
 .pinned-ensemble {
-	margin-left: 8rem;
+	margin-left: 0rem;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .punaise {
-	margin: 0rem 1rem -3rem 16rem;
+	margin: 1rem 1rem -2rem 2rem;
 	padding: 0rem 0rem 0rem 0rem;
 }
 .pinned {
-	background-color: rgba(250, 250, 251, 1);
-	width: 46%;
+	background-color: rgb(255, 252, 202);
+	/* width: 46%; */
+	width: 25rem;
+	height: 11rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 1.5rem 1rem -11rem 1rem;
-	padding: 2.5rem 1rem 5rem 2.6rem;
+	margin: 0rem 0rem 0rem 0rem;
+	padding: 2.5rem 1rem 3rem 1.6rem;
 	box-shadow: -10px 12px 5px -9px rgba(0,0,0,0.75);
 }
 img.women-group {
@@ -370,6 +389,11 @@ p.recruitment {
 	font-size: 1.15rem;
 	margin: auto;
 }
+p.pinned-title {
+	font-size: 1rem;
+	font-family: 'Roboto Mono', monospace;
+	margin-bottom: 1rem;
+}
 
 /* texte animé */
 .animated-text {
@@ -379,7 +403,7 @@ p.recruitment {
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
 	margin-top: 1.8rem;
-	/* height: 9rem; */
+	height: 5rem;
 	line-height: 1.5rem;
 }
 
@@ -624,7 +648,7 @@ ul.dropdown {
 }
 
 ul.pinned {
-
+	text-align: justify;
 }
 li.pinned-li {
 	list-style: '- ' inside;
