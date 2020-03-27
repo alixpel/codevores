@@ -89,12 +89,6 @@ header {
   padding: 0rem;
 }
 
-.round-logo {
-  /* width: 6rem; */
-  margin: auto;
-  margin-top: 3rem;
-}
-
 .small-device-menu {
 	display: none;
 	margin: 1rem 0rem 1.2rem 0rem;
@@ -436,6 +430,7 @@ span.fluo {
 .far.fa-sun.fa-lg {
 
 }
+
 .fas.fa-plug {
   transform: rotate(90deg);
 }
@@ -711,6 +706,9 @@ li.pinned-li {
 		.small-device-menu {
 			display: block;
 		}
+		.smartphone-menu {
+			display: none;
+		}
 		.small-device-ol {
 			display: flex;
 			flex-direction: row;
@@ -839,7 +837,7 @@ li.pinned-li {
 			display: none;
 		}
 		.smartphone-menu {
-			/* display: block; */
+			display: block;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;

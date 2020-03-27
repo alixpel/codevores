@@ -89,13 +89,14 @@ header {
   padding: 0rem;
 }
 
-.round-logo {
-  margin: auto;
-  margin-top: 3rem;
-}
-
 .small-device-menu {
 	display: none;
+	margin: 1rem 0rem 1.2rem 0rem;
+}
+.smartphone-menu {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* MAIN */
@@ -710,6 +711,9 @@ li.asset {
 		.small-device-menu {
 			display: block;
 		}
+		.smartphone-menu {
+			display: none;
+		}
 		.small-device-ol {
 			display: flex;
 			flex-direction: row;
@@ -781,6 +785,14 @@ li.asset {
 		.header-button-group {
 			margin: 1rem 0.1rem 0.1rem 1rem;
 		}
+		.small-device-menu {
+			display: none;
+		}
+		.smartphone-menu {
+			display: block;
+			flex-direction: column;
+			justify-content: space-between;
+		}
 		h1 {
 			font-size: 11.5rem;
 		}
@@ -788,6 +800,12 @@ li.asset {
 			font-size: 3.9rem;
 			text-align: center;
 			padding-bottom: 0.7rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+		hr.main-hr {
+			height: 0.8rem;
 		}
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
