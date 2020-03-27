@@ -195,6 +195,11 @@ img.small-portrait {
 	border-radius: 0.5rem 0.5rem 0rem 0rem;
 	/* margin-top: 0.25rem; */
 }
+/*////// PAGE COMUNAUTé /////////////////*/
+
+.portrait-ensemble-small-device {
+	display: none;
+}
 
 /*////// PAGE CODEUSE ////////////////// */
 
@@ -727,7 +732,22 @@ li.asset {
 		}
 		.main-title-and-intro {
 			width: 100%;
-		}.main-top-part-index {
+		}
+		.main-top-part-index {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.portrait-ensemble {
+			display: none;
+		}
+		.portrait-ensemble-small-device {
+			display: block;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.portrait-group {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
@@ -735,11 +755,12 @@ li.asset {
 		.main-top-sub-part {
 			width: 100%;
 		}
-		.main-bottom-part-index, .main-bottom-part-pro {
+		.main-bottom-part {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-around;
-			margin-bottom: 1rem;
+			width: 95%;
+			/* margin: 0rem 1rem 0rem 1rem; */
 		}
 		h1 {
 			font-size: 9rem;
@@ -750,6 +771,9 @@ li.asset {
 			text-align: center;
 			padding-bottom: 0.7rem;
 		}
+		h7.dev-name {
+			font-size: 1rem;
+		}
 		p
 		{
 
@@ -757,7 +781,7 @@ li.asset {
 		.light-button, .dark-button {
 			font-size: 3.5rem;
 		}
-		img {
+		img.tiger {
 			display: none;
 		}
 }
@@ -805,7 +829,7 @@ li.asset {
 			font-size: 1rem;
 		}
 		hr.main-hr {
-			height: 0.8rem;
+			height: 0.8rem
 		}
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
