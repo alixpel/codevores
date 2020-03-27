@@ -1,3 +1,15 @@
+/* 					ORDRE :
+///					RESET
+///					DIVS
+///					TITLES
+///					FONTS
+///					PHOTOS
+///					INPUTS
+///					BUTTONS
+///					LINKS
+///					RESPONSIVE (ipad pro, ipad, large smartphone, small smartphone)
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
@@ -50,6 +62,8 @@ table {
 
 /* //////////////////////////////////////////////////////////////////// */
 
+/* POUR LA PAGE COMMUNAUTé */
+
 /* DIVISIONS */
 
 /* header */
@@ -92,6 +106,7 @@ header {
 	display: none;
 	margin: 1rem 0rem 1.2rem 0rem;
 }
+
 .smartphone-menu {
 	display: none;
 	flex-direction: column;
@@ -133,9 +148,9 @@ main {
 }
 
 .menu {
-	/* z-index: 2; */
 	position: relative;
 }
+
 .buttons-and-title {
 	display: flex;
 	flex-direction: row;
@@ -143,9 +158,11 @@ main {
 	margin-top: -2.29rem;
 	width: 15rem;
 }
+
 .visible {
 
 }
+
 .peek {
 	display: flex;
 	justify-content: flex-end;
@@ -185,33 +202,26 @@ main {
 	align-items: center;
 	margin: 6rem 0.25rem;
 }
-/* .portrait-column-border {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin: 6rem 0.25rem;
-} */
+
 .portrait-column-middle {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin: 0rem 0.25rem;
 }
+
 .portrait {
 	margin: 0.25rem;
 	padding: 0px;
-	/* background-color: black; */
 	border-radius: 0.5rem;
 }
 
 img.small-portrait {
 	border-radius: 0.5rem 0.5rem 0rem 0rem;
-	/* margin-top: 0.25rem; */
 }
 
 /*////// PAGE CODEUSE ////////////////// */
-
+/*
 .main-top-part-devpage {
 	display: flex;
 	flex-direction: column;
@@ -228,9 +238,7 @@ img.small-portrait {
 
 .color-background {
 	background-color: rgba(255, 250, 178, 1);
-	/* background-image: url("../photos/portrait1.png"); */
 	background-position: center;
-	/* background-size: contain; */
 	background-repeat: no-repeat;
 	z-index: 1;
 	height: 34rem;
@@ -242,6 +250,7 @@ img.small-portrait {
 .dev-cv {
 
 }
+
 .dev-title {
 	text-align: center;
 	background-color: rgba(450, 450, 450, 0.62);
@@ -257,25 +266,24 @@ img.small-portrait {
 	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
 	border-radius: 0.5rem;
 }
+
 .main-title-and-intro-devpage-1 {
 	width: 30rem;
 	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
 	padding: 0.3rem;
-	/* color: rgb(96, 29, 70); */
 	background-color: rgba(450, 450, 450, 0.5);
 	text-align: justify;
 	border-radius: 0.5rem;
 }
+
 .main-title-and-intro-devpage-2 {
 	width: 24rem;
 	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
 	padding: 0.3rem;
-	/* color: rgb(96, 29, 70); */
 	background-color: rgba(450, 450, 450, 0.7);
 	text-align: justify;
 	border-radius: 0.5rem;
-}
-
+} */
 
 /* FOOTER */
 
@@ -285,7 +293,6 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 
 .sub-footer {
 	width: 80%;
@@ -298,15 +305,18 @@ footer {
 	justify-content: space-between;
 	padding-top: 11rem;
 }
+
 .tenez, .connectez {
 	width: 46%;
 	background-color: rgba(193, 209, 225, 0.6);
 	border-radius: 0.25rem;
 	/* padding: 0rem 0rem 1rem 0rem; */
 }
+
 .mailing-list-ensemble {
 	margin: 0rem 1rem 1rem 1rem;
 }
+
 .mailing-list-group {
 	margin-top: 4.25rem;
 	display: flex;
@@ -317,9 +327,11 @@ footer {
 .social-networks {
 	margin: 1rem;
 }
+
 .social-networks-text {
 
 }
+
 .social-networks-icons {
 	margin-top: 2rem;
 	display: flex;
@@ -344,12 +356,15 @@ footer {
 .outline {
 	/* border: 1px solid rgba(153, 255, 153, 0.2); */
 }
+
 .outline-bold {
 	/* border: 1px solid rgba(255, 102, 255, 0.2); */
 }
+
 .outline-sub {
 	/* border: 0.2px solid blue; */
 }
+
 
 hr {
 	background-color: rgb(255, 248, 140);
@@ -428,8 +443,9 @@ h5 {
 	letter-spacing: .2rem;
 	margin: 0rem 0rem 0rem 0rem;
 }
+
 h5.espace-pro {
-	font-size: 2.86rem;
+
 }
 
 h6 {
@@ -465,12 +481,15 @@ p {
 .fas.fa-moon.fa-lg {
 
 }
+
 .far.fa-sun.fa-lg {
 
 }
+
 .fas.fa-plug {
 	transform: rotate(90deg);
 }
+
 .fas.fa-hand-point-left {
 
 }
@@ -479,6 +498,7 @@ p {
 	color: rgb(255, 248, 140);
 	text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
 }
+
 /* fa espace pro */
 
 .far.fa-smile {
@@ -524,6 +544,7 @@ p {
 	padding: 0.7rem;
 	margin-top: 1rem;
 }
+
 .light-button:hover {
 	border: none;
 	box-shadow: none;
@@ -555,6 +576,7 @@ p {
 	padding: 0.7rem;
 	margin: 0rem;
 }
+
 .dark-button:hover {
 	border: none;
 	box-shadow: none;
@@ -578,6 +600,7 @@ p {
 	border-radius: 1.2rem 0rem 0rem 0rem;
 	color: white;
 }
+
 .open-button {
 	background-color: rgb(204, 255, 204);
 	padding: 0.5rem 0.7rem;
@@ -607,10 +630,12 @@ a.menu-item {
 	color: rgba(46, 53, 70, 1);
 	text-decoration: none;
 }
+
 a.menu-item:hover {
 	text-decoration: none;
 	color: rgb(193, 209, 225);
 }
+
 a.menu-item-current {
 	color: rgba(46, 53, 70, 0.6);
 	font-family: 'Baloo Thambi 2', cursive;
@@ -634,12 +659,14 @@ a.cgu {
 }
 
 /* ........PAGE CODEUSE ......./*/
+
 a.dev-name-current {
 	color: rgba(46, 54, 71, 0.6);
 	border-radius: 0.5rem;
 	background-color: rgba(430, 430, 450, 0.65);
 	padding: 0rem 0.8rem 0rem 0.8rem;
 }
+
 a.dev-name {
 	color: rgba(46, 54, 71, 1);
 	border-radius: 0.5rem;
@@ -670,6 +697,7 @@ ul.dropdown {
 }
 
 /* ........PAGE CODEUSE ......./*/
+
 ul.dev-names {
 	display: flex;
 	flex-direction: row;
@@ -679,6 +707,7 @@ ul.dev-names {
 	font-family: 'Baloo Chettan 2', cursive;
 	font-size: 1rem;
 }
+
 li.dev-names {
 	text-align: center;
 }
@@ -688,6 +717,7 @@ ol.asset-list {
 	font-size: 1rem;
 	color: rgb(67, 104, 141);
 }
+
 li.asset {
 	list-style: inside;
 	list-style-type: '-';
@@ -696,18 +726,24 @@ li.asset {
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////// media queries ///////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////////////*/
+
 /*Ipad pro*/
+
 @media screen and (max-width: 1030px) {
+
 	body {
 		background-color: pink;
 	}
+
 	.main-header, .sub-main, .sub-footer {
 		width: 95%;
 	}
+
 	.main-header {
 		justify-content: center;
 		height: auto;
 	}
+
 	.main-header-top {
 		justify-content: space-between;
 		margin-top: 0rem;
@@ -716,40 +752,50 @@ li.asset {
 	/* .main-title {
 		width: 69%;
 	} */
+
 	.header-button-group {
 		margin: 0rem 0.1rem 1rem 1rem;
 	}
+
 	.menu {
 		display: none;
 	}
+
 	.small-device-menu {
 		display: block;
 	}
+
 	.smartphone-menu {
 		display: none;
 	}
+
 	.small-device-ol {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		margin-bottom: 1rem;
 	}
+
 	.small-device-li {
 		background-color: rgba(250, 250, 250, 0.9);
 		padding: 0.5rem 0.5rem 0.4rem 0.5rem;
 		border-radius: 0.5rem;
 	}
+
 	.main-title-and-intro {
 		width: 100%;
 	}
+
 	.main-top-part-index {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
 	.portrait-ensemble-large-screen {
 		display: none;
 	}
+
 	.portrait-ensemble-small-device {
 		display: block;
 		display: flex;
@@ -757,14 +803,17 @@ li.asset {
 		justify-content: space-between;
 		margin: 2rem 0rem;
 	}
+
 	.portrait-group {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
 	.main-top-sub-part {
 		width: 100%;
 	}
+
 	.main-bottom-part {
 		display: flex;
 		flex-direction: row;
@@ -772,102 +821,134 @@ li.asset {
 		width: 95%;
 		/* margin: 0rem 1rem 0rem 1rem; */
 	}
+
 	h1 {
 		font-size: 9rem;
 		max-width: 40%;
 	}
+
 	h2 {
 		font-size: 3rem;
 		text-align: center;
 		padding-bottom: 0.7rem;
 	}
+
 	h7.dev-name {
 		font-size: 1rem;
 	}
+
 	p
 	{
 
 	}
+
 	.light-button, .dark-button {
 		font-size: 3.5rem;
 	}
+
 	img.tiger {
 		display: none;
 	}
 }
 
 @media screen and (min-width: 770px) and (max-width: 1030px) {
+
 	.main-title {
 		width: 69%;
 	}
-	
+
 }
 /* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
+
 /*Ipad*/
+
 @media screen and (max-width: 770px) {
+
 	body {
 		background-color: orange;
 	}
+
 	.main-title {
 		width: 72%;
 	}
+
 	p
 	{
 
 	}
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
+
 /*Iphone 6/7/8+*/
+
 @media screen and (max-width: 425px) {
+
 	body {
 		background-color: olive;
 	}
+
 	.header-button-group {
 		margin: 1rem 0.1rem 0.1rem 1rem;
 	}
+
 	.small-device-menu {
 		display: none;
 	}
+
 	.smartphone-menu {
 		display: block;
 		flex-direction: column;
 		justify-content: space-between;
 	}
+
 	h1 {
 		font-size: 11.5rem;
 	}
+
 	h2 {
 		font-size: 3.9rem;
 		text-align: center;
 		padding-bottom: 0.7rem;
 	}
+
 	p {
 		font-size: 1rem;
 	}
+
 	hr.main-hr {
 		height: 0.8rem
 	}
 }
+
 /*///////////////////////////////////////////////////////////////////////////////////*/
+
 /*Iphone X & 6/7/8*/
+
 @media screen and (max-width: 385px) {
+
 	body {
 		background-color: pink;
 	}
+
 	h5.espace-pro {
 		font-size: 2.5rem;
 	}
 }
 /*///////////////////////////////////////////////////////////////////////////////////*//*Galaxy S5*/
+
 @media screen and (max-width: 370px) {
+
 	body {
 		background-color: pink;
 	}
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
+
 /*Iphone 5S*/
+
 @media screen and (max-width: 330px) {
+
 	body {
 		background-color: pink;
 	}
