@@ -218,10 +218,6 @@ img.small-portrait {
 	width: 75%;
 }
 
-.main-bottom-part-devpage {
-
-}
-
 .dev-title {
 	text-align: center;
 	background-color: rgba(455, 455, 455, 1);
@@ -254,9 +250,10 @@ img.small-portrait {
 }
 
 .asset-list {
+	flex: 2;
 	width: 20rem;
-	/* margin: 0.1rem 0.1rem 0.1rem 0.1rem; */
-	padding: 2rem 1.5rem;
+	margin-right: 1rem;
+	padding: 2rem 1.5rem 2rem 1.5rem;
 	/* color: rgb(96, 29, 70); */
 	background-color: rgba(455, 455, 455, 0.86);
 	text-align: justify;
@@ -265,18 +262,19 @@ img.small-portrait {
 }
 
 .large-portrait-photo {
+	flex: 1;
 	/* margin: 0.3rem 0rem 0.5rem 0rem; */
 	border-radius: 0.5rem;
 }
 .dev-history {
 	width: 41rem;
 	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
-	padding: 0.3rem;
+	padding: 0.8rem 0.9rem;
 	/* color: rgb(96, 29, 70); */
 	background-color: rgba(455, 455, 455, 0.86);
 	text-align: justify;
 	border-radius: 0.5rem;
-	width: 95%;
+	width: 91%;
 }
 
 .dev-names {
@@ -291,7 +289,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .sub-footer {
   width: 80%;
@@ -524,9 +521,9 @@ p {
 /*///////////////////// PHOTOS */
 
 .tiger {
-  margin-left: 54rem;
+  margin-left: 57rem;
   margin-top: -11.5rem;
-	margin-bottom: -11.5rem;
+	margin-bottom: -9.5rem;
 }
 
 /*///////////////////// INPUTS */
