@@ -220,71 +220,6 @@ img.small-portrait {
 	border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
-/*////// PAGE CODEUSE ////////////////// */
-/*
-.main-top-part-devpage {
-	display: flex;
-	flex-direction: column;
-	justify-content:flex-start;
-}
-
-.main-bottom-part-devpage {
-
-}
-
-.dev-names {
-	width: 53rem;
-}
-
-.color-background {
-	background-color: rgba(255, 250, 178, 1);
-	background-position: center;
-	background-repeat: no-repeat;
-	z-index: 1;
-	height: 34rem;
-	width: 78%;
-	border-radius: 0rem Orem 0.5rem 0.5rem;
-	margin: 0rem 0rem;
-}
-
-.dev-cv {
-
-}
-
-.dev-title {
-	text-align: center;
-	background-color: rgba(450, 450, 450, 0.62);
-	border-radius: 0.5rem;
-	width: 20rem;
-	width: 78%;
-	border-radius: 0.5rem 0.5rem 0rem 0rem;
-	margin: 4rem 0rem;
-}
-
-.large-portrait-photo {
-	border-radius: 0rem;
-	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
-	border-radius: 0.5rem;
-}
-
-.main-title-and-intro-devpage-1 {
-	width: 30rem;
-	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
-	padding: 0.3rem;
-	background-color: rgba(450, 450, 450, 0.5);
-	text-align: justify;
-	border-radius: 0.5rem;
-}
-
-.main-title-and-intro-devpage-2 {
-	width: 24rem;
-	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
-	padding: 0.3rem;
-	background-color: rgba(450, 450, 450, 0.7);
-	text-align: justify;
-	border-radius: 0.5rem;
-} */
-
 /* FOOTER */
 
 footer {
@@ -392,11 +327,6 @@ h1 {
 	font-size: 4rem;
 	color: rgba(253, 246, 226, 1);
 	text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
-	/* text-shadow:
-	-3px -3px 0 rgb(96, 29, 70),
-	3px -3px 0 rgb(96, 29, 70),
-	-3px 3px 0 rgb(96, 29, 70),
-	3px 3px 0 rgb(96, 29, 70); */
 }
 h2 {
 	font-family: 'Concert One', cursive;
@@ -404,7 +334,6 @@ h2 {
 	background-color: rgba(253, 246, 226, 0.7);
 	border-radius: 0.25rem;
 	padding: 0.15rem 0.2rem 0.3rem 0.2rem;
-	/* text-shadow: 0px 0px 4px rgba(187, 194, 210, 0.5); */
 }
 
 h3 {
@@ -427,7 +356,6 @@ h4 {
 	border-radius: 0.25rem 0.25rem 0rem 0rem;
 	padding: 0.5rem 0rem 0.48rem 0.6rem;
 	margin-bottom: 1.5rem;
-	/* width: 100%; */
 }
 
 h5 {
@@ -435,17 +363,8 @@ h5 {
 	font-size: 4.2rem;
 	color: rgba(193, 209, 225, 1);
 	text-align: center;
-	/* text-shadow:
-	-2px -2px 0 rgb(231, 159, 57),
-	2px -2px 0 rgb(231, 159, 57),
-	-2px 2px 0 rgb(231, 159, 57),
-	2px 2px 0 rgb(231, 159, 57); */
 	letter-spacing: .2rem;
 	margin: 0rem 0rem 0rem 0rem;
-}
-
-h5.espace-pro {
-
 }
 
 h6 {
@@ -462,7 +381,6 @@ h6 {
 
 h7 {
 	font-family: 'Baloo Chettan 2', cursive;
-	/* font-weight: 600; */
 	color: rgb(255, 255, 255);
 	text-align: center;
 	font-size: 0.8rem;
@@ -476,6 +394,40 @@ h7 {
 p {
 	font-family: 'Baloo Chettan 2', cursive;
 }
+
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+
+.dark-blue {
+	color: #2e3647;
+}
+/* dark-blue rgba(46, 54, 71, 1) */
+.light-blue {
+	color: #C1D1E1;
+	/* rgb(193, 209, 225) */
+}
+.light-yellow {
+	color: rgb(255, 248, 140);
+}
+/* gold rgb(231, 159, 57) */
+.wine {
+	color: #601D46;
+	/* rgb(96, 29, 70) */
+}
+.beige {
+	color: rgb(253, 246, 226);
+	/* rgb(233, 226, 206) */
+}
+/* .text-shadow {
+text-shadow: 0px 0px 15px 5px rgba(46, 54, 71, 1);
+} */
 
 /* icônes fa */
 .fas.fa-moon.fa-lg {
@@ -621,7 +573,7 @@ p {
 	width: 49%;
 }
 
-/*////////////////////////// LINKS */
+/*////////////////////////// LINKS//////////////////////////// */
 
 a.menu-item {
 	font-family: 'Baloo Thambi 2', cursive;
@@ -902,6 +854,10 @@ li.asset {
 		justify-content: space-between;
 	}
 
+	.sub-footer-top {
+		flex-direction: column;
+	}
+
 	h1 {
 		font-size: 11.5rem;
 	}
@@ -965,37 +921,3 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Saira', sans-serif;
 font-family: 'VT323', monospace; */
 /* ALIGNEMENTS & COLORS */
-
-.center {
-	text-align: center;
-}
-.left {
-	text-align: left;
-}
-.right {
-	text-align: right;
-}
-
-.dark-blue {
-	color: #2e3647;
-}
-/* dark-blue rgba(46, 54, 71, 1) */
-.light-blue {
-	color: #C1D1E1;
-	/* rgb(193, 209, 225) */
-}
-.light-yellow {
-	color: rgb(255, 248, 140);
-}
-/* gold rgb(231, 159, 57) */
-.wine {
-	color: #601D46;
-	/* rgb(96, 29, 70) */
-}
-.beige {
-	color: rgb(253, 246, 226);
-	/* rgb(233, 226, 206) */
-}
-/* .text-shadow {
-text-shadow: 0px 0px 15px 5px rgba(46, 54, 71, 1);
-} */

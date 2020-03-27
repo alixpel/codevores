@@ -872,6 +872,10 @@ li.asset {
 		background-color: pink;
 	}
 
+	.sub-footer-top {
+		flex-direction: column;
+	}
+
 	h5.espace-pro {
 		font-size: 2.5rem;
 	}

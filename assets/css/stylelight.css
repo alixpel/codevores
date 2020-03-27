@@ -133,8 +133,8 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 2rem 0rem 2rem 0rem;
-	/* height: 20rem; */
 }
+
 .main-top-sub-part {
 	display: flex;
 	flex-direction: column;
@@ -451,16 +451,6 @@ span.fluo {
 	height: 5rem;
 	line-height: 1.5rem;
 }
-
-/* icônes fa */
-
-/* .fas.fa-moon.fa-lg {
-
-}
-
-.far.fa-sun.fa-lg {
-
-} */
 
 .fas.fa-plug {
   transform: rotate(90deg);
@@ -940,7 +930,11 @@ li.pinned-li {
 			margin: 1rem 0.1rem 0.1rem 1rem;
 		}
 
-		/* .small-device-menu {
+		.sub-footer-top {
+			flex-direction: column;
+		}
+
+		.small-device-menu {
 			display: none;
 		}
 
@@ -949,7 +943,7 @@ li.pinned-li {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-		} */
+		}
 
 		h1 {
 			font-size: 11.5rem;
