@@ -3,6 +3,7 @@
 ///					DIVS
 ///					TITLES
 ///					FONTS
+///					COLORS AND TEXT ALIGN
 ///					PHOTOS
 ///					INPUTS
 ///					BUTTONS
@@ -119,7 +120,7 @@ main {
 .sub-main {
 	width: 80%;
   margin: auto;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 	/* background-image: url("../photos/panther-print.jpg"); */
 }
 .menu-and-codeuse {
@@ -176,7 +177,7 @@ main {
 	width: 63%;
 	margin: auto;
 }
-
+/*
 .portrait-column-side {
 	display: flex;
 	flex-direction: column;
@@ -200,9 +201,8 @@ main {
 .portrait {
 	margin: 0.25rem;
 	padding: 0px;
-	/* background-color: black; */
 	border-radius: 0.5rem;
-}
+} */
 
 img.small-portrait {
 	border-radius: 0.5rem 0.5rem 0rem 0rem;
@@ -222,9 +222,6 @@ img.small-portrait {
 
 }
 
-.dev-names {
-	width: 57rem;
-}
 .dev-title {
 	text-align: center;
 	background-color: rgba(455, 455, 455, 1);
@@ -240,32 +237,26 @@ img.small-portrait {
 	background-image: url("../photos/panther-print-xlarge.jpg");
 	width: 100%;
 	border-radius: 0rem 0rem 1rem 1rem;
-	/* padding: 1rem 1rem 1rem 1rem; */
+	padding: 1rem 0rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 2rem;
-	padding-bottom: 1rem
 }
 
-.large-portrait-photo {
-	margin: 0.3rem 0rem 0.5rem 0rem;
-	border-radius: 0.5rem;
+.assets-and-photo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 0.8rem;
+	width: 95%;
 }
-.main-title-and-intro-devpage-1 {
-	width: 41rem;
-	margin: -4rem 0.1rem 1.1rem 0.1rem;
-	padding: 0.3rem;
-	/* color: rgb(96, 29, 70); */
-	background-color: rgba(455, 455, 455, 0.86);
-	text-align: justify;
-	border-radius: 0.5rem;
-}
-.main-title-and-intro-devpage-2 {
-	width: 26rem;
-	margin: 1.1rem 0rem 0.5rem 0rem;
-	padding: 0.6rem 1.5rem;
+
+.asset-list {
+	width: 20rem;
+	/* margin: 0.1rem 0.1rem 0.1rem 0.1rem; */
+	padding: 2rem 1.5rem;
 	/* color: rgb(96, 29, 70); */
 	background-color: rgba(455, 455, 455, 0.86);
 	text-align: justify;
@@ -273,6 +264,24 @@ img.small-portrait {
 	line-height: 1.3rem;
 }
 
+.large-portrait-photo {
+	/* margin: 0.3rem 0rem 0.5rem 0rem; */
+	border-radius: 0.5rem;
+}
+.dev-history {
+	width: 41rem;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+	padding: 0.3rem;
+	/* color: rgb(96, 29, 70); */
+	background-color: rgba(455, 455, 455, 0.86);
+	text-align: justify;
+	border-radius: 0.5rem;
+	width: 95%;
+}
+
+.dev-names {
+	width: 57rem;
+}
 
 /* FOOTER */
 
@@ -453,6 +462,40 @@ h7 {
 p {
   font-family: 'Baloo Chettan 2', cursive;
 }
+
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.dark-blue {
+  color: #2e3647;
+}
+/* dark-blue rgba(46, 54, 71, 1) */
+.light-blue {
+  color: #C1D1E1;
+  /* rgb(193, 209, 225) */
+}
+.light-yellow {
+  color: rgb(255, 248, 140);
+}
+/* gold rgb(231, 159, 57) */
+.wine {
+  color: #601D46;
+  /* rgb(96, 29, 70) */
+}
+.beige {
+  color: rgb(253, 246, 226);
+  /* rgb(233, 226, 206) */
+}
+/* .text-shadow {
+  text-shadow: 0px 0px 15px 5px rgba(46, 54, 71, 1);
+} */
 
 /* icônes fa */
 .fas.fa-moon.fa-lg {
@@ -675,7 +718,7 @@ li.dev-names {
 	text-align: center;
 }
 
-ol.asset-list {
+ol.asset-ol {
 	font-family: 'Baloo Chettan 2', cursive;
 	font-size: 1rem;
 	color: rgb(52, 52, 52);
@@ -685,6 +728,226 @@ li.asset {
 	list-style-type: '-';
 }
 
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////// media queries ///////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*Ipad pro*/
+
+@media screen and (max-width: 1030px) {
+
+	body {
+		background-color: pink;
+	}
+
+	.main-header, .sub-main, .sub-footer {
+		width: 95%;
+	}
+
+	.main-header {
+		justify-content: center;
+		height: auto;
+	}
+
+	.main-header-top {
+		justify-content: space-between;
+		margin-top: 0rem;
+		margin-bottom: 0.5rem;
+	}
+	/* .main-title {
+		width: 69%;
+	} */
+
+	.header-button-group {
+		margin: 0rem 0.1rem 1rem 1rem;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.small-device-menu {
+		display: block;
+	}
+
+	.smartphone-menu {
+		display: none;
+	}
+
+	.small-device-ol {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+	}
+
+	.small-device-li {
+		background-color: rgba(250, 250, 250, 0.9);
+		padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+		border-radius: 0.5rem;
+	}
+
+	.main-title-and-intro {
+		width: 100%;
+	}
+
+	.main-top-part-devpage {
+		width: 100%;
+	}
+
+	.dev-names {
+		width: 100%;
+	}
+	/* .main-top-part-index {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.main-top-sub-part {
+		width: 100%;
+	} */
+
+	/* .main-bottom-part {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 95%;
+	} */
+
+	h1 {
+		font-size: 9rem;
+		max-width: 40%;
+	}
+
+	h2 {
+		font-size: 3rem;
+		text-align: center;
+		padding-bottom: 0.7rem;
+	}
+
+	h7.dev-name {
+		font-size: 1rem;
+	}
+
+	p
+	{
+
+	}
+
+	.light-button, .dark-button {
+		font-size: 3.5rem;
+	}
+
+	img.tiger {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 770px) and (max-width: 1030px) {
+
+	.main-title {
+		width: 69%;
+	}
+
+}
+/* fin ipad pro */
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*Ipad*/
+
+@media screen and (max-width: 770px) {
+
+	body {
+		background-color: orange;
+	}
+
+	.main-title {
+		width: 72%;
+	}
+
+	p
+	{
+
+	}
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*Iphone 6/7/8+*/
+
+@media screen and (max-width: 425px) {
+
+	body {
+		background-color: olive;
+	}
+
+	.header-button-group {
+		margin: 1rem 0.1rem 0.1rem 1rem;
+	}
+
+	.small-device-menu {
+		display: none;
+	}
+
+	.smartphone-menu {
+		display: block;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	h1 {
+		font-size: 11.5rem;
+	}
+
+	h2 {
+		font-size: 3.9rem;
+		text-align: center;
+		padding-bottom: 0.7rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	hr.main-hr {
+		height: 0.8rem
+	}
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*Iphone X & 6/7/8*/
+
+@media screen and (max-width: 385px) {
+
+	body {
+		background-color: pink;
+	}
+
+	h5.espace-pro {
+		font-size: 2.5rem;
+	}
+}
+/*//////////////////////////////////////////////////////////////////////////////////
+
+/*//*Galaxy S5*/
+
+@media screen and (max-width: 370px) {
+
+	body {
+		background-color: pink;
+	}
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+/*Iphone 5S*/
+
+@media screen and (max-width: 330px) {
+
+	body {
+		background-color: pink;
+	}
+}
 
 
 
@@ -699,37 +962,3 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Saira', sans-serif;
 font-family: 'VT323', monospace; */
 /* ALIGNEMENTS & COLORS */
-
-.center {
-  text-align: center;
-}
-.left {
-  text-align: left;
-}
-.right {
-  text-align: right;
-}
-
-.dark-blue {
-  color: #2e3647;
-}
-/* dark-blue rgba(46, 54, 71, 1) */
-.light-blue {
-  color: #C1D1E1;
-  /* rgb(193, 209, 225) */
-}
-.light-yellow {
-  color: rgb(255, 248, 140);
-}
-/* gold rgb(231, 159, 57) */
-.wine {
-  color: #601D46;
-  /* rgb(96, 29, 70) */
-}
-.beige {
-  color: rgb(253, 246, 226);
-  /* rgb(233, 226, 206) */
-}
-/* .text-shadow {
-  text-shadow: 0px 0px 15px 5px rgba(46, 54, 71, 1);
-} */

@@ -3,6 +3,7 @@
 ///					DIVS
 ///					TITLES
 ///					FONTS
+///					ALIGNEMENTS & COLORS
 ///					PHOTOS
 ///					INPUTS
 ///					BUTTONS
@@ -162,7 +163,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	margin-top: -2.29rem;
+	margin-top: -4.6rem;
 	width: 15rem;
 }
 
@@ -306,7 +307,7 @@ footer {
 	color: rgb(253, 246, 226);
 } */
 
-/* .......... CONTOURS POUR VISUALISATION - à EFFACER ........... */
+/* .......... CONTOURS POUR VISUALISATION - à désactiver ........... */
 
 .outline {
   border: 1px solid rgba(153, 255, 153, 1);
@@ -881,6 +882,7 @@ li.pinned-li {
 /* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*Ipad*/
+
 @media screen and (max-width: 770px) {
 
 		body {
