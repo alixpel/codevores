@@ -49,7 +49,6 @@ table {
 /* ///////////////// FIN RESET /////////////////*/
 
 /* //////////////////////////////////////////////////////////////////// */
-/* POR LA PAGES COMMUNAUTé */
 
 /* DIVISIONS */
 
@@ -99,7 +98,7 @@ header {
 	justify-content: space-between;
 }
 
-/* MAIN */
+/*//////////////////////////// MAIN /////////////////////////////*/
 
 main {
 	width: 100%;
@@ -172,7 +171,7 @@ main {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin: 6rem 0.25rem;
+	margin: 0.25rem 0.25rem;
 }
 
 .portrait-ensemble-small-device {
@@ -714,9 +713,9 @@ li.asset {
 		margin-top: 0rem;
 		margin-bottom: 0.5rem;
 	}
-	.main-title {
+	/* .main-title {
 		width: 69%;
-	}
+	} */
 	.header-button-group {
 		margin: 0rem 0.1rem 1rem 1rem;
 	}
@@ -795,6 +794,13 @@ li.asset {
 	img.tiger {
 		display: none;
 	}
+}
+
+@media screen and (min-width: 770px) and (max-width: 1030px) {
+	.main-title {
+		width: 69%;
+	}
+	
 }
 /* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
