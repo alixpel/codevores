@@ -60,7 +60,8 @@ table {
 }
 /* ///////////////// FIN RESET /////////////////*/
 
-/* //////////////////////////////////////////////////////////////////// */
+/* ////////////Pour les pages connection, inscription, faq, contact////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
 
 /* DIVISIONS */
 
@@ -899,7 +900,7 @@ li.faq-item {
 		justify-content: space-between;
 	}
 
-	.portrait-ensemble-large-screen {
+	/* .portrait-ensemble-large-screen {
 		display: none;
 	}
 
@@ -915,17 +916,17 @@ li.faq-item {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-	}
+	} */
 
 	.main-top-sub-part {
 		width: 100%;
 	}
 
-	.main-bottom-part {
+	.main-bottom-part-contact {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		width: 95%;
+		width: 100%;
 		/* margin: 0rem 1rem 0rem 1rem; */
 	}
 
@@ -946,7 +947,12 @@ li.faq-item {
 
 	p
 	{
+		font-size: 1.6rem;
+	}
 
+	legend {
+		font-size: 1.6rem;
+		margin-bottom: 0.3rem;
 	}
 
 	.light-button, .dark-button {
