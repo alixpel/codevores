@@ -447,6 +447,14 @@ p.pinned-title {
 	margin-bottom: 1rem;
 }
 
+p.copyright {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
+}
+
 span.fluo {
 	background-color: rgb(255, 183, 255);
 	padding: 0rem 0.8rem 0rem 0.6rem;
@@ -820,10 +828,8 @@ li.pinned-li {
 }
 
 
-@media screen and (max-width: 781px) /*and (min-width: 770px)*/ {
-    .main-title {
-        width: 61%
-    }
+@media screen and (max-width: 781px) {
+
 		.small-device-menu {
 			display: none;
 		}
@@ -832,14 +838,6 @@ li.pinned-li {
 			display: block;
 		}
 }
-
-@media screen and (max-width: 550px) {
-    .main-title {
-        width: 61%
-    }
-}
-
-
 
 
 

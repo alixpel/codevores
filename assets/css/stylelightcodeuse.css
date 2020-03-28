@@ -423,6 +423,14 @@ p {
   font-family: 'Baloo Chettan 2', cursive;
 }
 
+p.copyright {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
+}
+
 .center {
   text-align: center;
 }

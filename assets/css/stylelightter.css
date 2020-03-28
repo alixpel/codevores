@@ -241,7 +241,7 @@ main {
 .faq-chapter {
   background-color: rgba(253,252, 255, 1);
   border-radius: 0.5rem;
-  padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+  padding: 0.4rem 0.8rem 1rem 0.8rem;
   margin-bottom: 1rem;
 }
 
@@ -447,6 +447,22 @@ p {
 
 p.intro {
 
+}
+
+p.copyright {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
+}
+
+p.copyright {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
 }
 
 span {
@@ -721,6 +737,10 @@ fieldset {
 
 /*////////////////////////// LINKS ////////////////////////*/
 
+a {
+	text-decoration: none;
+}
+
 a.menu-item {
   font-family: 'Baloo Thambi 2', cursive;
   font-weight: 600;
@@ -747,7 +767,6 @@ a.faq-link {
 	margin: 0rem;
 	padding: 0rem;
 	font-family: 'Baloo Chettan 2', cursive;
-	font-size: 100%;
   font-weight: 600;
 	text-decoration: none;
 }
