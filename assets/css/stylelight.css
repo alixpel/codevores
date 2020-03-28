@@ -11,6 +11,18 @@
 ///					RESPONSIVE (ipad pro, ipad, large smartphone, small smartphone)
 */
 
+/*///////////////////////// FONTS
+font-family: 'Anaheim', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Saira', sans-serif;
+font-family: 'VT323', monospace; */
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -104,7 +116,7 @@ header {
 
 .small-device-menu {
 	display: none;
-	margin: 1rem 0rem 1.2rem 0rem;
+	/* margin: 1rem 0rem 1.2rem 0rem; */
 }
 
 .smartphone-menu {
@@ -720,22 +732,131 @@ li.pinned-li {
 
 /*///////////////////////////////// media queries ///////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////////////*/
-/* Ipad pro et Ipad normal */
 
-@media screen and (min-width: 425px) and (max-width: 1030px) {
 
-		.small-device-menu {
+
+@media screen and (max-width: 1024px) {
+
+		.main-header, .sub-main, .sub-footer {
+			width: 97%;
+		}
+
+		.main-header-top {
+			justify-content: space-between;
+			margin-top: 0rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.main-title {
+        width: 61%;
+    }
+
+		.menu {
+			display: none;
+		}
+
+		.small-device-ol {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.small-device-li {
+			background-color: rgba(250, 250, 250, 0.9);
+			padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+			border-radius: 0.5rem;
+		}
+
+		.main-bottom-part-index, .main-bottom-part-pro {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin-bottom: 1rem;
+		}
+
+		.pinned-ensemble {
+    margin-left: 0rem;
+		margin-top: -1.6rem;;
+		}
+
+		.pinned-ensemble-pro {
+		margin-top: -1.6rem;
+		width: 100%;
+		}
+
+		.pinned {
+			margin: 0rem 1rem 2rem 0rem;
+			width: 81%;
+			height: 59%;
+		}
+
+		img.women-group {
 			display: block;
 		}
 
-		.smartphone-menu {
+		img.tiger {
 			display: none;
 		}
+
+		h2 {
+			font-size: 2.6rem;
+			text-align: center;
+		}
+
+		h5 {
+			font-size: 3.1rem;
+		}
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 782px) {
+
+	/* menu non-déroulant sur 1 ligne */
+	.small-device-menu {
+		display: block;
+		margin-top: 0.8rem;
+	}
+
 }
 
 
-/*Ipad pro*/
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 781px) /*and (min-width: 770px)*/ {
+    .main-title {
+        width: 61%
+    }
+		.small-device-menu {
+			display: none;
+		}
+
+		.smartphone-menu {
+			display: block;
+		}
+}
+
+@media screen and (max-width: 550px) {
+    .main-title {
+        width: 61%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* écran de largeur maximum 1024px */
+/* @media screen and (max-width: 1024px) {
 
 		body {
         background-color: pink;
@@ -768,11 +889,18 @@ li.pinned-li {
 			display: none;
 		}
 
+		.small-device-menu {
+			display: block;
+		}
+
+		.smartphone-menu {
+			display: none;
+		}
+
 		.small-device-ol {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
-			/* margin-bottom: 1rem; */
 		}
 
 		.small-device-li {
@@ -807,7 +935,6 @@ li.pinned-li {
 		}
 
 		.pinned-ensemble-group-single {
-			/* margin-left: 2rem; */
 		}
 
 		.pinned-ensemble {
@@ -828,12 +955,25 @@ li.pinned-li {
 
 		img.women-group {
 			display: block;
-			/* object-fit: contain; */
 		}
 
 		h1 {
 			font-size: 9rem;
 			max-width: 40%;
+		}
+
+		h2 {
+			font-size: 3rem;
+			text-align: center;
+			padding-bottom: 0.7rem;
+		}
+
+		h5.index-title {
+			font-size: 2.5rem;
+		}
+
+		h5.espace-pro {
+			font-size: 4.5rem;
 		}
 
 		p
@@ -853,40 +993,20 @@ li.pinned-li {
 		img {
 			display: none;
 		}
-}
+} */
 
-@media screen and (min-width: 770px) and (max-width: 1030px) {
-
-	.main-title {
-		width: 69%;
-	}
-
-	h2 {
-		font-size: 3rem;
-		text-align: center;
-		padding-bottom: 0.7rem;
-	}
-
-	h5.index-title {
-		font-size: 2.5rem;
-	}
-
-	h5.espace-pro {
-		font-size: 4.5rem;
-	}
-}
-/* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
-/*Ipad*/
 
-@media screen and (max-width: 770px) {
+/*Tablettes de taille maximum 768px */
+/* @media screen and (max-width: 768px) */
+		/* @media screen and (max-width: 1010px) and (min-width: 426px) {
 
 		body {
         background-color: orange;
     }
 
 		.main-title {
-			width: 72% !important;
+			width: 72%;
 		}
 
 		.small-device-menu {
@@ -894,7 +1014,7 @@ li.pinned-li {
 		}
 
 		h2 {
-			font-size: 2.3rem;
+			font-size: 3rem;
 		}
 
 		h5.index-title {
@@ -923,10 +1043,10 @@ li.pinned-li {
 		{
 			font-size: 0.9rem;
 		}
-}
+} */
 /*///////////////////////////////////////////////////////////////////////////////////*/
-/*Iphone 6/7/8+*/
-@media screen and (max-width: 425px) {
+/* Smartphones de taille maximum 425px comme les Iphone 6/7/8+*/
+/* @media screen and (max-width: 425px) {
 
 		body {
         background-color: olive;
@@ -956,7 +1076,6 @@ li.pinned-li {
 		}
 
 		h2 {
-			font-size: 3.9rem;
 			text-align: center;
 			padding-bottom: 0.7rem;
 		}
@@ -969,10 +1088,10 @@ li.pinned-li {
 @media screen and (max-width: 780px) {
 
 
-}
+} */
 /*///////////////////////////////////////////////////////////////////////////////////*/
-/*Iphone X & 6/7/8*/
-@media screen and (max-width: 385px) {
+/* Smartphones de taille maximum 385px comme les Iphone X & 6/7/8*/
+/* @media screen and (max-width: 385px) {
 
 		body {
         background-color: pink;
@@ -981,30 +1100,21 @@ li.pinned-li {
 		h5.espace-pro {
 
 		}
-}
-/*///////////////////////////////////////////////////////////////////////////////////*//*Galaxy S5*/
-@media screen and (max-width: 370px) {
+} */
+/*//////////////////////////////////////////////////////////////////////////////////
+/*  Smartphones de taille maximum 370px comme le Galaxy S5*/
+/* @media screen and (max-width: 370px) {
 
 		body {
         background-color: pink;
     }
 
-}
+} */
 /*///////////////////////////////////////////////////////////////////////////////////*/
-/*Iphone 5S*/
-@media screen and (max-width: 330px) {
+/* Smartphones de taille maximum 330px comme l'Iphone 5S*/
+/* @media screen and (max-width: 330px) {
 
 		body {
         background-color: pink;
     }
-}
-/*///////////////////////// FONTS
-font-family: 'Anaheim', sans-serif;
-font-family: 'Baloo Chettan 2', cursive;
-font-family: 'Baloo Thambi 2', cursive;
-font-family: 'Concert One', cursive;
-font-family: 'Fredoka One', cursive;
-font-family: 'Pridi', serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Saira', sans-serif;
-font-family: 'VT323', monospace; */
+} */

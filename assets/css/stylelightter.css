@@ -10,6 +10,18 @@
 ///					RESPONSIVE (ipad pro, ipad, large smartphone, small smartphone)
 */
 
+/*///////////////////////// FONTS
+font-family: 'Anaheim', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Saira', sans-serif;
+font-family: 'VT323', monospace; */
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -836,7 +848,7 @@ li.faq-item {
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
 /*Ipad pro*/
-
+/* tablettes de largeur maximum 1030px */
 @media screen and (max-width: 1030px) {
 
 	body {
@@ -984,8 +996,8 @@ li.faq-item {
 /* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
+/* tablettes de largeur maximum 770px */
 /*Ipad*/
-
 @media screen and (max-width: 770px) {
 
 	body {
@@ -1001,8 +1013,10 @@ li.faq-item {
 
 	}
 }
+/* fin tablettes */
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
+/* smartphones de largeur maximum 415px */
 /*Iphone 6/7/8+*/
 
 @media screen and (max-width: 415px) {
@@ -1054,6 +1068,7 @@ li.faq-item {
 
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
+/* smartphones de largeur maximum 385px */
 /*Iphone X & 6/7/8*/
 
 @media screen and (max-width: 385px) {
@@ -1076,6 +1091,7 @@ li.faq-item {
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
+/* smartphones de largeur maximum 330px */
 /*Iphone 5S*/
 
 @media screen and (max-width: 330px) {
@@ -1084,14 +1100,3 @@ li.faq-item {
 		background-color: pink;
 	}
 }
-
-/*///////////////////////// FONTS
-font-family: 'Anaheim', sans-serif;
-font-family: 'Baloo Chettan 2', cursive;
-font-family: 'Baloo Thambi 2', cursive;
-font-family: 'Concert One', cursive;
-font-family: 'Fredoka One', cursive;
-font-family: 'Pridi', serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Saira', sans-serif;
-font-family: 'VT323', monospace; */
