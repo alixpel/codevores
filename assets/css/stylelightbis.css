@@ -741,7 +741,7 @@ li.asset {
 	}
 
 	.small-device-li {
-		background-color: rgba(250, 250, 250, 0.9);
+		background-color: rgba(250, 250, 250, 0.6);
 		padding: 0.5rem 0.5rem 0.4rem 0.5rem;
 		border-radius: 0.5rem;
 		width: 13rem;

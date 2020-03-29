@@ -745,6 +745,7 @@ fieldset {
 
 a {
 	text-decoration: none;
+	color: rgba(46, 53, 70, 1);
 }
 
 a.menu-item {
@@ -914,7 +915,7 @@ li.faq-item {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		/* margin-bottom: 1rem; */
+		margin-bottom: 1rem;
 	}
 
 	.small-device-li {
@@ -925,7 +926,7 @@ li.faq-item {
 		text-align: center;
 	}
 
-	.main-title-and-intro-contactpage, .main-title-and-intro-faqpage {
+	.main-title-and-intro-contactpage, .main-title-and-intro-faqpage, .main-title-and-intro {
 		width: 100%;
 	}
 
