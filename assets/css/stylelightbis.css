@@ -257,7 +257,7 @@ footer {
 }
 
 .mailing-list-group {
-	margin-top: 5.9rem;
+	margin-top: 4.7rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -364,7 +364,7 @@ h4 {
 
 h5 {
 	font-family: 'Fredoka One', cursive;
-	font-size: 4.2rem;
+	font-size: 4.1rem;
 	color: rgba(193, 209, 225, 1);
 	text-align: center;
 	letter-spacing: .2rem;

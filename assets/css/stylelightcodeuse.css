@@ -236,6 +236,24 @@ main {
 	width: 91%;
 }
 
+.contactez-la {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+	padding: 0.8rem 0.9rem 1rem 1rem;
+	background-color: rgb(450, 450, 450);
+	/* text-align: justify; */
+	border-radius: 0.5rem;
+}
+
+.form-item {
+	margin: 0.4rem 0rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 .main-bottom-part-devpage {
 	margin-bottom: 1rem;
 }
@@ -281,7 +299,7 @@ footer {
 }
 
 .mailing-list-group {
-  margin-top: 5.9rem;
+  margin-top: 4.7rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -424,10 +442,19 @@ h7 {
 	padding: 0.5rem 0.2rem;
 }
 
+h8 {
+	font-family: 'Baloo Chettan 2', cursive;
+  line-height: 3rem;
+  text-align: justify;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
 /* p et span */
 
 p {
   font-family: 'Baloo Chettan 2', cursive;
+	line-height: 1.6rem;
 }
 
 p.copyright {
@@ -436,6 +463,10 @@ p.copyright {
 	color: rgb(253, 246, 226);
 	background-color: rgba(1, 1, 1, 0);
 	text-decoration: none;
+}
+
+span {
+  font-size: 1.5rem;
 }
 
 .center {
@@ -520,6 +551,41 @@ p.copyright {
 
 /*///////////////////// BUTTONS */
 
+.contact-input {
+  font-family: 'Roboto Mono', monospace;
+}
+
+abbr[title] {
+    text-decoration: none;
+    color: rgb(96, 29, 70);
+}
+
+#mail, #name, #msg, textarea {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  border: 0rem;
+  border-style: solid;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  background-color: rgb(246, 249, 250);
+  padding: 0.1rem 0.7rem 0.25rem 0.7rem;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+#mail, #name {
+	width: 20rem;
+}
+
+textarea {
+	width: 30rem;
+	height: 8rem;
+}
+
+.form-label{
+	display: flex;
+	flex-direction: row;
+}
+
 .light-button {
   border: none;
   box-shadow: none;
@@ -595,6 +661,41 @@ p.copyright {
 	border: none;
 	border-radius: 1.2rem 0rem 0rem 0rem;
 	color: white;
+}
+
+.envoi {
+	font-family: 'Concert One', cursive;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgba(46, 54, 71, 1);
+  border-radius: 0.25rem;
+  background-color: rgb(255, 248, 140);
+  border: 0rem;
+  box-shadow: none;
+	margin-top: 1rem;
+	padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+
+.afficher-coordonnees, .masquer-coordonnees {
+	font-family: 'Concert One', cursive;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgba(46, 54, 71, 1);
+  border-radius: 0.25rem;
+  border: 0rem;
+  box-shadow: none;
+	margin-top: 1rem;
+	padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+	width: 100%;
+}
+
+.afficher-coordonnees {
+	background-color: rgb(255, 248, 140);
+}
+
+.masquer-coordonnees {
+	background-color: rgb(225, 225, 225);
+	margin-bottom: 1.3rem;
 }
 
 .mailing-list-button {
