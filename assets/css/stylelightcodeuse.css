@@ -236,17 +236,6 @@ main {
 	width: 91%;
 }
 
-.contactez-la {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
-	padding: 0.8rem 0.9rem 1rem 1rem;
-	background-color: rgb(450, 450, 450);
-	/* text-align: justify; */
-	border-radius: 0.5rem;
-}
-
 .form-item {
 	margin: 0.4rem 0rem;
 	display: flex;
@@ -256,6 +245,17 @@ main {
 
 .main-bottom-part-devpage {
 	margin-bottom: 1rem;
+}
+
+.contactez-la {
+	display: flex;
+	flex-direction: column;
+	width: 54.8rem;
+	margin: 0.1rem 0.1rem 2rem 0.1rem;
+	padding: 0.8rem 0.9rem 1rem 1rem;
+	background-color: rgb(450, 450, 450);
+	/* text-align: justify; */
+	border-radius: 0.5rem;
 }
 
 .dev-names {
