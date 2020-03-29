@@ -258,7 +258,7 @@ main {
 }
 
 .contactez-la {
-	width: 54.8rem;
+	width: 56.8rem;
 }
 
 .recommandations {
@@ -273,7 +273,7 @@ main {
 }
 
 .dev-names {
-	width: 57rem;
+	width: 59rem;
 }
 
 /* FOOTER */
@@ -457,11 +457,12 @@ h7 {
 }
 
 h8 {
-	font-family: 'Baloo Chettan 2', cursive;
+	font-family: 'Concert One', cursive;
   line-height: 3rem;
   text-align: justify;
 	font-weight: 600;
-	font-size: 1.1rem;
+	font-size: 1.4rem;
+	letter-spacing: 0.05rem;
 }
 
 /* p et span */
@@ -759,17 +760,13 @@ a.cgu {
 }
 
 /* ........PAGE CODEUSE ......./*/
-a.dev-name-current {
-	color: rgba(46, 54, 71, 0.6);
-	border-radius: 0.5rem;
-	background-color: rgba(430, 430, 450, 0.65);
-	padding: 0rem 0.8rem 0rem 0.8rem;
-}
+
 a.dev-name {
 	color: rgba(46, 54, 71, 1);
-	border-radius: 0.5rem;
+	text-decoration: none;
+	/* border-radius: 0.5rem;
 	background-color: rgba(450, 450, 455, 1);
-	padding: 0rem 0.8rem 0rem 0.8rem;
+	padding: 0rem 0.5rem 0rem 0.5rem; */
 }
 
 /*///////////////////////// LISTS */
@@ -804,8 +801,20 @@ ul.dev-names {
 	font-family: 'Baloo Chettan 2', cursive;
 	font-size: 1rem;
 }
-li.dev-names {
+li.dev-name-li {
 	text-align: center;
+	border-radius: 0.3rem;
+	background-color: rgba(450, 450, 455, 1);
+	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+	width: 4rem;
+}
+
+li.dev-name-li-current {
+	text-align: center;
+	border-radius: 0.3rem;
+	background-color: rgba(430, 430, 450, 0.65);
+	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+	width: 4rem;
 }
 
 ol.asset-ol {
