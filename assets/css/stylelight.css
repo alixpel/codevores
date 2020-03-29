@@ -144,7 +144,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 2rem 0rem 2rem 0rem;
+	margin: 0rem 0rem 2rem 0rem;
 }
 
 .main-top-sub-part {
@@ -156,7 +156,7 @@ main {
 
 .main-title-and-intro {
 	width: 100%;
-	/* margin-top: 2.5rem; */
+	margin-top: 2.5rem;
 	/* height: auto; */
 }
 
@@ -175,7 +175,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	margin-top: -4.6rem;
+	margin-top: -2.29rem;
 	width: 15rem;
 }
 
@@ -274,6 +274,7 @@ footer {
   width: 31rem;
   background-color: rgba(193, 209, 225, 0.6);
   border-radius: 0.25rem;
+	border: 1px solid rgb(253, 246, 226);
   /* padding: 0rem 0rem 1rem 0rem; */
 }
 
@@ -376,10 +377,11 @@ h1 {
 
 h2 {
   font-family: 'Concert One', cursive;
-  font-size: 2.7rem;
-  background-color: rgba(253, 246, 226, 0.7);
+  font-size: 2.6rem;
+  background-color: rgba(253, 246, 226, 0.6);
+	border: 1px solid rgba(253, 246, 226, 1);
   border-radius: 0.25rem;
-  padding: 0.15rem 0.2rem 0.3rem 0.2rem;
+  padding: 0.15rem 0.2rem 0.5rem 0.2rem;
   /* text-shadow: 0px 0px 4px rgba(187, 194, 210, 0.5); */
 }
 
@@ -595,6 +597,7 @@ span.fluo {
   border: none;
   box-shadow: none;
   border-radius: 0.4rem;
+	border: 1px solid rgb(253, 246, 226);
   font-family: 'Concert One', cursive;
   color: rgba(46, 54, 71, 1);
   font-size: 2rem;
@@ -627,6 +630,7 @@ span.fluo {
   border: none;
   box-shadow: none;
   border-radius: 0.6rem;
+	border: 1.5px solid rgb(34, 43, 64);
   font-family: 'Concert One', cursive;
   color: #E9E2CE;
   font-size: 2rem;

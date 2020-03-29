@@ -222,6 +222,7 @@ main {
 	background-color: rgba(455, 455, 455, 0.86);
 	text-align: justify;
 	border-radius: 0.5rem;
+	border: 1px solid rgba(455, 455, 455, 1);
 	line-height: 1.3rem;
 }
 
@@ -238,6 +239,7 @@ main {
 	background-color: rgba(455, 455, 455, 0.86);
 	text-align: justify;
 	border-radius: 0.5rem;
+	border: 1px solid rgba(455, 455, 455, 1);
 	width: 91%;
 }
 
@@ -268,11 +270,11 @@ main {
 	padding: 0.8rem 0.9rem 1rem 1rem;
 	background-color: rgb(450, 450, 450);
 	border-radius: 0.5rem;
-	width: 56.8rem;
+	width: 97%;
 }
 
 .recommandations {
-	width: 100%;
+	width: 97%;
 }
 
 .reco {
@@ -289,7 +291,7 @@ main {
 }
 
 .dev-names {
-	width: 59rem;
+	width: 100%;
 }
 
 /* FOOTER */
@@ -316,6 +318,7 @@ footer {
   width: 31rem;
   background-color: rgba(193, 209, 225, 0.6);
   border-radius: 0.25rem;
+	border: 1px solid rgb(253, 246, 226);
   /* padding: 0rem 0rem 1rem 0rem; */
 	flex-wrap: wrap;
 }
@@ -575,6 +578,7 @@ span {
   margin-left: 57rem;
   margin-top: -11.5rem;
 	margin-bottom: -9.5rem;
+	display: none;
 }
 
 /*///////////////////// INPUTS */
