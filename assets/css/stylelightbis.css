@@ -726,11 +726,11 @@ li.asset {
 	}
 
 	.small-device-menu {
-		display: block;
+		display: none;
 	}
 
 	.smartphone-menu {
-		display: none;
+		display: block;
 	}
 
 	.small-device-ol {
@@ -744,6 +744,8 @@ li.asset {
 		background-color: rgba(250, 250, 250, 0.9);
 		padding: 0.5rem 0.5rem 0.4rem 0.5rem;
 		border-radius: 0.5rem;
+		width: 13rem;
+		text-align: center;
 	}
 
 	.main-title-and-intro {
@@ -818,9 +820,20 @@ li.asset {
 @media screen and (min-width: 770px) and (max-width: 1030px) {
 
 	.main-title {
-		width: 69%;
+		width: 72%;
 	}
 
+	.light-button {
+		margin-top: 3.3rem;
+	}
+
+	a.menu-item, a.menu-item-current {
+		font-size: 1.3rem;
+	}
+
+	.light-button, .dark-button {
+		font-size: 2.5rem;
+	}
 }
 /* fin ipad pro */
 /*///////////////////////////////////////////////////////////////////////////////////*/
@@ -893,7 +906,7 @@ li.asset {
 
 /*Iphone X & 6/7/8*/
 
-@media screen and (max-width: 385px) {
+/* @media screen and (max-width: 385px) {
 
 	body {
 		background-color: pink;
@@ -902,25 +915,25 @@ li.asset {
 	h5.espace-pro {
 		font-size: 2.5rem;
 	}
-}
+} */
 /*///////////////////////////////////////////////////////////////////////////////////*//*Galaxy S5*/
 
-@media screen and (max-width: 370px) {
+/* @media screen and (max-width: 370px) {
 
 	body {
 		background-color: pink;
 	}
-}
+} */
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
 /*Iphone 5S*/
 
-@media screen and (max-width: 330px) {
+/* @media screen and (max-width: 330px) {
 
 	body {
 		background-color: pink;
 	}
-}
+} */
 
 /*///////////////////////// FONTS
 font-family: 'Anaheim', sans-serif;
