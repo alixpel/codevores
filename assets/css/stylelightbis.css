@@ -242,10 +242,14 @@ footer {
 }
 
 .tenez, .connectez {
-	width: 46%;
+	width: 31rem;
 	background-color: rgba(193, 209, 225, 0.6);
 	border-radius: 0.25rem;
 	/* padding: 0rem 0rem 1rem 0rem; */
+}
+
+.tenez {
+	margin-right: 1rem;
 }
 
 .mailing-list-ensemble {
@@ -253,7 +257,7 @@ footer {
 }
 
 .mailing-list-group {
-	margin-top: 4.25rem;
+	margin-top: 5.9rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
