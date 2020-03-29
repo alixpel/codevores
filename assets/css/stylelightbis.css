@@ -340,6 +340,7 @@ h2 {
 	font-size: 1.35rem;
 	background-color: rgba(253, 246, 226, 0.7);
 	border-radius: 0.25rem;
+	border: 0.3px solid rgba(253, 246, 226, 0.7);
 	padding: 0.15rem 0.2rem 0.3rem 0.2rem;
 }
 
