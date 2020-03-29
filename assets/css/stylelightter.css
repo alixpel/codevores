@@ -327,7 +327,7 @@ footer {
 
 /* ................. SEPARATIONS ..................... */
 
-.outline {
+/* .outline {
   border: 1px solid rgba(153, 255, 153, 0.2);
 }
 
@@ -337,7 +337,7 @@ footer {
 
 .outline-sub {
 	border: 0.2px solid blue;
-}
+} */
 
 hr {
   background-color: rgb(255, 248, 140);

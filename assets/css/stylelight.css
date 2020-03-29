@@ -327,7 +327,7 @@ footer {
 
 /* .......... CONTOURS POUR VISUALISATION - à désactiver ........... */
 
-.outline {
+/* .outline {
   border: 1px solid rgba(153, 255, 153, 1);
 }
 
@@ -337,7 +337,7 @@ footer {
 
 .outline-sub {
 	border: 1px solid blue;
-}
+} */
 
 /* hr */
 
