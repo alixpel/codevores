@@ -274,6 +274,7 @@ footer {
 
 .mailing-list-ensemble {
   margin: 0rem 1rem 1rem 1rem;
+	color: rgb(246, 249, 250);
 }
 
 .mailing-list-group {
@@ -288,7 +289,7 @@ footer {
 }
 
 .social-networks-text {
-
+	color: rgb(246, 249, 250);
 }
 
 .social-networks-icons {
