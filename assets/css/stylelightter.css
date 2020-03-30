@@ -465,14 +465,6 @@ p.copyright {
 	text-decoration: none;
 }
 
-p.copyright {
-	font-family: 'Baloo Chettan 2', cursive;
-	font-size: 1rem;
-	color: rgb(253, 246, 226);
-	background-color: rgba(1, 1, 1, 0);
-	text-decoration: none;
-}
-
 span {
   font-size: 1.5rem;
 }
@@ -867,9 +859,7 @@ ol {
   line-height: 1.6rem;
 }
 
-li.faq-item {
 
-}
 
 /*///////////////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////// media queries ///////////////////////////////////*/

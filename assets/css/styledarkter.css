@@ -1,3 +1,27 @@
+/* 					ORDRE :
+///					RESET
+///					DIVS
+///					TITLES
+///					FONTS
+///					PHOTOS
+///					INPUTS
+///					BUTTONS
+///					LINKS
+///					RESPONSIVE (ipad pro, ipad, large smartphone, small smartphone)
+*/
+
+/*///////////////////////// FONTS
+font-family: 'Anaheim', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Saira', sans-serif;
+font-family: 'VT323', monospace; */
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -48,7 +72,8 @@ table {
 }
 /* ///////////////// FIN RESET /////////////////*/
 
-/* //////////////////////////////////////////////////////////////////// */
+/* ////////////Pour les pages connection, inscription, faq, contact////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
 
 /* DIVISIONS */
 
@@ -88,9 +113,15 @@ header {
   padding: 0rem;
 }
 
-.round-logo {
-  margin: auto;
-  margin-top: 3rem;
+.small-device-menu {
+	display: none;
+	margin: 1rem 0rem 1.2rem 0rem;
+}
+
+.smartphone-menu {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* MAIN */
@@ -98,37 +129,44 @@ header {
 main {
   width: 100%;
 	background-color: rgba(46, 54, 71, 1);
-  color: rgb(233, 226, 206);
+  color: rgb(30, 30, 30);
 }
+
 .sub-main {
   width: 80%;
   margin: auto;
   padding-bottom: 2rem;
 }
+
 .main-top-part {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 3rem;
 }
-.main-top-part-devpage {
+
+.main-top-part-devpage, .main-top-part-actu {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
 .main-title-and-intro {
-	width: 58%;
-	margin-top: 1.5rem;
-	margin-left: 0rem;
-	margin-bottom: 3rem;
-}
-.main-title-and-intro-contactpage {
 	width: 77%;
 	margin-top: 1.5rem;
 	margin-left: 0rem;
 	margin-bottom: 3rem;
 }
+
+/* Contact - inscription - connection */
+.main-title-and-intro-contactpage , .main-title-and-intro-faqpage{
+	width: 77%;
+	margin-top: 1.5rem;
+	margin-left: 0rem;
+	/* margin-bottom: 3rem; */
+}
+
+/* faq */
 .main-title-and-intro-faqpage {
   width: 77%;
   margin-bottom: 0rem;
@@ -139,12 +177,13 @@ main {
 	font-size: 1.1rem;
 	line-height: 1.25rem;
 	height: auto;
+	color: rgb(245, 245, 245);
 }
 
 .menu {
-	z-index: 2;
 	position: relative;
 }
+
 .buttons-and-title {
 	display: flex;
 	flex-direction: row;
@@ -152,9 +191,11 @@ main {
 	margin-top: -2.29rem;
 	width: 15rem;
 }
+
 .visible {
 
 }
+
 .peek {
 	display: flex;
 	justify-content: flex-end;
@@ -168,12 +209,28 @@ main {
 	width: 63%;
 	margin: auto;
 }
+
+/*////// contact - inscription - connection /////*/
 .main-bottom-part-contact {
 	display: flex;
 	flex-direction: row;
 	text-align: left;
 	width: 63%;
-	margin: auto;
+	/* margin: auto; */
+}
+
+.connect, .signup, .contactus {
+	width: 100%;
+	background-color: rgba(250,250, 250, 1);
+	border-radius: 0.5rem;
+	padding: 0.5rem 1.3rem 1.2rem 1.3rem;
+ }
+
+.form-item {
+	margin: 0.4rem 0rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 /* faq */
@@ -186,6 +243,14 @@ main {
   background-color: rgba(250,250, 250, 1);
   border-radius: 0.5rem;
   padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  margin-bottom: 1rem;
+}
+
+/* geekzone */
+.main-bottom-part-geekzone {
+	background-color: rgba(250,250, 250, 1);
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem 1.2rem 1rem;
   margin-bottom: 1rem;
 }
 
@@ -210,16 +275,25 @@ footer {
   padding-top: 11rem;
 }
 .tenez, .connectez {
-  width: 46%;
+  width: 31rem;
   background-color: rgba(80, 87, 95, 0.6);
   border-radius: 0.25rem;
+	border: 1px solid rgba(80, 87, 95, 0.6);
   /* padding: 0rem 0rem 1rem 0rem; */
+	flex-wrap: wrap;
 }
+
+.tenez {
+	margin-right: 1rem;
+}
+
 .mailing-list-ensemble {
   margin: 0rem 1rem 1rem 1rem;
+	color: rgb(246, 249, 250);
 }
+
 .mailing-list-group {
-  margin-top: 4.25rem;
+  margin-top: 4.7rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -229,8 +303,9 @@ footer {
   margin: 1rem;
 }
 .social-networks-text {
-
+ color: rgb(246, 249, 250);
 }
+
 .social-networks-icons {
   margin-top: 2rem;
   display: flex;
@@ -289,11 +364,13 @@ h1 {
   color: rgb(253, 249, 190);
   text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
 }
+
 h2 {
   font-family: 'Concert One', cursive;
   font-size: 1.35rem;
   background-color: rgba(253, 249, 190, 0.7);
   border-radius: 0.25rem;
+	border: 0.3px solid rgba(253, 249, 190, 0.7);
   padding: 0.15rem 0.2rem 0.3rem 0.2rem;
 }
 
@@ -334,13 +411,13 @@ h5 {
   letter-spacing: .2rem;
   margin: 0rem 0rem 0rem 0rem;
 }
-h5.espace-pro {
+/* h5.espace-pro {
 	font-size: 2.86rem;
 }
 
 h5.dev-title {
 	color: rgb(96, 29, 70);
-}
+} */
 
 h6 {
 	font-family: 'Baloo Chettan 2', cursive;
@@ -364,42 +441,61 @@ h7 {
 	padding: 0.5rem 0.2rem;
 }
 
+.no-background {
+	background-color: rgba(255, 255, 255, 0);
+	margin-bottom: 1rem;
+	margin-top: 0.7rem;
+	text-align: left;
+}
+
 /* p et span */
 
 p {
   font-family: 'Baloo Chettan 2', cursive;
+	line-height: 1.25rem;
+  text-align: justify;
 }
+
 p.p-footer {
 	color: rgb(193, 209, 225);
 }
 
+p.copyright {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
+}
+
 span {
   font-size: 1.5rem;
+	color: rgb(255, 248, 140);
 }
 
 span.smaller {
   font-size: 2.1rem;
 }
 
-/* texte animé */
-.animated-text {
-  font-family: 'Roboto Mono', monospace;
-  color: rgb(193, 209, 225);
-  background-color: rgba(46, 54, 71, 1);
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
+legend {
+	font-family: 'Baloo Chettan 2', cursive;
+  line-height: 1.25rem;
+  text-align: justify;
 }
 
 /* icônes fa */
 .fas.fa-moon.fa-lg {
 
 }
+
 .far.fa-sun.fa-lg {
 
 }
+
 .fas.fa-plug {
   transform: rotate(90deg);
 }
+
 .fas.fa-hand-point-left {
 
 }
@@ -419,6 +515,7 @@ span.smaller {
 	margin-left: 54rem;
   margin-top: -11.5rem;
 	margin-bottom: -11.5rem;
+	float: right;
 }
 
 /*///////////////////// INPUTS */
@@ -438,9 +535,56 @@ span.smaller {
 .contact-input {
   font-family: 'Roboto Mono', monospace;
 }
+
+select {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  border: 0rem;
+  border-style: solid;
+  border-radius: 0.25rem;
+  box-shadow: none;
+	color: rgba(140, 140, 140, 1);
+  background-color: rgb(255, 255, 255);
+  padding: 0.1rem 0.7rem 0.25rem 0.7rem;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
 abbr[title] {
     text-decoration: none;
     color: rgb(96, 29, 70);
+}
+
+#mail, #pwd, #pwd, #name, #msg, textarea {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  border: 0rem;
+  border-style: solid;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  background-color: rgb(255, 255, 255);
+  padding: 0.1rem 0.7rem 0.25rem 0.7rem;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+#file {
+	font-family: 'Baloo Chettan 2', cursive;
+  line-height: 1.25rem;
+	font-size: 1rem;
+}
+
+#mail, #pwd, #pwd, #name {
+	width: 20rem;
+}
+
+textarea {
+	width: 30rem;
+	height: 8rem;
+}
+
+/* labels */
+.form-label{
+	display: flex;
+	flex-direction: row;
 }
 
 /*///////////////////// BUTTONS */
@@ -460,6 +604,7 @@ abbr[title] {
   padding: 0.7rem;
   margin-top: 1rem;
 }
+
 .light-button:hover {
   border: none;
   box-shadow: none;
@@ -534,19 +679,30 @@ abbr[title] {
 	color: white;
 }
 
-.mailing-list-button {
-  /* font-family: 'Baloo Thambi 2', cursive;
+.envoi {
+	font-family: 'Concert One', cursive;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: rgba(46, 54, 71, 1);
   border-radius: 0.25rem;
   background-color: rgb(255, 248, 140);
   border: 0rem;
   box-shadow: none;
-  width: 49%; */
+	margin-top: 1rem;
+	padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+
+/* forms */
+fieldset {
+	margin-top: 1rem;
 }
 
 /*////////////////////////// LINKS */
+
+a {
+	text-decoration: none;
+	color: rgba(46, 53, 70, 1);
+}
 
 a.menu-item {
   font-family: 'Baloo Thambi 2', cursive;
@@ -567,10 +723,30 @@ a.menu-item-current {
 	text-decoration: none;
 }
 
+a.faq-link {
+	background-color: rgba(255, 255, 255, 0);
+	margin: 0rem;
+	padding: 0rem;
+	font-family: 'Baloo Chettan 2', cursive;
+  font-weight: 600;
+	text-decoration: none;
+}
+
+a.faq-link:hover {
+	color: rgb(96, 29, 70);
+}
+
 a.portrait-link {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+a.cgu {
+	font-family: 'Baloo Chettan 2', cursive;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
 }
 
 /* ........PAGE FAQ ......./*/
@@ -581,6 +757,31 @@ a.faq {
   background-color: rgba(250, 250, 250, 1);
   border-radius: 0.5rem;
   padding: 0.1rem 1rem;
+}
+
+/* ...... PAGE connection */
+.inscrivez-vous {
+	font-family: 'Baloo Chettan 2', cursive;
+  line-height: 1.25rem;
+	color: rgba(10, 10, 10, 1);
+	font-weight: 500;
+	font-size: 1rem;
+	background-color: rgba(255, 255, 255, 0);
+	padding: 0rem;
+	margin: 0rem;
+}
+
+.inscrivez-vous:hover {
+	color: rgb(173, 189, 205);
+}
+
+/* ..........PAGE ACTUS......... */
+
+#listeActualites {
+	font-family: 'Roboto Mono', monospace;
+	color: rgba(50, 73, 122, 1);
+	text-decoration: none;
+	font-size: 0.8rem;
 }
 
 /*///////////////////////// LISTS */
@@ -605,6 +806,10 @@ ul.dropdown {
 	width: 13rem;
 }
 
+/* ........PAGE ACTUS ......./*/
+li {
+	margin: 0.3rem 0rem;
+}
 
 /* ........PAGE FAQ ......./*/
 ol {
@@ -613,9 +818,7 @@ ol {
   justify-content: flex-start;
 	line-height: 1.6rem;
 }
-li.faq {
-  color:
-}
+
 
 /* ALIGNEMENTS & COLORS */
 
@@ -654,39 +857,188 @@ li.faq {
 } */
 
 
-/*///////////////////////// FONTS
-font-family: 'Anaheim', sans-serif;
-font-family: 'Baloo Chettan 2', cursive;
-font-family: 'Baloo Thambi 2', cursive;
-font-family: 'Concert One', cursive;
-font-family: 'Fredoka One', cursive;
-font-family: 'Pridi', serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Saira', sans-serif;
-font-family: 'VT323', monospace; */
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////// media queries ///////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////*/
 
+/*largeur maximum 1030px */
+@media screen and (max-width: 1031px) {
 
-/* //////////////////////////////// THEMES JS /////////////////////////////////////// */
+	body {
+		background-color: pink;
+	}
 
-/* .theme-clair {
-  color: rgba(46, 54, 71, 1);
-  background-color: rgba(233, 226, 206, 1);
-  ul {
-    color: rgba(46, 54, 71, 1);
-  }
+	.main-header, .sub-main, .sub-footer {
+		width: 95%;
+	}
+
+	.main-header {
+		justify-content: center;
+		height: auto;
+	}
+
+	.main-header-top {
+		justify-content: space-between;
+		margin-top: 0rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.header-button-group {
+		margin: 0rem 0.1rem 1rem 1rem;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.small-device-menu {
+		display: none;
+	}
+
+	.smartphone-menu {
+		display: block;
+	}
+
+	.small-device-ol {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+	}
+
+	.small-device-li {
+		background-color: rgba(250, 250, 250, 0.63);
+		padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+		border-radius: 0.5rem;
+		width: 13rem;
+		text-align: center;
+	}
+
+	.main-title-and-intro-contactpage, .main-title-and-intro-faqpage, .main-title-and-intro {
+		width: 100%;
+	}
+
+	.main-top-part-index {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.main-top-sub-part {
+		width: 100%;
+	}
+
+	.main-bottom-part-contact {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 9rem;
+		max-width: 40%;
+	}
+
+	h2 {
+		font-size: 3rem;
+		text-align: center;
+		padding-bottom: 0.7rem;
+	}
+
+	h5 {
+		text-align: center;
+	}
+
+	h7.dev-name {
+		font-size: 1rem;
+	}
+
+	legend {
+		font-size: 1.6rem;
+		margin-bottom: 0.3rem;
+	}
+
+	/* a.menu-item, a.menu-item-current {
+		font-size: 1.3rem;
+	} */
+
+	a.inscrivez-vous {
+		font-size: 1.3rem;
+	}
+
+	/* a.faq {
+		font-size: 1.1rem;
+	} */
+
+	/* Buttons */
+	.light-button, .dark-button {
+		font-size: 3.5rem;
+	}
+
+	.envoi {
+		font-size: 1.8rem;
+	}
+
+	legend {
+		font-size: 1.3rem;
+	}
+
+	input#file {
+		color: rgba(46, 54, 71, 1);
+	  border-radius: 0.25rem;
+	  background-color: rgb(230, 230, 226);
+	  border: 0rem;
+	  box-shadow: none;
+		margin-top: 0rem;
+		padding: 0rem;
+	}
+
+	img.tiger {
+		display: none;
+	}
 }
 
-.theme-sombre {
-  background-color: rgba(46, 54, 71, 0.6);
-  color: rgb(233, 226, 206);
-  }
-.theme-sombre ul {
-    color: rgb(233, 226, 206);
-  }
-.theme-sombre h5 {
-   {
-    color: rgb(255, 248, 140);
+
+@media screen and (min-width: 501px) and (max-width: 1031px) {
+	a.menu-item, a.menu-item-current {
+		font-size: 1.3rem;
+	}
+
+	a.faq {
+		font-size: 1.1rem;
+	}
+
+	p
+	{
+		font-size: 1.3rem;
+	}
 }
-.theme-sombre hr.main-hr {
-  background-color: rgb(255, 248, 140);
-} */
+
+@media screen and (max-width: 500px) {
+	a, p {
+		font-size: 1.8rem;
+		line-height: 1.5rem;
+	}
+
+	p.copyright, a.cgu {
+		font-size: 0.8rem;
+	}
+
+}
+
+@media screen and (max-width: 326px) {
+	sub-footer-top {
+		flex-direction: column;
+	}
+
+	.tenez, .connectez {
+		width: 95%;
+		margin: auto;
+	}
+
+	h2 {
+		font-size: 2.8rem;
+	}
+
+}
