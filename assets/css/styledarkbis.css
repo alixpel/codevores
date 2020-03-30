@@ -1,3 +1,27 @@
+/* 					ORDRE :
+///					RESET
+///					DIVS
+///					TITLES
+///					FONTS
+///					PHOTOS
+///					INPUTS
+///					BUTTONS
+///					LINKS
+///					RESPONSIVE (ipad pro, ipad, large smartphone, small smartphone)
+*/
+
+/*///////////////////////// FONTS
+font-family: 'Anaheim', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Saira', sans-serif;
+font-family: 'VT323', monospace; */
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -50,6 +74,8 @@ table {
 
 /* //////////////////////////////////////////////////////////////////// */
 
+/* POUR LA PAGE COMMUNAUTé */
+
 /* DIVISIONS */
 
 /* header */
@@ -88,10 +114,17 @@ header {
   padding: 0rem;
 }
 
-.round-logo {
-  margin: auto;
-  margin-top: 3rem;
+.small-device-menu {
+	display: none;
+	margin: 1rem 0rem 1.2rem 0rem;
 }
+
+.smartphone-menu {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 
 /* MAIN */
 
@@ -110,7 +143,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-bottom: 3rem;
+	/* margin-bottom: 3rem; */
 }
 .main-top-part-devpage {
 	display: flex;
@@ -119,7 +152,7 @@ main {
 }
 
 .main-title-and-intro {
-	width: 58%;
+	width: 78%;
 	margin-top: 1.5rem;
 	margin-left: 0rem;
 	margin-bottom: 3rem;
@@ -132,7 +165,7 @@ main {
 }
 
 .menu {
-	z-index: 2;
+	/* z-index: 2; */
 	position: relative;
 }
 .buttons-and-title {
@@ -145,6 +178,7 @@ main {
 .visible {
 
 }
+
 .peek {
 	display: flex;
 	justify-content: flex-end;
@@ -155,14 +189,27 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content:center;
-	width: 63%;
+	width: 100%;
 	margin: auto;
+	padding: 1rem 2rem;
+	margin-left: -2rem;
+	border-radius: 1rem;
+	background-image: url("../photos/panther-print-large-light.jpg");
 }
-.main-bottom-part-devpage {
 
+/*////// PAGE COMUNAUTé /////////////////*/
+
+.portrait-ensemble-large-screen {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0.25rem 0.25rem;
 }
-.dev-names {
-	width: 53rem;
+
+.portrait-ensemble-small-device {
+	display: none;
 }
 
 .portrait-column-side {
@@ -172,85 +219,23 @@ main {
 	align-items: center;
 	margin: 6rem 0.25rem;
 }
-.portrait-column-border {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 6rem 0.25rem;
-}
+
 .portrait-column-middle {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin: 0rem 0.25rem;
 }
+
 .portrait {
 	margin: 0.25rem;
 	padding: 0px;
-	/* background-color: black; */
 	border-radius: 0.5rem;
+	border: 1px solid rgba(20, 20, 20, 0.5);
 }
 
 img.small-portrait {
 	border-radius: 0.5rem 0.5rem 0rem 0rem;
-	/* margin-top: 0.25rem; */
-}
-
-/*////// PAGE CODEUSE ////////////////// */
-
-.color-background {
-	background-color: rgb(193, 209, 225);
-	background-image: url("../photos/portrait1.png");
-	background-position: center;
-	/* background-size: contain; */
-	background-repeat: no-repeat;
-	z-index: 1;
-	height: 34rem;
-	width: 78%;
-	border-radius: 0.5rem;
-	margin: 4rem 0rem;
-}
-
-.dev-cv {
-
-}
-.dev-title {
-	text-align: center;
-	color: rgb(96, 29, 70) !important;
-	/* border: 1rem solid rgb(253, 246, 226); */
-	margin: 1.1rem 0.1rem 8.1rem -0.9rem;
-	background-color: rgba(450, 450, 450, 0.62);
-	border-radius: 0.5rem;
-	width: 20rem;
-}
-
-/* .large-portrait-photo {
-	border-radius: 0rem;
-	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
-	border-radius: 0.5rem;
-} */
-.main-title-and-intro-devpage-1 {
-	width: 30rem;
-	/* border: 1rem solid rgb(253, 246, 226); */
-	margin: -0.9rem 0.1rem 0.1rem 22.1rem;
-	padding: 0.3rem;
-	/* background-color: rgb(253, 246, 226); */
-	color: rgb(96, 29, 70);
-	background-color: rgba(450, 450, 450, 0.5);
-	text-align: justify;
-	border-radius: 0.5rem;
-}
-.main-title-and-intro-devpage-2 {
-	width: 24rem;
-	/* border: 1rem solid rgb(253, 246, 226); */
-	margin: 1.1rem 0.1rem 3.1rem 25.1rem;
-	padding: 0.3rem;
-	/* background-color: rgb(253, 246, 226); */
-	background-color: rgba(450, 450, 450, 0.7);
-	color: rgb(96, 29, 70);
-	text-align: justify;
-	border-radius: 0.5rem;
 }
 
 /* FOOTER */
@@ -274,17 +259,25 @@ footer {
   justify-content: space-between;
   padding-top: 11rem;
 }
+
 .tenez, .connectez {
-  width: 46%;
+  width: 31rem;
   background-color: rgba(80, 87, 95, 0.6);
   border-radius: 0.25rem;
+	border: 1px solid rgba(218, 218, 218, 0.6);
   /* padding: 0rem 0rem 1rem 0rem; */
 }
+
+.tenez {
+	margin-right: 1rem;
+}
+
 .mailing-list-ensemble {
   margin: 0rem 1rem 1rem 1rem;
 }
+
 .mailing-list-group {
-  margin-top: 4.25rem;
+  margin-top: 4.7rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -293,9 +286,11 @@ footer {
 .social-networks {
   margin: 1rem;
 }
+
 .social-networks-text {
 
 }
+
 .social-networks-icons {
   margin-top: 2rem;
   display: flex;
@@ -316,13 +311,15 @@ footer {
   padding: 1.5rem 0rem 0.5rem 0rem;
 }
 
-/* ................. SEPARATIONS ..................... */
+/* ................. REPERES ..................... */
 .outline {
   /* border: 1px solid rgba(153, 255, 153, 1); */
 }
+
 .outline-bold {
   /* border: 1px solid rgba(255, 102, 255, 1); */
 }
+
 .outline-sub {
 	/* border: 1px solid blue; */
 }
@@ -353,19 +350,15 @@ h1 {
   font-size: 4rem;
   color: rgb(253, 249, 190);
   text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
-  /* text-shadow:
-   -3px -3px 0 rgb(96, 29, 70),
-    3px -3px 0 rgb(96, 29, 70),
-    -3px 3px 0 rgb(96, 29, 70),
-     3px 3px 0 rgb(96, 29, 70); */
 }
+
 h2 {
   font-family: 'Concert One', cursive;
   font-size: 1.35rem;
   background-color: rgba(253, 249, 190, 0.7);
   border-radius: 0.25rem;
+	border: 0.3px solid rgba(253, 246, 226, 0.7);
   padding: 0.15rem 0.2rem 0.3rem 0.2rem;
-  /* text-shadow: 0px 0px 4px rgba(187, 194, 210, 0.5); */
 }
 
 h3 {
@@ -393,14 +386,9 @@ h4 {
 
 h5 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.9rem;
+  font-size: 4.1rem;
   color: rgba(193, 209, 225, 1);
 	text-align: center;
-  /* text-shadow:
-   -2px -2px 0 rgb(231, 159, 57),
-    2px -2px 0 rgb(231, 159, 57),
-    -2px 2px 0 rgb(231, 159, 57),
-     2px 2px 0 rgb(231, 159, 57); */
   letter-spacing: .2rem;
   margin: 0rem 0rem 0rem 0rem;
 }
@@ -426,7 +414,6 @@ h6 {
 
 h7 {
 	font-family: 'Baloo Chettan 2', cursive;
-	/* font-weight: 600; */
 	color: rgb(255, 255, 255);
 	text-align: center;
 	font-size: 0.8rem;
@@ -440,11 +427,21 @@ h7 {
 p {
   font-family: 'Baloo Chettan 2', cursive;
 }
+
+p.copyright {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
+}
+
 p.p-footer {
 	color: rgb(193, 209, 225);
 }
 
 /* icônes fa */
+
 .fas.fa-moon.fa-lg {
 
 }
@@ -506,6 +503,7 @@ p.p-footer {
   padding: 0.7rem;
   margin-top: 1rem;
 }
+
 .light-button:hover {
   border: none;
   box-shadow: none;
@@ -589,10 +587,12 @@ a.menu-item {
   color: rgba(46, 53, 70, 1);
   text-decoration: none;
 }
+
 a.menu-item:hover {
   text-decoration: none;
   color: rgb(193, 209, 225);
 }
+
 a.menu-item-current {
 	color: rgba(46, 53, 70, 0.6);
 	font-family: 'Baloo Thambi 2', cursive;
@@ -605,15 +605,26 @@ a.portrait-link {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	text-decoration: none;
 }
+
+a.cgu {
+	font-family: 'Baloo Chettan 2', cursive;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
+}
+
 /* ........PAGE CODEUSE ......./*/
+
 a.dev-name-current {
 	color: rgba(46, 54, 71, 0.6);
 	border-radius: 0.5rem;
 	background-color: rgba(255, 252, 211, 0.58);
 	padding: 0rem 0.8rem 0rem 0.8rem;
 }
-a.dev-name-notcurrent {
+
+a.dev-name {
 	color: rgba(46, 54, 71, 1);
 	border-radius: 0.5rem;
 	background-color: rgb(255, 251, 185);
@@ -643,6 +654,7 @@ ul.dropdown {
 }
 
 /* ........PAGE CODEUSE ......./*/
+
 ul.dev-names {
 	display: flex;
 	flex-direction: row;
@@ -652,6 +664,7 @@ ul.dev-names {
 	font-family: 'Baloo Chettan 2', cursive;
 	font-size: 1rem;
 }
+
 li.dev-names {
 	text-align: center;
 }
@@ -698,44 +711,211 @@ li.asset {
   color: rgb(253, 246, 226);
   /* rgb(233, 226, 206) */
 }
-/* .text-shadow {
-  text-shadow: 0px 0px 15px 5px rgba(46, 54, 71, 1);
-} */
 
 
-/*///////////////////////// FONTS
-font-family: 'Anaheim', sans-serif;
-font-family: 'Baloo Chettan 2', cursive;
-font-family: 'Baloo Thambi 2', cursive;
-font-family: 'Concert One', cursive;
-font-family: 'Fredoka One', cursive;
-font-family: 'Pridi', serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Saira', sans-serif;
-font-family: 'VT323', monospace; */
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////// media queries ///////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////*/
 
+@media screen and (max-width: 1030px) {
 
-/* //////////////////////////////// THEMES JS /////////////////////////////////////// */
+	body {
+		background-color: pink;
+	}
 
-/* .theme-clair {
-  color: rgba(46, 54, 71, 1);
-  background-color: rgba(233, 226, 206, 1);
-  ul {
-    color: rgba(46, 54, 71, 1);
-  }
+	.main-header, .sub-main, .sub-footer {
+		width: 95%;
+	}
+
+	.main-header {
+		justify-content: center;
+		height: auto;
+	}
+
+	.main-header-top {
+		justify-content: space-between;
+		margin-top: 0rem;
+		margin-bottom: 0.5rem;
+	}
+	/* .main-title {
+		width: 69%;
+	} */
+
+	.header-button-group {
+		margin: 0rem 0.1rem 1rem 1rem;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.small-device-menu {
+		display: none;
+	}
+
+	.smartphone-menu {
+		display: block;
+	}
+
+	.small-device-ol {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+	}
+
+	.small-device-li {
+		background-color: rgba(250, 250, 250, 0.6);
+		padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+		border-radius: 0.5rem;
+		width: 13rem;
+		text-align: center;
+	}
+
+	.main-title-and-intro {
+		width: 100%;
+	}
+
+	.main-top-part-index {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.portrait-ensemble-large-screen {
+		display: none;
+	}
+
+	.portrait-ensemble-small-device {
+		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 2rem 0rem;
+	}
+
+	.portrait-group {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.main-top-sub-part {
+		width: 100%;
+	}
+
+	.main-bottom-part {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 95%;
+		/* margin: 0rem 1rem 0rem 1rem; */
+	}
+
+	h1 {
+		font-size: 9rem;
+		max-width: 40%;
+	}
+
+	h2 {
+		font-size: 3rem;
+		text-align: center;
+		padding-bottom: 0.7rem;
+	}
+
+	h7.dev-name {
+		font-size: 1rem;
+	}
+
+	p
+	{
+
+	}
+
+	.light-button, .dark-button {
+		font-size: 3.5rem;
+	}
+
+	img.tiger {
+		display: none;
+	}
 }
 
-.theme-sombre {
-  background-color: rgba(46, 54, 71, 0.6);
-  color: rgb(233, 226, 206);
-  }
-.theme-sombre ul {
-    color: rgb(233, 226, 206);
-  }
-.theme-sombre h5 {
-   {
-    color: rgb(255, 248, 140);
+@media screen and (min-width: 770px) and (max-width: 1030px) {
+
+	.main-title {
+		width: 72%;
+	}
+
+	.light-button {
+		margin-top: 3.3rem;
+	}
+
+	a.menu-item, a.menu-item-current {
+		font-size: 1.3rem;
+	}
+
+	.light-button, .dark-button {
+		font-size: 2.5rem;
+	}
 }
-.theme-sombre hr.main-hr {
-  background-color: rgb(255, 248, 140);
-} */
+
+@media screen and (max-width: 770px) {
+
+	body {
+		background-color: orange;
+	}
+
+	.main-title {
+		width: 72%;
+	}
+
+	p
+	{
+
+	}
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 425px) {
+
+	body {
+		background-color: olive;
+	}
+
+	.header-button-group {
+		margin: 1rem 0.1rem 0.1rem 1rem;
+	}
+
+	.small-device-menu {
+		display: none;
+	}
+
+	.smartphone-menu {
+		display: block;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.sub-footer-top {
+		flex-direction: column;
+	}
+
+	h1 {
+		font-size: 11.5rem;
+	}
+
+	h2 {
+		font-size: 3.9rem;
+		text-align: center;
+		padding-bottom: 0.7rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	hr.main-hr {
+		height: 0.8rem
+	}
+}

@@ -11,6 +11,18 @@
 ///					RESPONSIVE (ipad pro, ipad, large smartphone, small smartphone)
 */
 
+/*///////////////////////// FONTS
+font-family: 'Anaheim', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Saira', sans-serif;
+font-family: 'VT323', monospace; */
+/* ALIGNEMENTS & COLORS */
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -132,12 +144,6 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 }
-/* .main-top-part {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-bottom: 3rem;
-} */
 
 .main-title-and-intro {
 	width: 58%;
@@ -316,6 +322,7 @@ footer {
   justify-content: space-between;
   padding-top: 11rem;
 }
+
 .tenez, .connectez {
   width: 31rem;
   background-color: rgba(193, 209, 225, 0.6);
@@ -343,6 +350,7 @@ footer {
 .social-networks {
   margin: 1rem;
 }
+
 .social-networks-text {
 
 }
@@ -420,6 +428,7 @@ h1 {
     -3px 3px 0 rgb(96, 29, 70),
      3px 3px 0 rgb(96, 29, 70); */
 }
+
 h2 {
   font-family: 'Concert One', cursive;
   font-size: 1.35rem;
@@ -462,6 +471,7 @@ h5 {
   margin: 0rem 0rem 0rem 0rem;
 	padding: 0.5rem 0rem 0.7rem 0rem;
 }
+
 h5.espace-pro {
 	font-size: 2.86rem;
 }
@@ -654,6 +664,7 @@ textarea {
   padding: 0.7rem;
   margin-top: 1rem;
 }
+
 .light-button:hover {
   border: none;
   box-shadow: none;
@@ -685,6 +696,7 @@ textarea {
   padding: 0.7rem;
   margin: 0rem;
 }
+
 .dark-button:hover {
   border: none;
   box-shadow: none;
@@ -772,10 +784,12 @@ a.menu-item {
   color: rgba(46, 53, 70, 1);
   text-decoration: none;
 }
+
 a.menu-item:hover {
   text-decoration: none;
   color: rgb(193, 209, 225);
 }
+
 a.menu-item-current {
 	color: rgba(46, 53, 70, 0.6);
 	font-family: 'Baloo Thambi 2', cursive;
@@ -837,6 +851,7 @@ ul.dev-names {
 	font-size: 1rem;
 	height: 3.4rem;
 }
+
 li.dev-name-li {
 	text-align: center;
 	border-radius: 0.3rem;
@@ -844,7 +859,6 @@ li.dev-name-li {
 	background-color: rgba(450, 450, 455, 1);
 	padding: 0.5rem 0.5rem 0.3rem 0.5rem;
 	width: 10rem;
-
 }
 
 li.dev-name-li-current {
@@ -861,6 +875,7 @@ li.dev-name-li-current {
 	font-size: 1rem;
 	color: rgb(52, 52, 52);
 }
+
 .asset {
 	line-height: 1.6rem;
 	list-style: inside;
@@ -1156,17 +1171,3 @@ li.dev-name-li-current {
 		background-color: pink;
 	}
 } */
-
-
-
-/*///////////////////////// FONTS
-font-family: 'Anaheim', sans-serif;
-font-family: 'Baloo Chettan 2', cursive;
-font-family: 'Baloo Thambi 2', cursive;
-font-family: 'Concert One', cursive;
-font-family: 'Fredoka One', cursive;
-font-family: 'Pridi', serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Saira', sans-serif;
-font-family: 'VT323', monospace; */
-/* ALIGNEMENTS & COLORS */

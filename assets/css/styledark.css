@@ -1,3 +1,29 @@
+/* 					ORDRE :
+///					RESET
+///					DIVS
+///					TITLES
+///					FONTS
+///					ALIGNEMENTS & COLORS
+///					PHOTOS
+///					INPUTS
+///					BUTTONS
+///					LINKS
+///					RESPONSIVE (ipad pro, ipad, large smartphone, small smartphone)
+*/
+
+/*///////////////////////// FONTS
+font-family: 'Anaheim', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Saira', sans-serif;
+font-family: 'VT323', monospace; */
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -50,6 +76,8 @@ table {
 
 /* //////////////////////////////////////////////////////////////////// */
 
+/* POUR LES PAGES INDEX ET PAGE-PRO */
+
 /* DIVISIONS */
 
 /* header */
@@ -76,7 +104,7 @@ header {
 }
 
 .main-title {
-  /* margin-top: 1em; */
+  width: 57%;
 }
 
 .header-button-group {
@@ -88,9 +116,15 @@ header {
   padding: 0rem;
 }
 
-.round-logo {
-  margin: auto;
-  margin-top: 3rem;
+.small-device-menu {
+	display: none;
+	/* margin: 1rem 0rem 1.2rem 0rem; */
+}
+
+.smartphone-menu {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* MAIN */
@@ -100,22 +134,39 @@ main {
 	background-color: rgba(46, 54, 71, 1);
   color: rgb(233, 226, 206);
 }
+
 .sub-main {
   width: 80%;
   margin: auto;
-  /* padding-top: 3rem; */
   padding-bottom: 2rem;
 }
+
 .main-top-part {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 20rem;
+	/* height: 20rem; */
+	margin: 0rem 0rem 2rem 0rem;
 }
+
 .main-title-and-intro {
 	width: 57%;
 	margin-top: 1.5rem;
 }
+
+.main-top-sub-part {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 95%;
+}
+
+.main-title-and-intro {
+	width: 100%;
+	margin-top: 2.5rem;
+	/* height: auto; */
+}
+
 .intro {
 	/* width: 27.8rem; */
 	text-align: justify;
@@ -133,13 +184,52 @@ main {
 	margin-top: -2.29rem;
 	width: 15rem;
 }
-.visible {
 
-}
 .peek {
 	display: flex;
 	justify-content: flex-end;
 	width: 15rem;
+}
+
+.recruitment {
+	width: 95%;
+	margin: 1rem 0rem;
+	text-align: center;
+	font-size: 1.095rem;
+	line-height: 1.5rem;
+	background-color: rgba(250, 250, 251, 1);
+	border-radius: 0.5rem;
+	padding: 1.4rem 1rem;
+}
+
+.main-bottom-part-index, .main-bottom-part-pro {
+
+}
+
+.on-recherche {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.pinned-ensemble-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	width: 100%;
+}
+.pinned-ensemble-group-single {
+	margin-left: 2rem;
+	/* width: 0%; */
+}
+
+.pinned-ensemble, .pinned-ensemble-pro {
+	margin-left: 0rem;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .punaise {
@@ -148,13 +238,19 @@ main {
 }
 .pinned {
 	background-color: rgba(250, 250, 251, 1);
-	width: 46%;
+	width: 25rem;
+	height: 11rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 1.5rem 1rem 1rem 1rem;
-	padding: 2.5rem 1rem 5rem 2.6rem;
+	margin: 0rem 0rem 0rem 0rem;
+	padding: 2.5rem 1rem 3rem 1.6rem;
 	box-shadow: -10px 12px 5px -9px rgba(0,0,0,0.75);
+}
+
+img.women-group {
+	display: none;
+
 }
 
 /* FOOTER */
@@ -179,14 +275,21 @@ footer {
   padding-top: 11rem;
 }
 .tenez, .connectez {
-  width: 46%;
+  width: 31rem;
   background-color: rgba(80, 87, 95, 0.6);
   border-radius: 0.25rem;
+	border: 1px solid rgb(253, 246, 226);
   /* padding: 0rem 0rem 1rem 0rem; */
 }
+
+.tenez {
+	margin-right: 1rem;
+}
+
 .mailing-list-ensemble {
   margin: 0rem 1rem 1rem 1rem;
 }
+
 .mailing-list-group {
   margin-top: 4.25rem;
   display: flex;
@@ -254,7 +357,7 @@ hr.main-hr {
 
 h1 {
   font-family: 'Concert One', cursive;
-  font-size: 6rem;
+  font-size: 8rem;
   color: rgb(253, 249, 190);
   text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
   /* text-shadow:
@@ -263,10 +366,12 @@ h1 {
     -3px 3px 0 rgb(96, 29, 70),
      3px 3px 0 rgb(96, 29, 70); */
 }
+
 h2 {
   font-family: 'Concert One', cursive;
-  font-size: 2.05rem;
+  font-size: 2.6rem;
   background-color: rgba(253, 249, 190, 0.7);
+	border: 1px solid rgba(253, 246, 226, 1);
   border-radius: 0.25rem;
   padding: 0.15rem 0.2rem 0.3rem 0.2rem;
   /* text-shadow: 0px 0px 4px rgba(187, 194, 210, 0.5); */
@@ -295,20 +400,20 @@ h4 {
   /* width: 100%; */
 }
 
-h5 {
+h5.index-title {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.759rem;
+  font-size: 4.2rem;
   color: rgba(193, 209, 225, 1);
-  /* text-shadow:
-   -2px -2px 0 rgb(231, 159, 57),
-    2px -2px 0 rgb(231, 159, 57),
-    -2px 2px 0 rgb(231, 159, 57),
-     2px 2px 0 rgb(231, 159, 57); */
   letter-spacing: .2rem;
   margin: 0rem 0rem 0rem 0rem;
 }
+
 h5.espace-pro {
-	font-size: 2.86rem;
+	font-family: 'Fredoka One', cursive;
+	font-size: 3.8rem;
+	color: rgba(193, 209, 225, 1);
+	letter-spacing: .2rem;
+	margin: 0rem 0rem 0rem 0rem;
 }
 
 h6 {
@@ -328,27 +433,58 @@ h6 {
 p {
   font-family: 'Baloo Chettan 2', cursive;
 }
+
+p.recruitment {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1.15rem;
+	margin: auto;
+}
+
+p.pinned-title {
+	font-size: 1rem;
+	font-family: 'Roboto Mono', monospace;
+	margin-bottom: 1rem;
+}
+
+p.copyright {
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 1rem;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
+	text-decoration: none;
+}
+
+span.fluo {
+	background-color: rgb(255, 183, 255);
+	padding: 0rem 0.8rem 0rem 0.6rem;
+}
+
+/* texte animé */
+
+.animated-text {
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(255, 248, 140);
+	font-size: 1rem;
+  background-color: rgba(46, 54, 71, 1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+	margin-top: 1.8rem;
+	height: 5rem;
+	line-height: 1.5rem;
+}
+
 p.p-footer {
 	color: rgb(193, 209, 225);
 }
 
 /* icônes fa */
-.fas.fa-moon.fa-lg {
 
-}
-.far.fa-sun.fa-lg {
-
-}
 .fas.fa-plug {
   transform: rotate(90deg);
-}
-.fas.fa-hand-point-left {
-
 }
 
 .fas.fa-map-pin {
 	transform: rotate(40deg);
-	/* margin-bottom: 1rem; */
 	color: rgb(146, 0, 89);
 }
 
@@ -366,6 +502,10 @@ p.p-footer {
 }
 .right {
   text-align: right;
+}
+
+.justify {
+	text-align: justify;
 }
 
 .dark-blue {
@@ -395,11 +535,11 @@ p.p-footer {
 /*///////////////////// PHOTOS */
 
 .tiger {
-	margin-left: 54rem;
-  margin-bottom: -12rem;
+	margin: -16rem 0rem 0rem 52rem;
+	position: absolute;
 }
 
-/*///////////////////// INPUTS */
+/* INPUTS */
 
 .mailing-list {
   font-family: 'Roboto Mono', monospace;
@@ -421,14 +561,14 @@ p.p-footer {
   border-radius: 0.4rem;
   font-family: 'Concert One', cursive;
   color: #E9E2CE;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: rgba(253, 249, 190, 0);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
-  margin-top: 1rem;
+  padding: 1.2rem 0.8rem;
+  margin-top: 1.8rem;
 }
 .light-button:hover {
   border: none;
@@ -436,14 +576,14 @@ p.p-footer {
   border-radius: 0.4rem;
   font-family: 'Concert One', cursive;
   color: rgba(46, 54, 71, 1);
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: rgba(253, 249, 190, 0.7);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
-  margin-top: 1rem;
+  padding: 1.2rem 0.8rem;
+  margin-top: 1.8rem;
 }
 .dark-button {
   border: none;
@@ -451,28 +591,29 @@ p.p-footer {
   border-radius: 0.6rem;
   font-family: 'Concert One', cursive;
   color: #E9E2CE;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: rgba(46, 54, 71, 0);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
+  padding: 1.2rem 0.8rem;
   margin: 0rem;
 }
 .dark-button:hover {
   border: none;
   box-shadow: none;
   border-radius: 0.6rem;
+	border: 1.5px solid rgb(34, 43, 64);
   font-family: 'Concert One', cursive;
   color: #E9E2CE;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: rgba(46, 54, 71, 0.7);
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
+  padding: 1.2rem 0.8rem;
   margin: 0rem;
 }
 
@@ -512,15 +653,34 @@ a.menu-item {
   color: rgba(46, 53, 70, 1);
   text-decoration: none;
 }
+
 a.menu-item:hover {
   text-decoration: none;
   color: rgb(193, 209, 225);
 }
+
 a.menu-item-current {
 	color: rgba(46, 53, 70, 0.6);
 	font-family: 'Baloo Thambi 2', cursive;
   font-weight: 600;
   font-size: 1rem;
+	text-decoration: none;
+}
+
+a.contact-link {
+  color: rgb(96, 29, 70);
+	text-decoration: none;
+}
+
+a.contact-link:hover {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a.cgu {
+	font-family: 'Baloo Chettan 2', cursive;
+	color: rgb(253, 246, 226);
+	background-color: rgba(1, 1, 1, 0);
 	text-decoration: none;
 }
 
@@ -547,6 +707,10 @@ ul.dropdown {
 	width: 13rem;
 }
 
+ul.pinned {
+	text-align: justify;
+}
+
 li.pinned-li {
 	list-style: '- ' inside;
 	line-height: 1.4rem;
@@ -555,39 +719,104 @@ li.pinned-li {
 	font-size: 0.9rem;
 }
 
-/*///////////////////////// FONTS
-font-family: 'Anaheim', sans-serif;
-font-family: 'Baloo Chettan 2', cursive;
-font-family: 'Baloo Thambi 2', cursive;
-font-family: 'Concert One', cursive;
-font-family: 'Fredoka One', cursive;
-font-family: 'Pridi', serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Saira', sans-serif;
-font-family: 'VT323', monospace; */
+
+/*///////////////////////////////// media queries ///////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////*/
 
 
-/* //////////////////////////////// THEMES JS /////////////////////////////////////// */
 
-/* .theme-clair {
-  color: rgba(46, 54, 71, 1);
-  background-color: rgba(233, 226, 206, 1);
-  ul {
-    color: rgba(46, 54, 71, 1);
-  }
+@media screen and (max-width: 1024px) {
+
+		.main-header, .sub-main, .sub-footer {
+			width: 97%;
+		}
+
+		.main-header-top {
+			justify-content: space-between;
+			margin-top: 0rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.main-title {
+        width: 61%;
+    }
+
+		.menu {
+			display: none;
+		}
+
+		.small-device-ol {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.small-device-li {
+			background-color: rgba(250, 250, 250, 0.9);
+			padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+			border-radius: 0.5rem;
+		}
+
+		.main-bottom-part-index, .main-bottom-part-pro {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin-bottom: 1rem;
+		}
+
+		.pinned-ensemble {
+    margin-left: 0rem;
+		margin-top: -1.6rem;;
+		}
+
+		.pinned-ensemble-pro {
+		margin-top: -1.6rem;
+		width: 100%;
+		}
+
+		.pinned {
+			margin: 0rem 1rem 2rem 0rem;
+			width: 81%;
+			height: 59%;
+		}
+
+		img.women-group {
+			display: block;
+		}
+
+		img.tiger {
+			display: none;
+		}
+
+		h2 {
+			font-size: 2.6rem;
+			text-align: center;
+		}
+
+		h5 {
+			font-size: 3.1rem;
+		}
+
 }
 
-.theme-sombre {
-  background-color: rgba(46, 54, 71, 0.6);
-  color: rgb(233, 226, 206);
-  }
-.theme-sombre ul {
-    color: rgb(233, 226, 206);
-  }
-.theme-sombre h5 {
-   {
-    color: rgb(255, 248, 140);
+@media screen and (max-width: 1024px) and (min-width: 782px) {
+
+	/* menu non-déroulant sur 1 ligne */
+	.small-device-menu {
+		display: block;
+		margin-top: 0.8rem;
+	}
+
 }
-.theme-sombre hr.main-hr {
-  background-color: rgb(255, 248, 140);
-} */
+
+
+@media screen and (max-width: 781px) {
+
+		.small-device-menu {
+			display: none;
+		}
+
+		.smartphone-menu {
+			display: block;
+		}
+}

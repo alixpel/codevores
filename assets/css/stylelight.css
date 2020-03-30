@@ -136,7 +136,6 @@ main {
 .sub-main {
   width: 80%;
   margin: auto;
-  /* padding-top: 3rem; */
   padding-bottom: 2rem;
 }
 
@@ -145,6 +144,11 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 0rem 0rem 2rem 0rem;
+}
+
+.main-title-and-intro {
+	width: 57%;
+	margin-top: 1.5rem;
 }
 
 .main-top-sub-part {
@@ -233,7 +237,6 @@ main {
 
 .pinned {
 	background-color: rgb(255, 252, 202);
-	/* width: 46%; */
 	width: 25rem;
 	height: 11rem;
 	display: flex;
@@ -415,6 +418,7 @@ h5.index-title {
   letter-spacing: .2rem;
   margin: 0rem 0rem 0rem 0rem;
 }
+
 h5.espace-pro {
 	font-family: 'Fredoka One', cursive;
 	font-size: 3.8rem;
@@ -480,31 +484,20 @@ span.fluo {
 	line-height: 1.5rem;
 }
 
+/* icônes fa */
+
 .fas.fa-plug {
   transform: rotate(90deg);
 }
 
-.fas.fa-hand-point-left {
-
-}
-
 .fas.fa-map-pin {
   transform: rotate(40deg);
-	/* margin-bottom: 0.5rem;
-	margin-top: 0.5rem;
-	margin-left: 0rem; */
 	color: rgb(42, 42, 42);
 }
 
 .fab.fa-twitter-square, .fab.fa-facebook-square, .fab.fa-instagram-square, .fab.fa-linkedin {
   color: rgb(255, 248, 140);
 	text-shadow: 0px 0px 4px rgba(46, 54, 71, 0.5);
-}
-
-/* fa espace pro */
-
-.far.fa-smile {
-
 }
 
 /* ALIGNEMENTS & COLORS */
@@ -846,19 +839,6 @@ li.pinned-li {
 			display: block;
 		}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* écran de largeur maximum 1024px */
