@@ -188,7 +188,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	margin-top: -2.29rem;
+	margin-top: -3rem;
 	width: 15rem;
 }
 
@@ -670,6 +670,14 @@ textarea {
 	border: none;
 	border-radius: 1.2rem 0rem 0rem 0rem;
 	color: white;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-weight: 600;
+	font-size: 1.6rem;
+	padding: 0.1rem 4.35rem;
+	border: none;
+	border-radius: 1.2rem 1.2rem 0rem 0rem;
+	width: 15rem;
+	text-align: center;
 }
 .open-button {
 	background-color: rgb(204, 255, 204);
@@ -677,6 +685,14 @@ textarea {
 	border: none;
 	border-radius: 1.2rem 0rem 0rem 0rem;
 	color: white;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-weight: 600;
+	font-size: 1.6rem;
+	padding: 0.1rem 4.35rem;
+	border: none;
+	border-radius: 1.2rem 1.2rem 0rem 0rem;
+	width: 15rem;
+	text-align: center;
 }
 
 .envoi {
