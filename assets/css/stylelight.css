@@ -22,7 +22,6 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Saira', sans-serif;
 font-family: 'VT323', monospace; */
 
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -763,6 +762,10 @@ li.pinned-li {
 
 @media screen and (max-width: 1024px) {
 
+		body {
+			background-color: pink;
+		}
+
 		.main-header, .sub-main, .sub-footer {
 			width: 97%;
 		}
@@ -779,6 +782,14 @@ li.pinned-li {
 
 		.menu {
 			display: none;
+		}
+
+		.small-device-menu {
+			display: none;
+		}
+
+		.smartphone-menu {
+			display: block;
 		}
 
 		.small-device-ol {
